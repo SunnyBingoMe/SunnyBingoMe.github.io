@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>bibtex &#8211; Sunny Blog</title>
+	<atom:link href="http://Blog.SunnyBoy.Me/tag/bibtex/feed/" rel="self" type="application/rss+xml" />
+	<link>http://Blog.SunnyBoy.Me</link>
+	<description>Mind And Hand Let There Be Light.</description>
+	<lastBuildDate>Wed, 04 May 2016 11:47:54 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.5.1</generator>
+
+<image>
+	<url>http://Blog.SunnyBoy.Me/wp-content/uploads/2010/10/e7919ee585b8ae9809ae98193efbc9f.jpg</url>
+	<title>bibtex &#8211; Sunny Blog</title>
+	<link>http://Blog.SunnyBoy.Me</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Latex 调用 Bibtex (IEEEtran in pdfLatex of TexWorks)</title>
+		<link>http://Blog.SunnyBoy.Me/2011/12/29/13226/</link>
+		<comments>http://Blog.SunnyBoy.Me/2011/12/29/13226/#respond</comments>
+		<pubDate>Thu, 29 Dec 2011 02:47:05 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Leading]]></category>
+		<category><![CDATA[bibtex]]></category>
+		<category><![CDATA[latex]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=13226</guid>
+		<description><![CDATA[文章结束(\end{document})前 加入: \bibliographystyle{IEEEtran} \bibliography{references} 其中&#8220;references&#8221; 是文件名, 指同文件夹下的 references.bib, .bib文件格式为: @BOOK{testBook, author={Everett, G. and McLeod, R.}, title={Software Testing(Testing Across the Entire Software Development Life Cycle)}, %注意, 这里不是&#8221;booktitle&#8221;, 是&#8221;title&#8221;.有些类型(例如INPROCEEDINGS)需要用&#8221;booktitle&#8220;, 不同的时候需要不同的关键词. year={2006}, month={3}, volume={}, number={}, pages={345}, keywords={}, doi={}, ISSN={},} 然后依次运行: latex 编译 &#62; bibtex 编译 &#62; latex 编译 &#62; latex 编译 (注意, 一共三次 latex编译). 如果dvi/pdf文件不是你想要的结果, 请一定要删除程序生成的中间文件和临时文件(不是自己编辑的都删除,包括dvi/pdf), 然后再次运行以上四个命令. &#160;]]></description>
+				<content:encoded><![CDATA[<p>文章结束(\end{document})前 加入:</p>
+<pre>\bibliographystyle{IEEEtran}</pre>
+<pre>\bibliography{references}</pre>
+<p>其中<strong>&#8220;</strong><strong>references&#8221;</strong> 是文件名, 指同文件夹下的 <strong>references.bib, .bib</strong>文件格式为:</p>
+<pre>@BOOK{testBook,
+ author={Everett, G. and McLeod, R.},
+ title={Software Testing(Testing Across the Entire Software Development Life Cycle)},</pre>
+<p><span style="color: #808080;">%注意, 这里不是&#8221;<strong>booktitle&#8221;</strong>, 是&#8221;<strong>title&#8221;.</strong>有些类型(例如<strong>INPROCEEDINGS</strong>)需要用&#8221;<strong>booktitle</strong>&#8220;, 不同的时候需要不同的关键词.</span></p>
+<pre> year={2006},
+ month={3},
+ volume={},
+ number={},
+ pages={345},
+ keywords={},
+ doi={},
+ ISSN={},}</pre>
+<p>然后<strong>依次</strong>运行:<strong> latex 编译 &gt; bibtex 编译 &gt; latex 编译 &gt; latex 编译</strong> (注意, 一共三次 latex编译).</p>
+<p>如果dvi/pdf文件不是你想要的结果, 请一定要删除程序生成的中间文件和临时文件(不是自己编辑的都删除,包括dvi/pdf), 然后再次运行以上四个命令.</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2011/12/29/13226/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

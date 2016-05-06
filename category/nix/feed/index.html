@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>nix &#8211; Sunny Blog</title>
+	<atom:link href="http://Blog.SunnyBoy.Me/category/nix/feed/" rel="self" type="application/rss+xml" />
+	<link>http://Blog.SunnyBoy.Me</link>
+	<description>Mind And Hand Let There Be Light.</description>
+	<lastBuildDate>Wed, 04 May 2016 11:47:54 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.5.1</generator>
+
+<image>
+	<url>http://Blog.SunnyBoy.Me/wp-content/uploads/2010/10/e7919ee585b8ae9809ae98193efbc9f.jpg</url>
+	<title>nix &#8211; Sunny Blog</title>
+	<link>http://Blog.SunnyBoy.Me</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>screen tmux, window, session</title>
+		<link>http://Blog.SunnyBoy.Me/2015/12/09/15384/</link>
+		<pubDate>Wed, 09 Dec 2015 16:11:28 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[nix]]></category>
+		<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15384</guid>
+		<description><![CDATA[screen: http://neophob.com/2007/04/gnu-screen-cheat-sheet/ list all:             screen -ls  ( format: pid.session_name ) create:            screen  OR   screen -S session_name re-attach:        screen  -r session_name de-&#38; a-ttach:   screen  -dr session_name  /* force detach and then attach, use this when previous attachment is dropped due to network failure */ [&#8230;]]]></description>
+				<content:encoded><![CDATA[<div><b>screen</b>: <a href="http://neophob.com/2007/04/gnu-screen-cheat-sheet/">http://neophob.com/2007/04/gnu-screen-cheat-sheet/</a></div>
+<div></div>
+<div>list all:             screen -ls  ( format: pid.session_name )</div>
+<div>create:            screen  OR   screen -S session_name</div>
+<div>re-attach:        screen  -r session_name</div>
+<div>de-&amp; a-ttach:   screen  -dr session_name  /* force detach and then attach, use this when previous attachment is dropped due to network failure */</div>
+<div>remove dead:  screen -wipe</div>
+<div>kill session:      kill &lt;pid&gt;</div>
+<div>kill all:             killall screen</div>
+<div>detach:            Ctrl+a , d</div>
+<div>scroll back:       Ctrl+b , [ , Ctrl+u / Ctrl+d  ( mouse wheel works ! )</div>
+<div>switch session: //can NOT find a good method</div>
+<div></div>
+<div>Windows (tabs):</div>
+<div>Ctrl+a , c           -&gt; create new window</div>
+<div>Ctrl+a , A           -&gt; set window name</div>
+<div>Ctrl+a , w           -&gt; window list</div>
+<div>Ctrl+a , 1|2|3|&#8230;   -&gt; switch to window n</div>
+<div>Ctrl+a , &#8221;           -&gt; choose window</div>
+<div>Ctrl+a , ctrl a      -&gt; switch between window</div>
+<div>Ctrl+a , d           -&gt; detach window</div>
+<div>Ctrl+a , ?           -&gt; help</div>
+<div>Ctrl+a , [           -&gt; start copy, move cursor to the copy location, press ENTER, select the chars, press ENTER to copy the selected characters to the buffer</div>
+<div>Ctrl+a , ]           -&gt; paste from buffer</div>
+<div></div>
+<div></div>
+<div><b>tmux</b>: <a href="https://gist.github.com/MohamedAlaa/2961058">https://gist.github.com/MohamedAlaa/2961058</a></div>
+<div></div>
+<div>list all:        tmux ls    ( session_name is the one before colon : symbol, the first string part of each line )</div>
+<div>create:       tmux new -s session_name</div>
+<div>re-attach:   tmux a -t target_session_name</div>
+<div>kill session: tmux kill-session -t target_session_name</div>
+<div>Kill all:        tmux kill-server</div>
+<div>scroll back:       Ctrl+b , [ , page_up/page_down /* Ctrl+u / Ctrl+d is also ok if set .tmux.conf   */ ( mouse wheel works ! )</div>
+<div>detach:             Ctrl+b , d</div>
+<div>switch session:  Ctrl+b , s  // &#8216;s&#8217; for &#8216;session&#8217;</div>
+<div></div>
+<div>Windows (tabs):</div>
+<div>     c  create window</div>
+<div>     w  windows list</div>
+<div>     n  next window</div>
+<div>     p  previous window</div>
+<div>     f   find window</div>
+<div>     ,   name window</div>
+<div>     &amp;  kill window</div>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Boot to text console terminal mode [Ubuntu Kubuntu Nix Linux]</title>
+		<link>http://Blog.SunnyBoy.Me/2015/09/08/15378/</link>
+		<comments>http://Blog.SunnyBoy.Me/2015/09/08/15378/#respond</comments>
+		<pubDate>Tue, 08 Sep 2015 13:52:28 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[nix]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15378</guid>
+		<description><![CDATA[Once shift / esc to menu , then &#8216;e&#8217; to modify boot option, change &#8220;quiet splash&#8221; to &#8220;text&#8221;, F10 / Ctrl+x to continue boot. Always #&#62; sudo su #&#62; vi /etc/default/grub comment out: # GRUB_CMDLINE_LINUX_DEFAULT=&#8221;quiet splash&#8221; add:                      GRUB_CMDLINE_LINUX=&#8221;text&#8221; Uncomment : GRUB_TERMINAL=console #&#62; sudo update-grub &#160;]]></description>
+				<content:encoded><![CDATA[<h1>Once</h1>
+<p>shift / esc to menu , then &#8216;e&#8217; to modify boot option, change &#8220;quiet splash&#8221; to &#8220;text&#8221;, F10 / Ctrl+x to continue boot.</p>
+<h1>Always</h1>
+<p>#&gt; sudo su</p>
+<p>#&gt; vi /etc/default/grub</p>
+<p>comment out: # GRUB_CMDLINE_LINUX_DEFAULT=&#8221;quiet splash&#8221;</p>
+<p>add:                      GRUB_CMDLINE_LINUX=&#8221;text&#8221;</p>
+<p>Uncomment : GRUB_TERMINAL=console</p>
+<p>#&gt; sudo update-grub</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2015/09/08/15378/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>O&#8217;Reilly原版Linux图书学习线路图</title>
+		<link>http://Blog.SunnyBoy.Me/2013/07/29/15065/</link>
+		<comments>http://Blog.SunnyBoy.Me/2013/07/29/15065/#respond</comments>
+		<pubDate>Mon, 29 Jul 2013 18:23:59 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[nix]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15065</guid>
+		<description><![CDATA[from: http://www.embeddedlinux.org.cn/html/xinshourumen/200811/07-311.html]]></description>
+				<content:encoded><![CDATA[<p><img class="aligncenter" alt="" src="http://www.embeddedlinux.org.cn/uploads/userup/0811/0G5023341C.png" width="555" /></p>
+<p>from: <a href="http://www.embeddedlinux.org.cn/html/xinshourumen/200811/07-311.html">http://www.embeddedlinux.org.cn/html/xinshourumen/200811/07-311.html</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2013/07/29/15065/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>NIX (unix OR&#8221;linux&#8221; OR&#8221;ubuntu&#8221; OR&#8221;kubuntu&#8221; OR&#8221;redhat&#8221; OR&#8221;debian&#8221; OR&#8221;centos&#8221; OR&#8221;fedora&#8221;)</title>
+		<link>http://Blog.SunnyBoy.Me/2013/07/24/15023/</link>
+		<comments>http://Blog.SunnyBoy.Me/2013/07/24/15023/#comments</comments>
+		<pubDate>Wed, 24 Jul 2013 17:53:15 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[nix]]></category>
+		<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15023</guid>
+		<description><![CDATA[Linux入门 http://vbird.dic.ksu.edu.tw/ &#160; SELinux Set right for apache/httpd: https://access.redhat.com/site/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Security-Enhanced_Linux/sect-Security-Enhanced_Linux-Working_with_SELinux-SELinux_Contexts_Labeling_Files.html To disable selinux: http://www.thegeekstuff.com/2009/06/how-to-disable-selinux-redhat-fedora-debian-unix/ SElinux &#62; Allow apache to use remote  DB: setsebool -P httpd_can_network_connect_db=1 SELinux &#62; Allow apache /php to send email: sudo setsebool -P httpd_can_sendmail 1 ## with the &#8220;-P&#8221; for persistent (across reboots). Trouble shooting: "You have new mail ...": install mailx updatedb / [&#8230;]]]></description>
+				<content:encoded><![CDATA[<h2>Linux入门</h2>
+<p>http://vbird.dic.ksu.edu.tw/</p>
+<p>&nbsp;</p>
+<h2>SELinux</h2>
+<h3>Set right for apache/httpd:</h3>
+<p>https://access.redhat.com/site/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Security-Enhanced_Linux/sect-Security-Enhanced_Linux-Working_with_SELinux-SELinux_Contexts_Labeling_Files.html</p>
+<h3>To disable selinux:</h3>
+<p>http://www.thegeekstuff.com/2009/06/how-to-disable-selinux-redhat-fedora-debian-unix/</p>
+<h2>SElinux &gt; Allow apache to use remote  DB:</h2>
+<pre>setsebool -P httpd_can_network_connect_db=1</pre>
+<h2>SELinux &gt; Allow apache /php to send email:</h2>
+<p><code>sudo setsebool -P httpd_can_sendmail 1 </code>## with the &#8220;-P&#8221; for persistent (across reboots).</p>
+<h2>Trouble shooting:</h2>
+<pre>"You have new mail ...": install mailx</pre>
+<pre>updatedb / locate: command not found: install mlocate</pre>
+<p>&nbsp;</p>
+<h2>SSH Tunneling</h2>
+<p><span style="line-height: 1.714285714; font-size: 1rem;">ssh -D 8080 -f -C -q -N myuser@remote_ssh_server</span></p>
+<p>-D 8080 : This does the dynamic stuff and makes it behave as a SOCKS server.<br />
+-f : This will fork the process into the background after you type your password.<br />
+-C : Turns on compression.<br />
+-q : Quiet mode. Since this is just a tunnel we can make it quiet.<br />
+-N : Tells it no commands will be sent. (the -f will complain if we don’t specify this)</p>
+<p>In Firefox use about:config</p>
+<p>network.proxy.no_proxies_on : localhost, 127.0.0.1, 192.168.0.0/24, .yourcompany.com<br />
+network.proxy.socks : 127.0.0.1<br />
+network.proxy.socks_port : 8080<br />
+<strong>network.proxy.socks.remote_dns : true</strong><br />
+network.proxy.socks_version : 5<br />
+network.proxy.type : 1</p>
+<p>ref: http://www.linuxjournal.com/content/use-ssh-create-http-proxy</p>
+<p>&nbsp;</p>
+<h2>Install RHEL <span style="text-decoration: underline;"><em>EPEL Repo</em></span> on Centos 6</h2>
+<p>OBS: when installing CentOS, it is suggested to install the &#8220;with updates&#8221; version.</p>
+<pre>wget http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
+wget http://rpms.famillecollet.com/enterprise/remi-release-6.rpm
+sudo rpm -Uvh remi-release-6*.rpm epel-release-6*.rpm</pre>
+<pre>sudo vim /etc/yum.repos.d/remi.repo 
+    enabled=1</pre>
+<p>http://www.rackspace.com/knowledge_center/article/installing-rhel-epel-repo-on-centos-5x-or-6x</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2013/07/24/15023/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>PHP In Case Of</title>
+		<link>http://Blog.SunnyBoy.Me/2013/07/24/15026/</link>
+		<comments>http://Blog.SunnyBoy.Me/2013/07/24/15026/#respond</comments>
+		<pubDate>Wed, 24 Jul 2013 17:53:04 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[nix]]></category>
+		<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15026</guid>
+		<description><![CDATA[Fatal error: Call to undefined function mb_strlen() apt-get / yum search mbstring ; apt-get / yum install php-mbstring ... http://blog.fity.cn/post/187/ &#160; Fatal error: Call to undefined function imagecreate() and it takes a lot of time to upload a image. apt-get install php5-gd http://www.php.net/manual/en/image.installation.php &#160; Warning: It is not safe to rely on the system&#8217;s timezone settings Solution: [&#8230;]]]></description>
+				<content:encoded><![CDATA[<h2>Fatal error: Call to undefined function <span style="text-decoration: underline;">mb_strlen()</span></h2>
+<pre>apt-get / yum search mbstring ; apt-get / yum install php-mbstring ...</pre>
+<p><a href="http://blog.fity.cn/post/187/">http://blog.fity.cn/post/187/</a></p>
+<p>&nbsp;</p>
+<h2>Fatal error: Call to undefined function <span style="text-decoration: underline;">imagecreate()</span></h2>
+<p>and it takes a lot of time to upload a image.</p>
+<pre>apt-get install php5-gd</pre>
+<p><a href="http://www.php.net/manual/en/image.installation.php">http://www.php.net/manual/en/image.installation.php</a></p>
+<p>&nbsp;</p>
+<h2>Warning: It is not safe to rely on the system&#8217;s timezone settings</h2>
+<p>Solution: modify php.ini:</p>
+<pre>date.timezone = Asia/Shanghai</pre>
+<p><a href="http://stackoverflow.com/questions/2213608/php-configuration-it-is-not-safe-to-rely-on-the-systems-timezone-settings">http://stackoverflow.com/questions/2213608/php-configuration-it-is-not-safe-to-rely-on-the-systems-timezone-settings</a></p>
+<p>&nbsp;</p>
+<h2>Set Include Path in PHP File</h2>
+<pre>set_include_path(get_include_path() . PATH_SEPARATOR . $path);</pre>
+<p>&nbsp;</p>
+<h2>Speedup Zend Studio</h2>
+<p><a href="http://devzone.zend.com/3291/10-tips-for-a-speedy-zend-studio/">http://devzone.zend.com/3291/10-tips-for-a-speedy-zend-studio/</a></p>
+<p>&nbsp;</p>
+<h2>Error and Log</h2>
+<p><strong>user_error($str)</strong> prints the string in apache error log with php file path and line number.</p>
+<p><strong>error_log($str)</strong> prints only the string in apache error log.</p>
+<p>Both will not influence http status (will be 200).</p>
+<p><a href="http://php.net/manual/en/ref.errorfunc.php">http://php.net/manual/en/ref.errorfunc.php</a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2013/07/24/15026/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments on: mod_apache_snmp, net-SNMP (给apache2添加SNMP支持)</title>
+	<atom:link href="http://Blog.SunnyBoy.Me/2012/04/18/13618/feed/" rel="self" type="application/rss+xml" />
+	<link>http://Blog.SunnyBoy.Me/2012/04/18/13618/</link>
+	<description>Mind And Hand Let There Be Light.</description>
+	<lastBuildDate>Fri, 11 Mar 2016 10:44:34 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.5.1</generator>
+	<item>
+		<title>By: Bret</title>
+		<link>http://Blog.SunnyBoy.Me/2012/04/18/13618/#comment-8282</link>
+		<dc:creator><![CDATA[Bret]]></dc:creator>
+		<pubDate>Wed, 13 Aug 2014 06:06:22 +0000</pubDate>
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=13618#comment-8282</guid>
+		<description><![CDATA[I have done all the steps you recommended.
+I have got:
+]# /usr/local/apache2/bin/apachectl -v
+Server version: Apache/2.0.65
+]# /usr/local/sbin/snmpd -v
+
+NET-SNMP version:  5.6.2.1
+Web:               http://www.net-snmp.org/
+Email:             net-snmp-coders@lists.sourceforge.net
+
+]# /usr/local/apache2/bin/apachectl -l
+Compiled in modules:
+  core.c
+  mod_access.c
+  mod_auth.c
+  mod_include.c
+  mod_log_config.c
+  mod_env.c
+  mod_setenvif.c
+  prefork.c
+  http_core.c
+  mod_mime.c
+  mod_status.c
+  mod_autoindex.c
+  mod_asis.c
+  mod_cgi.c
+  mod_negotiation.c
+  mod_dir.c
+  mod_imap.c
+  mod_actions.c
+  mod_userdir.c
+  mod_alias.c
+  mod_so.c
+
+&#038;
+installed mod_ap2_snmp_1.04.tar.gz
+
+The issue is, when I perform snmpget, I always either get 0 or an empty string in return.
+
+]# snmpget -v1 -c public localhost APACHE2-MIB::serverUptime.0
+APACHE2-MIB::serverUptime.0 = STRING: Not running
+]# snmpget -v2c -c public localhost APACHE2-MIB::httpError404.0
+APACHE2-MIB::httpError404.0 = Counter32: 0
+
+The Apache error_log has following entries:
+[Wed Aug 13 15:32:26 2014] [notice] caught SIGTERM, shutting down
+[Wed Aug 13 15:32:26 2014] [error] AP2_SNMP: Can&#039;t set MIB value.
+[Wed Aug 13 15:32:26 2014] [error] APACHE2-MIB::serverStatus.0
+[Wed Aug 13 15:32:31 2014] [notice] Apache/2.0.65 (Unix) configured -- resuming normal operations
+
+What do you thing I&#039;ve done wrong? 
+Please advise.
+
+Regards.]]></description>
+		<content:encoded><![CDATA[<p>I have done all the steps you recommended.<br />
+I have got:<br />
+]# /usr/local/apache2/bin/apachectl -v<br />
+Server version: Apache/2.0.65<br />
+]# /usr/local/sbin/snmpd -v</p>
+<p>NET-SNMP version:  5.6.2.1<br />
+Web:               <a href="http://www.net-snmp.org/" rel="nofollow">http://www.net-snmp.org/</a><br />
+Email:             <a href="mailto:net-snmp-coders@lists.sourceforge.net">net-snmp-coders@lists.sourceforge.net</a></p>
+<p>]# /usr/local/apache2/bin/apachectl -l<br />
+Compiled in modules:<br />
+  core.c<br />
+  mod_access.c<br />
+  mod_auth.c<br />
+  mod_include.c<br />
+  mod_log_config.c<br />
+  mod_env.c<br />
+  mod_setenvif.c<br />
+  prefork.c<br />
+  http_core.c<br />
+  mod_mime.c<br />
+  mod_status.c<br />
+  mod_autoindex.c<br />
+  mod_asis.c<br />
+  mod_cgi.c<br />
+  mod_negotiation.c<br />
+  mod_dir.c<br />
+  mod_imap.c<br />
+  mod_actions.c<br />
+  mod_userdir.c<br />
+  mod_alias.c<br />
+  mod_so.c</p>
+<p>&amp;<br />
+installed mod_ap2_snmp_1.04.tar.gz</p>
+<p>The issue is, when I perform snmpget, I always either get 0 or an empty string in return.</p>
+<p>]# snmpget -v1 -c public localhost APACHE2-MIB::serverUptime.0<br />
+APACHE2-MIB::serverUptime.0 = STRING: Not running<br />
+]# snmpget -v2c -c public localhost APACHE2-MIB::httpError404.0<br />
+APACHE2-MIB::httpError404.0 = Counter32: 0</p>
+<p>The Apache error_log has following entries:<br />
+[Wed Aug 13 15:32:26 2014] [notice] caught SIGTERM, shutting down<br />
+[Wed Aug 13 15:32:26 2014] [error] AP2_SNMP: Can&#8217;t set MIB value.<br />
+[Wed Aug 13 15:32:26 2014] [error] APACHE2-MIB::serverStatus.0<br />
+[Wed Aug 13 15:32:31 2014] [notice] Apache/2.0.65 (Unix) configured &#8212; resuming normal operations</p>
+<p>What do you thing I&#8217;ve done wrong?<br />
+Please advise.</p>
+<p>Regards.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Sunny</title>
+		<link>http://Blog.SunnyBoy.Me/2012/04/18/13618/#comment-284</link>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+		<pubDate>Wed, 10 Oct 2012 13:38:05 +0000</pubDate>
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=13618#comment-284</guid>
+		<description><![CDATA[&quot; cannot find -lcrypto &quot;.
+u need this lib.
+may be u could check &lt;strong&gt;hints-&gt;1.&lt;/strong&gt;]]></description>
+		<content:encoded><![CDATA[<p>&#8221; cannot find -lcrypto &#8220;.<br />
+u need this lib.<br />
+may be u could check <strong>hints->1.</strong></p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>By: Arthur</title>
+		<link>http://Blog.SunnyBoy.Me/2012/04/18/13618/#comment-281</link>
+		<dc:creator><![CDATA[Arthur]]></dc:creator>
+		<pubDate>Fri, 28 Sep 2012 14:11:31 +0000</pubDate>
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=13618#comment-281</guid>
+		<description><![CDATA[I have some problems in the 6 step, maybe any can help me?
+
+root@ubuntu:/home/aduarte/Downloads/mod_ap2_snmp_1.04# ./install.sh
+
+Use of assignment to $[ is deprecated at /usr/local/apache2/bin/apxs line 86.
+/usr/local/apache2/build/libtool --silent --mode=compile gcc -prefer-pic  -DAP_HAVE_DESIGNATED_INITIALIZER -D_REENTRANT -D_GNU_SOURCE -g -O2 -pthread -I/usr/local/apache2/include  -I/usr/local/apache2/include   -I/usr/local/apache2/include  -I/usr/local/include  -c -o mod_ap2_snmp.lo mod_ap2_snmp.c &#038;&#038; touch mod_ap2_snmp.slo
+mod_ap2_snmp.c: In function ‘snmp_set’:
+mod_ap2_snmp.c:147:11: warning: format not a string literal and no format arguments [-Wformat-security]
+mod_ap2_snmp.c:182:2: warning: format not a string literal and no format arguments [-Wformat-security]
+mod_ap2_snmp.c: In function ‘set_agent_address’:
+mod_ap2_snmp.c:200:3: warning: format not a string literal and no format arguments [-Wformat-security]
+mod_ap2_snmp.c: In function ‘set_community’:
+mod_ap2_snmp.c:215:3: warning: format not a string literal and no format arguments [-Wformat-security]
+mod_ap2_snmp.c: In function ‘set_tmp_dir’:
+mod_ap2_snmp.c:236:3: warning: format not a string literal and no format arguments [-Wformat-security]
+mod_ap2_snmp.c: In function ‘set_snmp_http_address’:
+mod_ap2_snmp.c:300:3: warning: format not a string literal and no format arguments [-Wformat-security]
+mod_ap2_snmp.c: In function ‘ap2_snmp_pre_mpm’:
+mod_ap2_snmp.c:350:2: warning: format not a string literal and no format arguments [-Wformat-security]
+mod_ap2_snmp.c:359:2: warning: passing argument 3 of ‘snmp_set’ discards ‘const’ qualifier from pointer target type [enabled by default]
+mod_ap2_snmp.c:75:12: note: expected ‘char *’ but argument is of type ‘const char *’
+mod_ap2_snmp.c:360:2: warning: passing argument 3 of ‘snmp_set’ discards ‘const’ qualifier from pointer target type [enabled by default]
+mod_ap2_snmp.c:75:12: note: expected ‘char *’ but argument is of type ‘const char *’
+mod_ap2_snmp.c:361:2: warning: passing argument 3 of ‘snmp_set’ discards ‘const’ qualifier from pointer target type [enabled by default]
+mod_ap2_snmp.c:75:12: note: expected ‘char *’ but argument is of type ‘const char *’
+mod_ap2_snmp.c:375:3: warning: format not a string literal and no format arguments [-Wformat-security]
+mod_ap2_snmp.c:381:3: warning: format not a string literal and no format arguments [-Wformat-security]
+mod_ap2_snmp.c:382:7: warning: format not a string literal and no format arguments [-Wformat-security]
+mod_ap2_snmp.c: In function ‘ap2_snmp_handler’:
+mod_ap2_snmp.c:601:3: warning: format not a string literal and no format arguments [-Wformat-security]
+/usr/local/apache2/build/libtool --silent --mode=link gcc -o mod_ap2_snmp.la  -L/usr/local/lib -rpath /usr/local/apache2/modules -module -avoid-version    mod_ap2_snmp.lo -lnetsnmp -lcrypto -ldl -g
+/usr/bin/ld: cannot find -lcrypto
+collect2: ld returned 1 exit status
+apxs:Error: Command failed with rc=65536]]></description>
+		<content:encoded><![CDATA[<p>I have some problems in the 6 step, maybe any can help me?</p>
+<p>root@ubuntu:/home/aduarte/Downloads/mod_ap2_snmp_1.04# ./install.sh</p>
+<p>Use of assignment to $[ is deprecated at /usr/local/apache2/bin/apxs line 86.<br />
+/usr/local/apache2/build/libtool &#8211;silent &#8211;mode=compile gcc -prefer-pic  -DAP_HAVE_DESIGNATED_INITIALIZER -D_REENTRANT -D_GNU_SOURCE -g -O2 -pthread -I/usr/local/apache2/include  -I/usr/local/apache2/include   -I/usr/local/apache2/include  -I/usr/local/include  -c -o mod_ap2_snmp.lo mod_ap2_snmp.c &amp;&amp; touch mod_ap2_snmp.slo<br />
+mod_ap2_snmp.c: In function ‘snmp_set’:<br />
+mod_ap2_snmp.c:147:11: warning: format not a string literal and no format arguments [-Wformat-security]<br />
+mod_ap2_snmp.c:182:2: warning: format not a string literal and no format arguments [-Wformat-security]<br />
+mod_ap2_snmp.c: In function ‘set_agent_address’:<br />
+mod_ap2_snmp.c:200:3: warning: format not a string literal and no format arguments [-Wformat-security]<br />
+mod_ap2_snmp.c: In function ‘set_community’:<br />
+mod_ap2_snmp.c:215:3: warning: format not a string literal and no format arguments [-Wformat-security]<br />
+mod_ap2_snmp.c: In function ‘set_tmp_dir’:<br />
+mod_ap2_snmp.c:236:3: warning: format not a string literal and no format arguments [-Wformat-security]<br />
+mod_ap2_snmp.c: In function ‘set_snmp_http_address’:<br />
+mod_ap2_snmp.c:300:3: warning: format not a string literal and no format arguments [-Wformat-security]<br />
+mod_ap2_snmp.c: In function ‘ap2_snmp_pre_mpm’:<br />
+mod_ap2_snmp.c:350:2: warning: format not a string literal and no format arguments [-Wformat-security]<br />
+mod_ap2_snmp.c:359:2: warning: passing argument 3 of ‘snmp_set’ discards ‘const’ qualifier from pointer target type [enabled by default]<br />
+mod_ap2_snmp.c:75:12: note: expected ‘char *’ but argument is of type ‘const char *’<br />
+mod_ap2_snmp.c:360:2: warning: passing argument 3 of ‘snmp_set’ discards ‘const’ qualifier from pointer target type [enabled by default]<br />
+mod_ap2_snmp.c:75:12: note: expected ‘char *’ but argument is of type ‘const char *’<br />
+mod_ap2_snmp.c:361:2: warning: passing argument 3 of ‘snmp_set’ discards ‘const’ qualifier from pointer target type [enabled by default]<br />
+mod_ap2_snmp.c:75:12: note: expected ‘char *’ but argument is of type ‘const char *’<br />
+mod_ap2_snmp.c:375:3: warning: format not a string literal and no format arguments [-Wformat-security]<br />
+mod_ap2_snmp.c:381:3: warning: format not a string literal and no format arguments [-Wformat-security]<br />
+mod_ap2_snmp.c:382:7: warning: format not a string literal and no format arguments [-Wformat-security]<br />
+mod_ap2_snmp.c: In function ‘ap2_snmp_handler’:<br />
+mod_ap2_snmp.c:601:3: warning: format not a string literal and no format arguments [-Wformat-security]<br />
+/usr/local/apache2/build/libtool &#8211;silent &#8211;mode=link gcc -o mod_ap2_snmp.la  -L/usr/local/lib -rpath /usr/local/apache2/modules -module -avoid-version    mod_ap2_snmp.lo -lnetsnmp -lcrypto -ldl -g<br />
+/usr/bin/ld: cannot find -lcrypto<br />
+collect2: ld returned 1 exit status<br />
+apxs:Error: Command failed with rc=65536</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

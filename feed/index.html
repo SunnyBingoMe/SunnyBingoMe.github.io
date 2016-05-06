@@ -1,0 +1,1794 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Sunny Blog</title>
+	<atom:link href="http://Blog.SunnyBoy.Me/feed/" rel="self" type="application/rss+xml" />
+	<link>http://Blog.SunnyBoy.Me</link>
+	<description>Mind And Hand Let There Be Light.</description>
+	<lastBuildDate>Wed, 04 May 2016 11:47:54 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.5.1</generator>
+
+<image>
+	<url>http://Blog.SunnyBoy.Me/wp-content/uploads/2010/10/e7919ee585b8ae9809ae98193efbc9f.jpg</url>
+	<title>Sunny Blog</title>
+	<link>http://Blog.SunnyBoy.Me</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Moving Blog</title>
+		<link>http://Blog.SunnyBoy.Me/2016/05/04/15410/</link>
+		<pubDate>Wed, 04 May 2016 09:35:47 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Default]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15410</guid>
+		<description><![CDATA[Firstly, new address: http://log.sunnyboy.me Secondly, reason. I thought high price lead to good service, but I was wrong: Four days host failure, and I lost all files. Fortunately, I have backups. Besides, wordpress is too heavy, I need a light weighted platform. &#160;]]></description>
+				<content:encoded><![CDATA[<p>Firstly, new address: <a href="http://log.sunnyboy.me">http://log.sunnyboy.me</a></p>
+<p>Secondly, reason. I thought high price lead to good service, but I was wrong:</p>
+<p><a href="http://Blog.SunnyBoy.Me/wp-content/uploads/2016/05/host-fail.png"><img class="aligncenter size-full wp-image-15411" src="http://Blog.SunnyBoy.Me/wp-content/uploads/2016/05/host-fail.png" alt="" width="590" /></a></p>
+<p>Four days host failure, and I lost all files.</p>
+<p><a href="http://Blog.SunnyBoy.Me/wp-content/uploads/2016/05/blog-stat.png"><img class="aligncenter wp-image-15412" src="http://Blog.SunnyBoy.Me/wp-content/uploads/2016/05/blog-stat.png" alt="" width="586" height="170" /></a></p>
+<p>Fortunately, I have backups.</p>
+<p>Besides, wordpress is too heavy, I need a light weighted platform.</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>screen tmux, window, session</title>
+		<link>http://Blog.SunnyBoy.Me/2015/12/09/15384/</link>
+		<pubDate>Wed, 09 Dec 2015 16:11:28 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[nix]]></category>
+		<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15384</guid>
+		<description><![CDATA[screen: http://neophob.com/2007/04/gnu-screen-cheat-sheet/ list all:             screen -ls  ( format: pid.session_name ) create:            screen  OR   screen -S session_name re-attach:        screen  -r session_name de-&#38; a-ttach:   screen  -dr session_name  /* force detach and then attach, use this when previous attachment is dropped due to network failure */ [&#8230;]]]></description>
+				<content:encoded><![CDATA[<div><b>screen</b>: <a href="http://neophob.com/2007/04/gnu-screen-cheat-sheet/">http://neophob.com/2007/04/gnu-screen-cheat-sheet/</a></div>
+<div></div>
+<div>list all:             screen -ls  ( format: pid.session_name )</div>
+<div>create:            screen  OR   screen -S session_name</div>
+<div>re-attach:        screen  -r session_name</div>
+<div>de-&amp; a-ttach:   screen  -dr session_name  /* force detach and then attach, use this when previous attachment is dropped due to network failure */</div>
+<div>remove dead:  screen -wipe</div>
+<div>kill session:      kill &lt;pid&gt;</div>
+<div>kill all:             killall screen</div>
+<div>detach:            Ctrl+a , d</div>
+<div>scroll back:       Ctrl+b , [ , Ctrl+u / Ctrl+d  ( mouse wheel works ! )</div>
+<div>switch session: //can NOT find a good method</div>
+<div></div>
+<div>Windows (tabs):</div>
+<div>Ctrl+a , c           -&gt; create new window</div>
+<div>Ctrl+a , A           -&gt; set window name</div>
+<div>Ctrl+a , w           -&gt; window list</div>
+<div>Ctrl+a , 1|2|3|&#8230;   -&gt; switch to window n</div>
+<div>Ctrl+a , &#8221;           -&gt; choose window</div>
+<div>Ctrl+a , ctrl a      -&gt; switch between window</div>
+<div>Ctrl+a , d           -&gt; detach window</div>
+<div>Ctrl+a , ?           -&gt; help</div>
+<div>Ctrl+a , [           -&gt; start copy, move cursor to the copy location, press ENTER, select the chars, press ENTER to copy the selected characters to the buffer</div>
+<div>Ctrl+a , ]           -&gt; paste from buffer</div>
+<div></div>
+<div></div>
+<div><b>tmux</b>: <a href="https://gist.github.com/MohamedAlaa/2961058">https://gist.github.com/MohamedAlaa/2961058</a></div>
+<div></div>
+<div>list all:        tmux ls    ( session_name is the one before colon : symbol, the first string part of each line )</div>
+<div>create:       tmux new -s session_name</div>
+<div>re-attach:   tmux a -t target_session_name</div>
+<div>kill session: tmux kill-session -t target_session_name</div>
+<div>Kill all:        tmux kill-server</div>
+<div>scroll back:       Ctrl+b , [ , page_up/page_down /* Ctrl+u / Ctrl+d is also ok if set .tmux.conf   */ ( mouse wheel works ! )</div>
+<div>detach:             Ctrl+b , d</div>
+<div>switch session:  Ctrl+b , s  // &#8216;s&#8217; for &#8216;session&#8217;</div>
+<div></div>
+<div>Windows (tabs):</div>
+<div>     c  create window</div>
+<div>     w  windows list</div>
+<div>     n  next window</div>
+<div>     p  previous window</div>
+<div>     f   find window</div>
+<div>     ,   name window</div>
+<div>     &amp;  kill window</div>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Boot to text console terminal mode [Ubuntu Kubuntu Nix Linux]</title>
+		<link>http://Blog.SunnyBoy.Me/2015/09/08/15378/</link>
+		<comments>http://Blog.SunnyBoy.Me/2015/09/08/15378/#respond</comments>
+		<pubDate>Tue, 08 Sep 2015 13:52:28 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[nix]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15378</guid>
+		<description><![CDATA[Once shift / esc to menu , then &#8216;e&#8217; to modify boot option, change &#8220;quiet splash&#8221; to &#8220;text&#8221;, F10 / Ctrl+x to continue boot. Always #&#62; sudo su #&#62; vi /etc/default/grub comment out: # GRUB_CMDLINE_LINUX_DEFAULT=&#8221;quiet splash&#8221; add:                      GRUB_CMDLINE_LINUX=&#8221;text&#8221; Uncomment : GRUB_TERMINAL=console #&#62; sudo update-grub &#160;]]></description>
+				<content:encoded><![CDATA[<h1>Once</h1>
+<p>shift / esc to menu , then &#8216;e&#8217; to modify boot option, change &#8220;quiet splash&#8221; to &#8220;text&#8221;, F10 / Ctrl+x to continue boot.</p>
+<h1>Always</h1>
+<p>#&gt; sudo su</p>
+<p>#&gt; vi /etc/default/grub</p>
+<p>comment out: # GRUB_CMDLINE_LINUX_DEFAULT=&#8221;quiet splash&#8221;</p>
+<p>add:                      GRUB_CMDLINE_LINUX=&#8221;text&#8221;</p>
+<p>Uncomment : GRUB_TERMINAL=console</p>
+<p>#&gt; sudo update-grub</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2015/09/08/15378/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Install Shiny Server (&#038; R) on Ubuntu 12 64bit</title>
+		<link>http://Blog.SunnyBoy.Me/2014/12/15/15369/</link>
+		<comments>http://Blog.SunnyBoy.Me/2014/12/15/15369/#respond</comments>
+		<pubDate>Mon, 15 Dec 2014 19:35:36 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15369</guid>
+		<description><![CDATA[[ 64 bit only] in:   /etc/apt/sources.list add:  deb http://cran.rstudio.com/bin/linux/ubuntu precise/ sudo apt-key adv &#8211;keyserver keyserver.ubuntu.com &#8211;recv-keys E084DAB9 // [i didn&#8217;t do this step] sudo add-apt-repository ppa:marutter/rdev sudo apt-get update sudo apt-get upgrade // if not R is not updated, then will get error: package ‘shiny’ is not available (for R version 2.14.1) // then follow ref [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>[ 64 bit only]</p>
+<p>in:   /etc/apt/sources.list<br />
+add:  deb http://cran.rstudio.com/bin/linux/ubuntu precise/</p>
+<p>sudo apt-key adv &#8211;keyserver keyserver.ubuntu.com &#8211;recv-keys E084DAB9</p>
+<p>// [i didn&#8217;t do this step] sudo add-apt-repository ppa:marutter/rdev<br />
+sudo apt-get update<br />
+sudo apt-get upgrade</p>
+<p>// if not R is not updated, then will get error: package ‘shiny’ is not available (for R version 2.14.1)</p>
+<p>// then follow ref 2 (official intro):</p>
+<p>sudo apt-get install r-base<br />
+sudo su &#8211; \<br />
+-c &#8220;R -e \&#8221;install.packages(&#8216;shiny&#8217;, repos=&#8217;http://cran.rstudio.com/&#8217;)\&#8221;&#8221;<br />
+sudo apt-get install gdebi-core<br />
+wget http://download3.rstudio.org/ubuntu-12.04/x86_64/shiny-server-1.2.3.368-amd64.deb<br />
+sudo gdebi shiny-server-1.2.3.368-amd64.deb</p>
+<p><strong>Next Steps</strong><br />
+Once installed, view the <a href="http://rstudio.github.io/shiny-server/latest/" target="_blank">Administrator’s Guide</a> to learn how to manage and configure Shiny Server. Stay up to date on RStudio Server news and software updates by subscribing above.</p>
+<p>&nbsp;</p>
+<p>ref:</p>
+<p>1.  http://askubuntu.com/questions/218708/installing-latest-version-of-r-base</p>
+<p>2.  http://www.rstudio.com/products/shiny/download-server/</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2014/12/15/15369/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Linux Reset Root Password</title>
+		<link>http://Blog.SunnyBoy.Me/2014/12/15/15367/</link>
+		<comments>http://Blog.SunnyBoy.Me/2014/12/15/15367/#respond</comments>
+		<pubDate>Mon, 15 Dec 2014 15:24:10 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15367</guid>
+		<description><![CDATA[Shift while booting (Esc for v9 earlier version); Highlight the normal booting item (actually, it is highlighted by default); &#8216;e&#8217; to edit; Find the line starts with &#8220;linux &#8230;.&#8221;; Edit &#8220;ro&#8221; (read only) to &#8220;rw&#8221;, and add &#8220;init=/bin/bash&#8221; to the end of the line; Ctrl+x or F10 to boot using this modified temporary item; Root [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>Shift while booting (Esc for v9 earlier version);</p>
+<p>Highlight the normal booting item (actually, it is highlighted by default);</p>
+<p>&#8216;e&#8217; to edit;</p>
+<p>Find the line starts with &#8220;linux &#8230;.&#8221;;</p>
+<p>Edit &#8220;ro&#8221; (read only) to &#8220;rw&#8221;, and add &#8220;init=/bin/bash&#8221; to the end of the line;</p>
+<p>Ctrl+x or F10 to boot using this modified temporary item;</p>
+<p>Root shell will be available, passwd to modify and then reboot.</p>
+<p>&nbsp;</p>
+<p>ref:</p>
+<p><a href="https://help.ubuntu.com/community/LostPassword">https://help.ubuntu.com/community/LostPassword</a> &gt; The Other Way</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2014/12/15/15367/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Monthly Summary 2014 Oct</title>
+		<link>http://Blog.SunnyBoy.Me/2014/11/19/15361/</link>
+		<comments>http://Blog.SunnyBoy.Me/2014/11/19/15361/#respond</comments>
+		<pubDate>Wed, 19 Nov 2014 20:41:13 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Life]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15361</guid>
+		<description><![CDATA[Mapping 被叫停，于是集中精力“problem solving”，成果显著。没想到很多看起来不起眼的东西，都可以写一本书，成为一个很大的领域。 软件的升级对于项目的进行是个很重要的东西，明显提高了基于基本软件的各种开发效率。 恩，这个月挺累，也挺有成就感。有种欲扬先抑的意思。 以后不贴时间表了，导师说了，结果才是最重要的，时间花的再多也没用 // 暂时没时间看风景。 &#160;]]></description>
+				<content:encoded><![CDATA[<p>Mapping 被叫停，于是集中精力“problem solving”，成果显著。没想到很多看起来不起眼的东西，都可以写一本书，成为一个很大的领域。</p>
+<p>软件的升级对于项目的进行是个很重要的东西，明显提高了基于基本软件的各种开发效率。</p>
+<p>恩，这个月挺累，也挺有成就感。有种欲扬先抑的意思。</p>
+<p>以后不贴时间表了，导师说了，结果才是最重要的，时间花的再多也没用 // 暂时没时间看风景。</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2014/11/19/15361/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Monthly Summary 2014 Sep</title>
+		<link>http://Blog.SunnyBoy.Me/2014/11/19/15359/</link>
+		<comments>http://Blog.SunnyBoy.Me/2014/11/19/15359/#respond</comments>
+		<pubDate>Wed, 19 Nov 2014 20:31:37 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Life]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15359</guid>
+		<description><![CDATA[开学了，同事、老师和学生都回来了，和好多人聊了好多，8月做的missing algorithms方法被cmac否了，思路应该是“problem solving”。做了点 Systematic Mapping，看看到底方向怎么弄。 数据上图，看起来挺爽的。visualization 就是让使用者舒服。 继续读各种东西。 开始上写作课，斯坦福那老师语速真快&#8230;]]></description>
+				<content:encoded><![CDATA[<p>开学了，同事、老师和学生都回来了，和好多人聊了好多，8月做的missing algorithms方法被cmac否了，思路应该是“problem solving”。做了点 Systematic Mapping，看看到底方向怎么弄。</p>
+<p>数据上图，看起来挺爽的。visualization 就是让使用者舒服。</p>
+<p>继续读各种东西。</p>
+<p>开始上写作课，斯坦福那老师语速真快&#8230;<br />
+<img class="aligncenter" src="http://i.minus.com/jf7T84IFZouR3.png" alt="" width="555" /></p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2014/11/19/15359/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Monthly Summary 2014 Aug</title>
+		<link>http://Blog.SunnyBoy.Me/2014/11/19/15356/</link>
+		<comments>http://Blog.SunnyBoy.Me/2014/11/19/15356/#respond</comments>
+		<pubDate>Wed, 19 Nov 2014 20:21:19 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Life]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15356</guid>
+		<description><![CDATA[竟然“忙得”好几个月没总结了。。。补上。。。 8月，给论文找了个思路，missing algorithms。 Oracle 数据导入真让人头疼。 GIS 挺有意思。 旁边有个Mörrum挺有名，主要是黑水河钓鱼。]]></description>
+				<content:encoded><![CDATA[<p>竟然“忙得”好几个月没总结了。。。补上。。。</p>
+<p>8月，给论文找了个思路，missing algorithms。</p>
+<p>Oracle 数据导入真让人头疼。</p>
+<p>GIS 挺有意思。</p>
+<p>旁边有个Mörrum挺有名，主要是黑水河钓鱼。<br />
+<img class="aligncenter" src="http://i.minus.com/jbeHwGtEyr6MOz.png" alt="" width="555" /></p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2014/11/19/15356/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Monthly Summary 2014 July</title>
+		<link>http://Blog.SunnyBoy.Me/2014/08/14/15352/</link>
+		<comments>http://Blog.SunnyBoy.Me/2014/08/14/15352/#respond</comments>
+		<pubDate>Thu, 14 Aug 2014 19:16:40 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Life]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15352</guid>
+		<description><![CDATA[发现三门课一起学有点累，尤其那个不起眼的PML，差点折腾死人，周末赶工终于把project做完了，不能小瞧这些看起来时间可以自由安排的 MOOC 课程啊。 貌似好久没去中国车买东西了，每次想去的时候都是要洗衣服，所以还是在家呆着看点东西吧 ~ 以后把洗衣服的时间订到星期天就好了。 要不是同事提醒，都快忘了8月初还有个群岛节，卡城人民终于有玩的了。。。 可惜我没时间。。。 还有好多甜点 &#160;]]></description>
+				<content:encoded><![CDATA[<p>发现三门课一起学有点累，尤其那个不起眼的PML，差点折腾死人，周末赶工终于把project做完了，不能小瞧这些看起来时间可以自由安排的 MOOC 课程啊。</p>
+<p>貌似好久没去中国车买东西了，每次想去的时候都是要洗衣服，所以还是在家呆着看点东西吧 ~</p>
+<p>以后把洗衣服的时间订到星期天就好了。</p>
+<p><img class="aligncenter" src="http://i.minus.com/jEencBgUhYsxU.png" alt="" width="555" /><br />
+要不是同事提醒，都快忘了8月初还有个群岛节，卡城人民终于有玩的了。。。 可惜我没时间。。。<br />
+<img class="aligncenter" src="http://i.minus.com/jXBr80g3GfHwN.jpg" alt="" width="555" /><br />
+还有好多甜点<br />
+<img class="aligncenter" src="http://i.minus.com/jwiTzqgBrKbJQ.jpg" alt="" width="555" /></p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2014/08/14/15352/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Monthly Summary 2014 June</title>
+		<link>http://Blog.SunnyBoy.Me/2014/08/14/15346/</link>
+		<comments>http://Blog.SunnyBoy.Me/2014/08/14/15346/#respond</comments>
+		<pubDate>Thu, 14 Aug 2014 18:46:46 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Life]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15346</guid>
+		<description><![CDATA[上旬在国内，然后回来之后头疼了好几天才恢复工作状态 ~ 刚开始想看 MOOC neural network for machine learning， 然后发现是个大坑，根本听不懂，只好先从经典的 Andrew 大神学起（后来才知道他是经典的大神级人物）。 课讲得太好了，听着舒服，学到的东西还多，而且还需要亲自动手做。I LOVE YOU ！ 突遇罢工，大半火车取消。。。  = = !!!      🙁 &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; 问了n个人， 大半夜终于碰到了可以回窝的车 。。。 端午节还麻烦大哥接，真不好意思。 不过，这次是看到了午夜的阳光，下图 23:59，穿过了盖亚的黑发的阿波罗的手。 6月份的补发完毕，改写7月的了~ &#160;]]></description>
+				<content:encoded><![CDATA[<p>上旬在国内，然后回来之后头疼了好几天才恢复工作状态 ~<br />
+刚开始想看 MOOC neural network for machine learning， 然后发现是个大坑，根本听不懂，只好先从经典的 Andrew 大神学起（后来才知道他是经典的大神级人物）。<br />
+课讲得太好了，听着舒服，学到的东西还多，而且还需要亲自动手做。I LOVE YOU ！</p>
+<p><img class="aligncenter" src="http://i.minus.com/jGL67mQsix39L.png" alt="" width="555" /></p>
+<p>突遇罢工，大半火车取消。。。  = = !!!      <img src="https://s.w.org/images/core/emoji/72x72/1f641.png" alt="🙁" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p><img class="alignleft" src="http://i.minus.com/jOnnf9DxOKd01.jpg" alt="" width="250" /><img class="alignright" src="http://i.minus.com/jZzJ70TKirYt8.jpg" alt="" width="250" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>问了n个人， 大半夜终于碰到了可以回窝的车 。。。 端午节还麻烦大哥接，真不好意思。</p>
+<p>不过，这次是看到了午夜的阳光，下图 23:59，穿过了盖亚的黑发的阿波罗的手。</p>
+<p><img class="aligncenter" src="http://i.minus.com/jbtjZDFf0nJDzt.jpg" alt="" width="555" /></p>
+<p>6月份的补发完毕，改写7月的了~</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2014/08/14/15346/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Månadsrapport 2014 maj</title>
+		<link>http://Blog.SunnyBoy.Me/2014/06/11/15339/</link>
+		<comments>http://Blog.SunnyBoy.Me/2014/06/11/15339/#respond</comments>
+		<pubDate>Wed, 11 Jun 2014 18:10:11 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Life]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15339</guid>
+		<description><![CDATA[Det finns inte bilder att visa för att jag är på jobbet i Kina och använde inte Toggle heller Desktime. Men det är roligt att bo där. Jag tro att det är svårt att skilja job tid med liv tid i Kina. Kanske kan jag säga att jag jobbade alltid 😀 &#8230; 🙁 &#8230; &#160; [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>Det finns inte bilder att visa för att jag är på jobbet i Kina och använde inte Toggle heller Desktime. Men det är roligt att bo där. Jag tro att det är svårt att skilja job tid med liv tid i Kina. Kanske kan jag säga att jag jobbade alltid <img src="https://s.w.org/images/core/emoji/72x72/1f600.png" alt="😀" class="wp-smiley" style="height: 1em; max-height: 1em;" /> &#8230; <img src="https://s.w.org/images/core/emoji/72x72/1f641.png" alt="🙁" class="wp-smiley" style="height: 1em; max-height: 1em;" /> &#8230;</p>
+<p>&nbsp;</p>
+<p><img class="aligncenter" src="http://i.minus.com/jCx1USChMdVaY.png" alt="" width="555" /></p>
+<p>Maten är jättstark och jag kan inte äta mycket, men de är jättgod och smak bra !<br />
+<img class="aligncenter" src="http://i.minus.com/jHv1IMvrfXVRK.jpg" alt="" width="555" /><br />
+<img class="aligncenter" src="http://i.minus.com/jbjBvlNEVZwnmq.jpg" alt="" width="555" /><br />
+<img class="aligncenter" src="http://i.minus.com/jcvMYJPngVPHy.jpg" alt="" width="555" /><br />
+<img class="aligncenter" src="http://i.minus.com/jbw97XqLUieraV.jpg" alt="" width="555" /><br />
+<img class="aligncenter" src="http://i.minus.com/jbzKkdv5Uhz8zV.jpg" alt="" width="555" /></p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2014/06/11/15339/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Monthly Report 2014 April</title>
+		<link>http://Blog.SunnyBoy.Me/2014/06/11/15340/</link>
+		<comments>http://Blog.SunnyBoy.Me/2014/06/11/15340/#respond</comments>
+		<pubDate>Wed, 11 Jun 2014 17:22:18 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Life]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15340</guid>
+		<description><![CDATA[Jag måste praktisera mer svenska! I maj har jag inte tid att uppdatera mina web sidor, men det är viktigt att vet vad jag har gjort. &#160; Förra året, avände jag &#8220;desktime&#8221; och det är samma med &#8220;toggl&#8221;, ganska 80% om jobb. Jag vill har mer tid ! = =!!!]]></description>
+				<content:encoded><![CDATA[<p>Jag måste praktisera mer svenska!</p>
+<p>I maj har jag inte tid att uppdatera mina web sidor, men det är viktigt att vet vad jag har gjort.</p>
+<p>&nbsp;</p>
+<p><img class="aligncenter" src="http://i.minus.com/jpy8IQYsmgtyG.png" alt="" width="555" /></p>
+<p>Förra året, avände jag &#8220;desktime&#8221; och det är samma med &#8220;toggl&#8221;, ganska 80% om jobb. Jag vill har mer tid !</p>
+<p>= =!!!</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2014/06/11/15340/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Monthly Report 2014 Mar</title>
+		<link>http://Blog.SunnyBoy.Me/2014/04/14/15322/</link>
+		<comments>http://Blog.SunnyBoy.Me/2014/04/14/15322/#comments</comments>
+		<pubDate>Mon, 14 Apr 2014 19:46:10 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Life]]></category>
+		<category><![CDATA[Stefanie]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15322</guid>
+		<description><![CDATA[多与老师、攻城师交流，情况大有好转。信息的沟通是多么重要！ 不过，去健身房的时间没了。。。有空跑跑吧，天暖了。 推荐一个微信： 道哥的黑板报 （原阿里安全攻城师，白帽子讲web安全的作者） 推荐一个自媒体：晓说 （“世界依旧很大，大到可以晓说”） 你是那么诱人，让周围的一切随你转动；你是那么可爱，拿在手里就放不下。 多想把你从冰箱里拽出来，让你变得温暖，热一下，小心胃疼 😀 。 &#160; 附summary，这是逼近996的节奏么。。。 // 那个相关supporting该怎么分类啊，到底算不算工作时间，头疼。]]></description>
+				<content:encoded><![CDATA[<p>多与老师、攻城师交流，情况大有好转。信息的沟通是多么重要！</p>
+<p>不过，去健身房的时间没了。。。有空跑跑吧，天暖了。</p>
+<p>推荐一个微信： 道哥的黑板报 （原阿里安全攻城师，白帽子讲web安全的作者）</p>
+<p>推荐一个自媒体：晓说 （“世界依旧很大，大到可以晓说”）</p>
+<p><a href="http://min.us/i/qMuWxJIX7BO5" target="_blank"><img class="aligncenter" alt="晚霞" src="http://i.minus.com/jqMuWxJIX7BO5.jpg" width="555" /></a></p>
+<p><a href="http://min.us/i/KXRW32O3t3pF" target="_blank"><img class="aligncenter" alt="晚霞" src="http://i.minus.com/jKXRW32O3t3pF.jpg" width="555" /></a></p>
+<p>你是那么诱人，让周围的一切随你转动；你是那么可爱，拿在手里就放不下。</p>
+<p>多想把你从冰箱里拽出来，让你变得温暖，热一下，小心胃疼 <img src="https://s.w.org/images/core/emoji/72x72/1f600.png" alt="😀" class="wp-smiley" style="height: 1em; max-height: 1em;" /> 。</p>
+<p>&nbsp;</p>
+<p>附summary，这是逼近996的节奏么。。。 // 那个相关supporting该怎么分类啊，到底算不算工作时间，头疼。<br />
+<a href="http://sunnybingome.minus.com/i/FHGseRSntxHi" target="_blank"><img class="aligncenter" alt="晚霞" src="http://i.minus.com/jFHGseRSntxHi.png" width="555" /></a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2014/04/14/15322/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>Monthly Report 2014 Feb</title>
+		<link>http://Blog.SunnyBoy.Me/2014/03/17/15320/</link>
+		<comments>http://Blog.SunnyBoy.Me/2014/03/17/15320/#respond</comments>
+		<pubDate>Mon, 17 Mar 2014 09:18:53 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Life]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15320</guid>
+		<description><![CDATA[忙，略。 &#160; 其他： 1.机票不应该订太早。 2.我爸有点像曾经的可口可乐 😉]]></description>
+				<content:encoded><![CDATA[<p>忙，略。</p>
+<p>&nbsp;</p>
+<p>其他：</p>
+<p>1.机票不应该订太早。</p>
+<p>2.我爸有点像曾经的可口可乐 <img src="https://s.w.org/images/core/emoji/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2014/03/17/15320/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Monthly Report 2014 Jan</title>
+		<link>http://Blog.SunnyBoy.Me/2014/02/18/15315/</link>
+		<comments>http://Blog.SunnyBoy.Me/2014/02/18/15315/#respond</comments>
+		<pubDate>Tue, 18 Feb 2014 09:26:36 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Life]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15315</guid>
+		<description><![CDATA[一月的总结拖了好久&#8230;. 以后务必每月第一周完成. 有了点状态, 但是又没状态. 目前有两大问题, 需要养成两大习惯. 2月中旬: 早睡早起, 睡太晚第二天早晨根本没状态而且对身体很不好, 晚上定时关闭通信. 2月底前必须恢复每晚锻炼, (3月温度适合则恢复户外慢跑).]]></description>
+				<content:encoded><![CDATA[<p>一月的总结拖了好久&#8230;. 以后务必每月第一周完成.</p>
+<p>有了点状态, 但是又没状态. 目前有两大问题, 需要养成两大习惯.</p>
+<p>2月中旬: 早睡早起, 睡太晚第二天早晨根本没状态而且对身体很不好, 晚上定时关闭通信.</p>
+<p>2月底前必须恢复每晚锻炼, (3月温度适合则恢复户外慢跑).<br />
+<a title="Karlskrona" href="http://min.us/i/bmfj6QorFtuFc" target="_blank"><img class="aligncenter" alt="" src="http://i.minus.com/jbmfj6QorFtuFc.jpg" width="555" /></a></p>
+<p><img class="aligncenter" alt="" src="http://i.minus.com/jwCHSP77OGl6W.png" width="555" /></p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2014/02/18/15315/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>蛇年的年终总结 [2013]</title>
+		<link>http://Blog.SunnyBoy.Me/2014/01/29/15293/</link>
+		<comments>http://Blog.SunnyBoy.Me/2014/01/29/15293/#respond</comments>
+		<pubDate>Wed, 29 Jan 2014 20:20:59 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Life]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15293</guid>
+		<description><![CDATA[新年了, 今年正好是在1月, 所以年终总结写了一直没发, 一直等春节~ 2013年, 每天用的最多的就是scrum了, did, doing, will do. 1. 做了什么 工作, 比想象的累, 但是学到了好多. 大家一起工作的时候是最高兴也是最高效的. 接触了网安, 读了&#60;白帽子讲web安全&#62;, 从作者到内容, 从战略到战术, 从技术到思维, 都值得一读. 真正把所学的知识运动起来才是最好的事情吧. 瑞典语, 全日制+沉浸环境的教育方式确实不错, 因为是用瑞典语教瑞典语, 每个老师都会简笔画, 而且笔法熟练 😀 . 虽然我对语言笨得要死, 还是学了点基本的交流能力, 到了BTH能和瑞典人简单聊聊, 感觉还是不错的. 论文答辩有点累, 最后一段时间也是和搭档配合最默契的时候, 东西都能弄完了, 没有技术细节争执了 🙂 . 然后和硕士论文导师一起写了点东西, 发现写毕业论文还真是水平不足够, 差太远. 健身房玩儿了一段时间, 到了学校就用学校的就好了, 比外边的少些东西, 但是时间更自由些. &#160; 2. 干嘛呢 学新东西, 概览, overview. 我说刚开始, 有很多东西还不知道, 总是一头雾水. [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>新年了, 今年正好是在1月, 所以年终总结写了一直没发, 一直等春节~</p>
+<p>2013年, 每天用的最多的就是scrum了, did, doing, will do.</p>
+<h2>1. 做了什么</h2>
+<p>工作, 比想象的累, 但是学到了好多. 大家一起工作的时候是最高兴也是最高效的. 接触了网安, 读了&lt;白帽子讲web安全&gt;, 从作者到内容, 从战略到战术, 从技术到思维, 都值得一读. 真正把所学的知识运动起来才是最好的事情吧.</p>
+<p>瑞典语, 全日制+沉浸环境的教育方式确实不错, 因为是用瑞典语教瑞典语, 每个老师都会简笔画, 而且笔法熟练 <img src="https://s.w.org/images/core/emoji/72x72/1f600.png" alt="😀" class="wp-smiley" style="height: 1em; max-height: 1em;" /> . 虽然我对语言笨得要死, 还是学了点基本的交流能力, 到了BTH能和瑞典人简单聊聊, 感觉还是不错的.</p>
+<p>论文答辩有点累, 最后一段时间也是和搭档配合最默契的时候, 东西都能弄完了, 没有技术细节争执了 <img src="https://s.w.org/images/core/emoji/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /> . 然后和硕士论文导师一起写了点东西, 发现写毕业论文还真是水平不足够, 差太远.</p>
+<p>健身房玩儿了一段时间, 到了学校就用学校的就好了, 比外边的少些东西, 但是时间更自由些.</p>
+<p>&nbsp;</p>
+<h2>2. 干嘛呢</h2>
+<p>学新东西, 概览, overview. 我说刚开始, 有很多东西还不知道, 总是一头雾水. Raja说了他的一个朋友, 说我其实已经知道自己在干嘛了 <img src="https://s.w.org/images/core/emoji/72x72/1f609.png" alt="😉" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>&nbsp;</p>
+<h2>3. 接下来一年准备干什么</h2>
+<p>做好overview, 包括交叉学科的两个方面. 需不需要Real-Time的云计算? 深入Raja所说sub-problem, 然后解决.</p>
+<p>回家.</p>
+<p>&nbsp;</p>
+<h2>其它:</h2>
+<p>可怜的月兔, 愿你平安. 突然想到去了大飞机项目的那个同学, 中国如果能更早些开始大飞机项目就好了, 这么大的国家, 这么重要的工程, 还是得自力更生啊.</p>
+<p>被耍了确实很不爽, 但是为什么“不惮以最坏的恶意来揣测“呢, 也学每个人忘记的东西不一样吧, 就象我总是记不住别人的名字一样. “长城万里今犹在, 不见当年秦始皇”, 资金上的暂时困难请老板或者同学帮个忙, 忍忍就过去了, 只是有时候真不知道什么人才是可信的, 无奈. “心是一个人的翅膀, 心有多大, 世界就有多大. 把自己囚禁在灰暗的记忆里, 即使给你整个天空, 你也找不到自由的感觉.” 何不仰望天空, 面朝大海.<br />
+<img class="aligncenter" alt="" src="http://www.hmz.cn/uploads/allimg/110527/3-11052G61024.jpg" width="555" /></p>
+<p>话说回来, 做计划得留余地, 当时买东西的时候应该留着&#8221;存款准备金&#8221;的. 要想财务自由, 首先财务自律, 得开始财务管理了.</p>
+<p>&nbsp;</p>
+<p>PS: 这幅图让我想起了XP</p>
+<p>;P</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2014/01/29/15293/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Reset Administrator Password [Windows]</title>
+		<link>http://Blog.SunnyBoy.Me/2014/01/09/15297/</link>
+		<comments>http://Blog.SunnyBoy.Me/2014/01/09/15297/#respond</comments>
+		<pubDate>Thu, 09 Jan 2014 10:55:16 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15297</guid>
+		<description><![CDATA[如果administrator之前没有密码, 可以F8进入安全模式, 再用命令行操作: net user &#60;username&#62; /active:yes net user &#60;username&#62; &#60;theNewPass&#62; &#160;]]></description>
+				<content:encoded><![CDATA[<p>如果administrator之前没有密码, 可以F8进入安全模式, 再用命令行操作:</p>
+<p>net user &lt;username&gt; /active:yes<br />
+net user &lt;username&gt; &lt;theNewPass&gt;</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2014/01/09/15297/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Monthly Report 2013 Dec</title>
+		<link>http://Blog.SunnyBoy.Me/2014/01/09/15277/</link>
+		<comments>http://Blog.SunnyBoy.Me/2014/01/09/15277/#respond</comments>
+		<pubDate>Thu, 09 Jan 2014 10:32:13 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Life]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15277</guid>
+		<description><![CDATA[自己的事儿: 巍哥提到一个问题, &#8220;知道什么是不该学的&#8221;. 真是一语惊醒梦中人, 从来只想该学什么, 没想过该放下什么. 圣诞节放假时候, 我给SFI的老师说了一下, 停了瑞典语官方课程. 现在的水平, 有时间自学也可以了, 不能把更重要的事情耽误了. 看了看乾隆, 突然想到了栋哥曾经说的一句话, 当时没明白, 现在想明白了一点. 搬了个家, 挺好. &#160; 其他的事儿: .cn 取消 ClientHold 状态. 由此可以想到, EMV肯定会打败PBOC. 原因很简单, 谁促进了信息的自由流通和生产力的发展, 谁就能被保留. cn域名的ClientHold状态正如当时某国禁止WIFI一样可笑. 自媒体 vs 常规媒体; 公信力是点滴积累的, 但是瓦解却可以在一瞬间, 自媒体和常规媒体都适用. &#160; 总结: 这段假期搞了很多虚的, 该开始搞点实的了. &#160;]]></description>
+				<content:encoded><![CDATA[<p>自己的事儿:</p>
+<p><span style="line-height: 1.714285714; font-size: 1rem;">巍哥提到一个问题, &#8220;知道什么是不该学的&#8221;. 真是一语惊醒梦中人, 从来只想该学什么, 没想过该放下什么. 圣诞节放假时候, 我给SFI的老师说了一下, 停了瑞典语官方课程. 现在的水平, 有时间自学也可以了, 不能把更重要的事情耽误了.</span></p>
+<p>看了看乾隆, 突然想到了栋哥曾经说的一句话, 当时没明白, 现在想明白了一点.</p>
+<p>搬了个家, 挺好.</p>
+<p>&nbsp;</p>
+<p>其他的事儿:</p>
+<p>.cn 取消 ClientHold 状态. 由此可以想到, EMV肯定会打败PBOC. 原因很简单, 谁促进了信息的自由流通和生产力的发展, 谁就能被保留. cn域名的ClientHold状态正如当时某国禁止WIFI一样可笑.</p>
+<p>自媒体 vs 常规媒体; 公信力是点滴积累的, 但是瓦解却可以在一瞬间, 自媒体和常规媒体都适用.</p>
+<p>&nbsp;</p>
+<p>总结:</p>
+<p>这段假期搞了很多虚的, 该开始搞点实的了.</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2014/01/09/15277/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>关于[臭氧] 消毒、净化、灭菌、除味</title>
+		<link>http://Blog.SunnyBoy.Me/2013/12/27/15281/</link>
+		<comments>http://Blog.SunnyBoy.Me/2013/12/27/15281/#respond</comments>
+		<pubDate>Fri, 27 Dec 2013 22:08:58 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Life]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15281</guid>
+		<description><![CDATA[(一) 安全浓度工业卫生标准 国际臭氧协会：0.1ppm 美国：0.1ppm 德国、法国、日本：0.1ppm 中 国：0.15ppm &#160; (二) 臭氧基本性质 臭氧的英文名字叫 0ZONE ，分子式O3，分子量48, 是氧气（O2）的同素异形体，由三个氧原子组成，常温下臭氧是淡蓝色，草腥味气体. 1ppm 臭氧 = 1.963mg/m3，标准状态下，臭氧密度ρ= 2.144g/L，空气ρ= 1.293g/L。臭氧在水中的溶解度大约是氧气的10-15 倍。在水中稳定性较差。 臭氧易分解，不稳定状态下在空气中臭氧的半衰期为 22.5 分钟，一个小时的衰退率为 61% ，空气型臭氧在水温25℃时其溶解度只有3-7mg/L，纯臭氧在水中的溶解度可达1372mg/L，在 1% 的臭氧水溶液中半衰期约为 16 分钟，且温度越高，湿度越大，半衰期越短。 &#160; (三) 臭氧具有广谱、高效强氧化性，有四大功用 灭菌、氧化、脱色、除味，且无残留物。 1、国际卫生组织对其灭菌功效曾归纳比较，臭氧与其它杀菌剂对大肠杆菌的杀灭效果依次为：臭氧（O3） &#62; 次氯酸（HCLO） &#62; 二氧化氯（CLO2）&#62; 银离子（Ag+）&#62; 次氯酸根（CLO） &#62; 高铁酸盐（Fe3+） &#62; 氯胺（NHCL3）。 2、臭氧具有很强的氧化性，除了金和铂外，臭氧化空气几乎对所有的金属都有腐蚀作用。铝、锌、铅与臭氧接触会被强烈氧化，但铬铁合金（不锈钢）基本上不受臭氧腐蚀。 &#160; (四) 空气应用浓度 1、作为空气除味与杀菌，要求臭氧浓度较低，如0.5ppm(1mg/m3),而物品表面消毒（杀灭微生物和去除化学污染）则要求提高几十倍的臭氧浓度。 2、温度低，湿度大则灭菌效果好，尤其是湿度，相对湿度小于45%时，臭氧对空气中悬浮微生物几乎没有杀灭作用。在60%时才逐渐增强，在95%时达到最大值。 3、用臭氧消毒食品加工车间，0.5-1.0ppm即可杀灭空气中的80%的自然菌。冷库消毒要求臭氧浓度6-10ppm，停机后封库24小时以上细菌杀灭率90%左右。 4、在水果储藏期间，可用2-3ppm的臭氧可使霉菌的生长受到抑制，贮藏期可延长一倍。用臭氧水对食品灭菌很简单，浓度在0.5-1.0ppm,就可以达到灭菌的目的。 (五) 水中应用浓度 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>(一) 安全浓度工业卫生标准 国际臭氧协会：0.1ppm 美国：0.1ppm 德国、法国、日本：0.1ppm 中 国：0.15ppm</p>
+<p>&nbsp;</p>
+<p>(二) 臭氧基本性质</p>
+<p>臭氧的英文名字叫 0ZONE ，分子式O3，分子量48, 是氧气（O2）的同素异形体，由三个氧原子组成，常温下臭氧是淡蓝色，草腥味气体.<br />
+1ppm 臭氧 = 1.963mg/m3，标准状态下，臭氧密度ρ= 2.144g/L，空气ρ= 1.293g/L。臭氧在水中的溶解度大约是氧气的10-15 倍。在水中稳定性较差。<br />
+臭氧易分解，不稳定状态下在空气中臭氧的半衰期为 22.5 分钟，一个小时的衰退率为 61% ，空气型臭氧在水温25℃时其溶解度只有3-7mg/L，纯臭氧在水中的溶解度可达1372mg/L，在 1% 的臭氧水溶液中半衰期约为 16 分钟，且温度越高，湿度越大，半衰期越短。</p>
+<p>&nbsp;</p>
+<p>(三) 臭氧具有广谱、高效强氧化性，有四大功用 灭菌、氧化、脱色、除味，且无残留物。</p>
+<p>1、国际卫生组织对其灭菌功效曾归纳比较，臭氧与其它杀菌剂对大肠杆菌的杀灭效果依次为：臭氧（O3） &gt; 次氯酸（HCLO） &gt; 二氧化氯（CLO2）&gt; 银离子（Ag+）&gt; 次氯酸根（CLO） &gt; 高铁酸盐（Fe3+） &gt; 氯胺（NHCL3）。<br />
+2、臭氧具有很强的氧化性，除了金和铂外，臭氧化空气几乎对所有的金属都有腐蚀作用。铝、锌、铅与臭氧接触会被强烈氧化，但铬铁合金（不锈钢）基本上不受臭氧腐蚀。</p>
+<p>&nbsp;</p>
+<p>(四) 空气应用浓度</p>
+<p>1、作为空气除味与杀菌，要求臭氧浓度较低，如0.5ppm(1mg/m3),而物品表面消毒（杀灭微生物和去除化学污染）则要求提高几十倍的臭氧浓度。<br />
+2<span style="font-size: 1rem; line-height: 1.714285714;">、温度低，湿度大则灭菌效果好，尤其是湿度，相对湿度小于45%时，臭氧对空气中悬浮微生物几乎没有杀灭作用。在60%时才逐渐增强，在95%时达到最大值。<br />
+3、用臭氧消毒食品加工车间，0.5-1.0ppm即可杀灭空气中的80%的自然菌。冷库消毒要求臭氧浓度6-10ppm，停机后封库24小时以上细菌杀灭率90%左右。<br />
+4、在水果储藏期间，可用2-3ppm的臭氧可使霉菌的生长受到抑制，贮藏期可延长一倍。用臭氧水对食品灭菌很简单，浓度在0.5-1.0ppm,就可以达到灭菌的目的。</span></p>
+<p>(五) 水中应用浓度</p>
+<p>1、水中臭氧溶解度在0.1mg/L-10mg/L之间。低值作为水消毒净化要求的最低浓度，高值作为“臭氧水消毒剂”可达到的浓度值。臭氧具有解毒、防腐保鲜、除臭、除异味等作用。<br />
+2、自来水臭氧净化，国际常规标准为0.4mg/L的溶解度值，保持4分钟，即CT值为1.6。 3、瓶装水处理应达0.3-0.5mg/L的臭氧溶解度值，要求投加臭氧应满足1m3水 2gO3的发生量。</p>
+<p>（六）臭氧的实际应用<br />
+1、臭氧浓度在4mg/L时，对大肠杆菌（8404），金色葡萄球菌（ATTC6533）， 枯草杆菌芽胞（ATCC9372），空气混合菌，乙肝病毒等灭菌率均达到95%-100%。<br />
+2、用臭氧浓度为4mg/L处理污水5-20min后：COD（还原性有机物的污染程度）降低40%；BOD（有机物的污染程度）降低60%-70%；致癌物质降低80%；色度降低60%。<br />
+3、常规情况下，当空气中臭氧浓度达到0.5mg/L时，可杀死空气中的大部分（70%左右）的细菌和病毒；当空气中臭氧浓度达到0.6mg/L时，空气中的细菌和病毒的灭菌率在99%以上。<br />
+4、臭氧现在广泛应用于大型自来水厂的水处理、工业废水的臭氧氧化处理、医院废水处理、游泳池水处理、城市污水处理、臭氧/生物活性炭处理、公共场所空气消毒杀菌处理。</p>
+<p>from: <a href="http://wenku.baidu.com/view/7135c40ab52acfc789ebc9f8.html">http://wenku.baidu.com/view/7135c40ab52acfc789ebc9f8.html</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2013/12/27/15281/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Monthly Report 2013 Nov [PhD, 博士]</title>
+		<link>http://Blog.SunnyBoy.Me/2013/12/15/15235/</link>
+		<comments>http://Blog.SunnyBoy.Me/2013/12/15/15235/#respond</comments>
+		<pubDate>Sun, 15 Dec 2013 09:28:44 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Life]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15235</guid>
+		<description><![CDATA[月初就该总结了, 一直拖着, 现在事情定了下来, 才得以写完这篇blog. 谢谢大家的帮助, 才收到这个好结果. 当然首先谢谢老师们的认可, 被权威承认当然感到非常高兴. 或许老师也不知道, 其实我最高兴的时候, 是听到&#8221;物质基础决定上层建筑&#8221;等等. 至少三年没有听到了, 再次确认自己的信仰也许是最令人幸福的, 无论是什么信仰. 有东西学, 有事情做, 有共同信仰与理想, 希望我不负众望, 实现小时的梦想. 提到信仰就不得不提大学同学华仔, 他让我知道了, 我不知道的东西还有很多. 这是我第一次确信真的有人可以过目不忘, 第一次感概这么牛的同龄人可以做到这么谦虚, 第一次知道佛教可以是无神论的, 第一次被各种论据打击得晕头转向, 第一次意识到马克思同志和释迦摩尼同学没有谁对谁错. 每天和一个唯心主义者相约午餐竟然成为我这个坚定的唯物主义者在大学里最兴奋, 最难忘的事情之一. (突然想到那篇&#8221;不同意见者欠我们什么&#8221;, 实在是不理解为什么和华仔相反, 有些人总想在没有任何论据的情况下仅凭风闻或感觉就威逼他人相信自己的观点, 甚至还认为自己的强硬是正确的.) 来到瑞典之后, 相处时间最长, 对我影响最大的应该是栋哥了, 世界上竟然可以存在同时具备高智商和高情商的人, 这也许是对&#8221;以人为本&#8221;这个概念的最好诠释了. &#8220;读万卷书, 行万里路&#8221;, 这也许是我在可预见的未来的大版图, 两手都要抓, 两手都要硬啊. 实在是感觉到太多太多需要向他继续学的东西, 无论是哪个方面. 有缘, 一定还会再见. &#160; 其他琐事, 有个让人很不爽的事情, dotdotbuy 和 panli 同时被黑导致我订单延迟好久, 差点误了大事. 他们是互黑么? [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>月初就该总结了, 一直拖着, 现在事情定了下来, 才得以写完这篇blog. 谢谢大家的帮助, 才收到这个好结果.</p>
+<p>当然首先谢谢老师们的认可, 被权威承认当然感到非常高兴. 或许老师也不知道, 其实我最高兴的时候, 是听到&#8221;物质基础决定上层建筑&#8221;等等. 至少三年没有听到了, 再次确认自己的信仰也许是最令人幸福的, 无论是什么信仰. 有东西学, 有事情做, 有共同信仰与理想, 希望我不负众望, 实现小时的梦想.</p>
+<p>提到信仰就不得不提大学同学华仔, 他让我知道了, 我不知道的东西还有很多. 这是我第一次确信真的有人可以过目不忘, 第一次感概这么牛的同龄人可以做到这么谦虚, 第一次知道佛教可以是无神论的, 第一次被各种论据打击得晕头转向, 第一次意识到马克思同志和释迦摩尼同学没有谁对谁错. 每天和一个唯心主义者相约午餐竟然成为我这个坚定的唯物主义者在大学里最兴奋, 最难忘的事情之一.<span style="color: #999999;"> (突然想到那篇&#8221;不同意见者欠我们什么&#8221;, 实在是不理解为什么和华仔相反, 有些人总想在没有任何论据的情况下仅凭风闻或感觉就威逼他人相信自己的观点, 甚至还认为自己的强硬是正确的.)</span></p>
+<p>来到瑞典之后, 相处时间最长, 对我影响最大的应该是栋哥了, 世界上竟然可以存在同时具备高智商和高情商的人, 这也许是对&#8221;以人为本&#8221;这个概念的最好诠释了. &#8220;读万卷书, 行万里路&#8221;, 这也许是我在可预见的未来的大版图, 两手都要抓, 两手都要硬啊. 实在是感觉到太多太多需要向他继续学的东西, 无论是哪个方面. 有缘, 一定还会再见.</p>
+<p>&nbsp;</p>
+<p>其他琐事, 有个让人很不爽的事情, dotdotbuy 和 panli 同时被黑导致我订单延迟好久, 差点误了大事. 他们是互黑么? 不知道, 不过无论如何感觉都是恶性竞争.</p>
+<p>&nbsp;</p>
+<p>硕硕走的时候, 说到敬鬼神而远之, 这或许是他说过的对我触动最大的一句, 其他身体力行的潜移默化就数不胜数了, 在他面前发现对于有些事情真的是什么都不知道. <span style="color: #999999;"><a href="http://www.youtube.com/watch?v=uZJLF-OfguM&amp;list=PLaj-D27bt1ISa2Iy5bVZ_Q_oLPpu6vwc6"><span style="color: #999999;">http://www.youtube.com/watch?v=uZJLF-OfguM&amp;list=PLaj-D27bt1ISa2Iy5bVZ_Q_oLPpu6vwc6</span></a></span></p>
+<p>&nbsp;</p>
+<p>还有个不好的消息, 有个同学得了良性肿瘤. 正像半年前要回家的时候突然意识到什么是工作与生活的平衡, 现在突然觉得健康是多么重要. 幸好是良性的, 小手术之后注意修养就好了, 祝小伙伴们都健康吧~</p>
+<p>&nbsp;</p>
+<p>最后的最后, 等不及写到下个月总结了, 2号升空, 15号软着陆<span style="color: #888888;"> (虽然中间这段时间还夹杂着居民房屋被砸和9号卫星发射失败)</span>. 祝玉兔一切顺利吧.</p>
+<p style="text-align: center;"><img class="alignnone" alt="星箭分离" src="http://lyrb.lyd.com.cn/images/2013-12/03/1386026683046gnk3c24_b.jpg" width="555" /></p>
+<p><img class="alignnone aligncenter" alt="玉兔, 玉兔号" src="http://ws2.cdn.caijing.com.cn/2013-12-15/113692399.jpg" width="555" /></p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2013/12/15/15235/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Agile &#8211; Scrum</title>
+		<link>http://Blog.SunnyBoy.Me/2013/11/21/15259/</link>
+		<comments>http://Blog.SunnyBoy.Me/2013/11/21/15259/#respond</comments>
+		<pubDate>Thu, 21 Nov 2013 08:28:40 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Leading]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15259</guid>
+		<description><![CDATA[What? http://www.collab.net/services/training/agile_e-learning http://www.slideshare.net/dimka5/introducing-agile-scrum-xp-and-kanban &#160; Which? All free, ordered from simple to complex: scrumblr.ca/xxxx // board only. you need to give the board a name, public scrumy.com/xxxx // simple timed columns.  you need to give the board a name, public targetprocess.com/product/scrum/  // timed columns. pivotaltracker.com // not only time, but also most necessary things. &#160; How? Pivotal-Tracker is complicated, [&#8230;]]]></description>
+				<content:encoded><![CDATA[<h2>What?</h2>
+<p><a href="http://www.collab.net/services/training/agile_e-learning">http://www.collab.net/services/training/agile_e-learning</a></p>
+<p><a href="http://www.slideshare.net/dimka5/introducing-agile-scrum-xp-and-kanban">http://www.slideshare.net/dimka5/introducing-agile-scrum-xp-and-kanban</a></p>
+<p>&nbsp;</p>
+<h2>Which?</h2>
+<p>All free, ordered from simple to complex:</p>
+<p><a href="http://scrumblr.ca/xxxx">scrumblr.ca/xxxx</a> // board only. you need to give the board a name, public</p>
+<p><a href="http://scrumy.com/xxxx">scrumy.com/xxxx</a> // simple timed columns.  you need to give the board a name, public</p>
+<p><a href="http://targetprocess.com/product/scrum/">targetprocess.com/product/scrum/</a>  // timed columns.</p>
+<p><a href="http://pivotaltracker.com">pivotaltracker.com</a> // not only time, but also most necessary things.</p>
+<p>&nbsp;</p>
+<h2>How?</h2>
+<p>Pivotal-Tracker is complicated, here is how to use it:</p>
+<p><a href="https://www.pivotaltracker.com/help/gettingstarted">https://www.pivotaltracker.com/help/gettingstarted</a></p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2013/11/21/15259/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Monthly Report 2013 Oct</title>
+		<link>http://Blog.SunnyBoy.Me/2013/11/04/15234/</link>
+		<comments>http://Blog.SunnyBoy.Me/2013/11/04/15234/#respond</comments>
+		<pubDate>Mon, 04 Nov 2013 20:21:51 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Life]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15234</guid>
+		<description><![CDATA[早晨一睁眼满屋子红光, 忍不住趴在床上拍了几张照片. 快冬天了, 这样的好日子不多了 内心不平静, 或者心情不好的话, 饮食应该以&#8221;酸甜&#8221;为主, 忌油腻. mm请客, 听了会儿蓝调, 相比于new age, 虽谈不上喜欢, 也算有了解了多些. 最大的事情, 莫过于又送走一个同学, 回家好啊, 不用像我们这样吃个烤鸭都要高兴好几天. 谢谢栋哥, 让我学到好多. 感觉瑞典语时间还是太少了]]></description>
+				<content:encoded><![CDATA[<p style="text-align: center;"><a style="line-height: 1.714285714; font-size: 1rem;" href="http://Blog.SunnyBoy.Me/wp-content/uploads/2013/11/2013-10-05-07.11.06.jpg"><img class="aligncenter" alt="朝霞" src="http://Blog.SunnyBoy.Me/wp-content/uploads/2013/11/2013-10-05-07.11.06.jpg" width="555" /></a></p>
+<p style="text-align: center;">早晨一睁眼满屋子红光, 忍不住趴在床上拍了几张照片.</p>
+<p style="text-align: center;"><a href="http://Blog.SunnyBoy.Me/wp-content/uploads/2013/11/2013-10-03-15.51.52.jpg"><img class="aligncenter size-full wp-image-15238" alt="大太阳" src="http://Blog.SunnyBoy.Me/wp-content/uploads/2013/11/2013-10-03-15.51.52.jpg" width="555" srcset="http://Blog.SunnyBoy.Me/wp-content/uploads/2013/11/2013-10-03-15.51.52.jpg 2560w, http://Blog.SunnyBoy.Me/wp-content/uploads/2013/11/2013-10-03-15.51.52-300x168.jpg 300w, http://Blog.SunnyBoy.Me/wp-content/uploads/2013/11/2013-10-03-15.51.52-1024x576.jpg 1024w, http://Blog.SunnyBoy.Me/wp-content/uploads/2013/11/2013-10-03-15.51.52-624x351.jpg 624w" sizes="(max-width: 2560px) 100vw, 2560px" /></a></p>
+<p style="text-align: center;">快冬天了, 这样的好日子不多了</p>
+<p style="text-align: center;"><a href="http://Blog.SunnyBoy.Me/wp-content/uploads/2013/11/2013-10-05-08.08.43.jpg"><img class="aligncenter" alt="酸甜" src="http://Blog.SunnyBoy.Me/wp-content/uploads/2013/11/2013-10-05-08.08.43.jpg" width="555" /></a></p>
+<p style="text-align: center;">内心不平静, 或者心情不好的话, 饮食应该以&#8221;酸甜&#8221;为主, 忌油腻.</p>
+<p style="text-align: center;"><a href="http://Blog.SunnyBoy.Me/wp-content/uploads/2013/11/2013-10-10-19.19.54.jpg"><img class="aligncenter size-full wp-image-15239" alt="蓝调" src="http://Blog.SunnyBoy.Me/wp-content/uploads/2013/11/2013-10-10-19.19.54.jpg" width="555" srcset="http://Blog.SunnyBoy.Me/wp-content/uploads/2013/11/2013-10-10-19.19.54.jpg 2560w, http://Blog.SunnyBoy.Me/wp-content/uploads/2013/11/2013-10-10-19.19.54-300x168.jpg 300w, http://Blog.SunnyBoy.Me/wp-content/uploads/2013/11/2013-10-10-19.19.54-1024x576.jpg 1024w, http://Blog.SunnyBoy.Me/wp-content/uploads/2013/11/2013-10-10-19.19.54-624x351.jpg 624w" sizes="(max-width: 2560px) 100vw, 2560px" /></a></p>
+<p style="text-align: center;">mm请客, 听了会儿蓝调, 相比于new age, 虽谈不上喜欢, 也算有了解了多些.</p>
+<p style="text-align: center;"><a href="http://Blog.SunnyBoy.Me/wp-content/uploads/2013/11/2013-10-26-12.49.08.jpg"><img class="aligncenter size-full wp-image-15241" alt="烤鸭" src="http://Blog.SunnyBoy.Me/wp-content/uploads/2013/11/2013-10-26-12.49.08.jpg" width="555" srcset="http://Blog.SunnyBoy.Me/wp-content/uploads/2013/11/2013-10-26-12.49.08.jpg 2560w, http://Blog.SunnyBoy.Me/wp-content/uploads/2013/11/2013-10-26-12.49.08-300x168.jpg 300w, http://Blog.SunnyBoy.Me/wp-content/uploads/2013/11/2013-10-26-12.49.08-1024x576.jpg 1024w, http://Blog.SunnyBoy.Me/wp-content/uploads/2013/11/2013-10-26-12.49.08-624x351.jpg 624w" sizes="(max-width: 2560px) 100vw, 2560px" /></a><img class="aligncenter size-full wp-image-15240" alt="栋哥" src="http://Blog.SunnyBoy.Me/wp-content/uploads/2013/11/2013-10-25-19.47.50.jpg" width="555" srcset="http://Blog.SunnyBoy.Me/wp-content/uploads/2013/11/2013-10-25-19.47.50.jpg 2560w, http://Blog.SunnyBoy.Me/wp-content/uploads/2013/11/2013-10-25-19.47.50-300x168.jpg 300w, http://Blog.SunnyBoy.Me/wp-content/uploads/2013/11/2013-10-25-19.47.50-1024x576.jpg 1024w, http://Blog.SunnyBoy.Me/wp-content/uploads/2013/11/2013-10-25-19.47.50-624x351.jpg 624w" sizes="(max-width: 2560px) 100vw, 2560px" /></p>
+<p style="text-align: center;">最大的事情, 莫过于又送走一个同学, 回家好啊, 不用像我们这样吃个烤鸭都要高兴好几天.</p>
+<p style="text-align: center;">谢谢栋哥, 让我学到好多.</p>
+<p style="text-align: center;"><a href="http://Blog.SunnyBoy.Me/wp-content/uploads/2013/11/2013-10-99.png"><img class="aligncenter size-full wp-image-15245" alt="2013-10-99" src="http://Blog.SunnyBoy.Me/wp-content/uploads/2013/11/2013-10-99.png" width="555" srcset="http://Blog.SunnyBoy.Me/wp-content/uploads/2013/11/2013-10-99.png 1349w, http://Blog.SunnyBoy.Me/wp-content/uploads/2013/11/2013-10-99-300x146.png 300w, http://Blog.SunnyBoy.Me/wp-content/uploads/2013/11/2013-10-99-1024x500.png 1024w, http://Blog.SunnyBoy.Me/wp-content/uploads/2013/11/2013-10-99-624x305.png 624w" sizes="(max-width: 1349px) 100vw, 1349px" /></a></p>
+<p style="text-align: center;">感觉瑞典语时间还是太少了</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2013/11/04/15234/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Monthly Report 2013 Sep</title>
+		<link>http://Blog.SunnyBoy.Me/2013/10/01/15211/</link>
+		<comments>http://Blog.SunnyBoy.Me/2013/10/01/15211/#respond</comments>
+		<pubDate>Tue, 01 Oct 2013 16:19:28 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Life]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15211</guid>
+		<description><![CDATA[自动开始写每周工作报告, 就不想写weekly report的blog了 &#8230;. 那就改成月记吧. /* min.us [喂!] 停机之前给我个机会备份这些图片哈 ~ */ 主要就是工作和瑞典语, 现在可以马马虎虎和中/青年简单对话了. 为啥mm不在我们班? 因为人家要去lund了, 88 ~ 一路顺风~ &#160; 然后就是被人拉去健身房, 结果就是每个月从银行扣的钱又多了一笔 &#8230; 好吧, 这边健身房貌似比国内还便宜, 虽然下午美女挺多, 主要受不了的是某些&#8221;男人&#8221;一进屋, 那味道&#8230; 小伙伴们都惊呆了 &#8230; 这个星球上竟然有比三星的Galaxy S4还恶心的东西 = = !!! //照片是同学拍的, 我用shuffle听音乐, 没手机, 错过好多mm &#8230; 纳闷当初为啥想买个shuffle, 貌似就是因为轻, 没有比它更轻的了. 还顺便参加了学校的5km越野, 哦耶~ 然后太忙忘了去医生的预约, 被罚款350. (我晕, 如果赴约才100, 忘了为啥要罚350, 汗 ~~). 瑞典语老师说, 最晚迟到5分钟, 这是瑞典人的极限, 好吧, 现在比较容易理解时间就是金钱了 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>自动开始写每周工作报告, 就不想写weekly report的blog了 &#8230;. 那就改成月记吧.</p>
+<p>/* min.us [喂!] 停机之前给我个机会备份这些图片哈 ~ */</p>
+<p>主要就是工作和瑞典语, 现在可以马马虎虎和中/青年简单对话了. 为啥mm不在我们班? 因为人家要去lund了, 88 ~ 一路顺风~</p>
+<p style="text-align: center;"><a href="http://Blog.SunnyBoy.Me/wp-content/uploads/2013/10/2013-09-12-14.15.02.jpg" target="_blank"><img class="aligncenter size-full wp-image-15214" alt="2013-09-12 14.15.02" src="http://Blog.SunnyBoy.Me/wp-content/uploads/2013/10/2013-09-12-14.15.02.jpg" width="555" height="312" srcset="http://Blog.SunnyBoy.Me/wp-content/uploads/2013/10/2013-09-12-14.15.02.jpg 2560w, http://Blog.SunnyBoy.Me/wp-content/uploads/2013/10/2013-09-12-14.15.02-300x168.jpg 300w, http://Blog.SunnyBoy.Me/wp-content/uploads/2013/10/2013-09-12-14.15.02-1024x576.jpg 1024w, http://Blog.SunnyBoy.Me/wp-content/uploads/2013/10/2013-09-12-14.15.02-624x351.jpg 624w" sizes="(max-width: 555px) 100vw, 555px" /></a></p>
+<p>&nbsp;</p>
+<p>然后就是被人拉去健身房, 结果就是每个月从银行扣的钱又多了一笔 &#8230; 好吧, 这边健身房貌似比国内还便宜, 虽然下午美女挺多, 主要受不了的是某些&#8221;男人&#8221;一进屋, 那味道&#8230; 小伙伴们都惊呆了 &#8230; 这个星球上竟然有比三星的Galaxy S4还恶心的东西 = = !!!</p>
+<p><a href="http://Blog.SunnyBoy.Me/wp-content/uploads/2013/10/2013-09-04-17.02.47.jpg"><img class="aligncenter size-full wp-image-15213" alt="2013-09-04 17.02.47" src="http://Blog.SunnyBoy.Me/wp-content/uploads/2013/10/2013-09-04-17.02.47.jpg" width="555" srcset="http://Blog.SunnyBoy.Me/wp-content/uploads/2013/10/2013-09-04-17.02.47.jpg 720w, http://Blog.SunnyBoy.Me/wp-content/uploads/2013/10/2013-09-04-17.02.47-225x300.jpg 225w, http://Blog.SunnyBoy.Me/wp-content/uploads/2013/10/2013-09-04-17.02.47-624x832.jpg 624w" sizes="(max-width: 720px) 100vw, 720px" /></a></p>
+<p>//照片是同学拍的, 我用shuffle听音乐, 没手机, 错过好多mm &#8230; 纳闷当初为啥想买个shuffle, 貌似就是因为轻, 没有比它更轻的了.</p>
+<p>还顺便参加了学校的5km越野, 哦耶~</p>
+<p><a href="http://Blog.SunnyBoy.Me/wp-content/uploads/2013/10/2013-09-20-17.49.39.jpg"><img class="aligncenter size-full wp-image-15212" alt="" src="http://Blog.SunnyBoy.Me/wp-content/uploads/2013/10/2013-09-20-17.49.39.jpg" width="555" srcset="http://Blog.SunnyBoy.Me/wp-content/uploads/2013/10/2013-09-20-17.49.39.jpg 2560w, http://Blog.SunnyBoy.Me/wp-content/uploads/2013/10/2013-09-20-17.49.39-300x168.jpg 300w, http://Blog.SunnyBoy.Me/wp-content/uploads/2013/10/2013-09-20-17.49.39-1024x576.jpg 1024w, http://Blog.SunnyBoy.Me/wp-content/uploads/2013/10/2013-09-20-17.49.39-624x351.jpg 624w" sizes="(max-width: 2560px) 100vw, 2560px" /></a></p>
+<p>然后太忙忘了去医生的预约, 被罚款350. (我晕, 如果赴约才100, 忘了为啥要罚350, 汗 ~~). 瑞典语老师说, 最晚迟到5分钟, 这是瑞典人的极限, 好吧, 现在比较容易理解时间就是金钱了 &#8230;</p>
+<p><a href="http://Blog.SunnyBoy.Me/wp-content/uploads/2013/10/2013-10-01-18.13.36.jpg"><img class="aligncenter size-full wp-image-15215" alt="2013-10-01 18.13.36" src="http://Blog.SunnyBoy.Me/wp-content/uploads/2013/10/2013-10-01-18.13.36.jpg" width="555" srcset="http://Blog.SunnyBoy.Me/wp-content/uploads/2013/10/2013-10-01-18.13.36.jpg 2560w, http://Blog.SunnyBoy.Me/wp-content/uploads/2013/10/2013-10-01-18.13.36-300x168.jpg 300w, http://Blog.SunnyBoy.Me/wp-content/uploads/2013/10/2013-10-01-18.13.36-1024x576.jpg 1024w, http://Blog.SunnyBoy.Me/wp-content/uploads/2013/10/2013-10-01-18.13.36-624x351.jpg 624w" sizes="(max-width: 2560px) 100vw, 2560px" /></a></p>
+<p>&nbsp;</p>
+<p>话说 @HTC ONE, 你敢不敢让我换电池 !!! 纠结啊纠结 ONE vs. S4.</p>
+<p><img rel="nofollow"  class="alignnone" alt="" src="http://i-cdn.phonearena.com/images/reviews/129790-image/Samsung-Galaxy-S4-vs-HTC-One-01.jpg" width="555" /></p>
+<p>============================ 我是杂乱无章的分界线=============================</p>
+<p>最后依旧附上toggl截图:</p>
+<p><img class="aligncenter" alt="" src="http://i.minus.com/j9u4pFPorB7xl.png" width="555" /></p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2013/10/01/15211/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>前一阵子有个同学要回国</title>
+		<link>http://Blog.SunnyBoy.Me/2013/10/01/15176/</link>
+		<comments>http://Blog.SunnyBoy.Me/2013/10/01/15176/#respond</comments>
+		<pubDate>Tue, 01 Oct 2013 15:46:24 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Life]]></category>
+		<category><![CDATA[Others]]></category>
+		<category><![CDATA[POL]]></category>
+		<category><![CDATA[Stefanie]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15176</guid>
+		<description><![CDATA[前一阵子有个同学要回国之前, 给我说的一些话让我想起了这两张图: 起点公平 vs. 程序公平 vs. 结果公平. 那谁谁谁, 你怎么看?]]></description>
+				<content:encoded><![CDATA[<p>前一阵子有个同学要回国之前, 给我说的一些话让我想起了这两张图:</p>
+<p><img class="aligncenter" alt="" src="http://i.minus.com/j7rBVmg6gRH1y.png" width="555" /><br />
+<img class="aligncenter" alt="" src="http://i.minus.com/jbddGCJZQDhjVW.png" width="555" /></p>
+<p>起点公平 vs. 程序公平 vs. 结果公平.</p>
+<p>那谁谁谁, 你怎么看?</p>
+<p><img class="aligncenter" alt="" src="http://img.ea3w.com/213_500x375/212417.jpg" width="555" /></p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2013/10/01/15176/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>累觉不爱</title>
+		<link>http://Blog.SunnyBoy.Me/2013/09/26/15201/</link>
+		<comments>http://Blog.SunnyBoy.Me/2013/09/26/15201/#respond</comments>
+		<pubDate>Thu, 26 Sep 2013 19:50:36 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Life]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15201</guid>
+		<description><![CDATA[2012, 暑假之前. 上午瑞典语课, 下午代实验课, 晚上做论文实验, 半夜去学校调试设备, 每周80小时的工作量, 晚上能睡6小时就要谢天谢地. 当时感觉真的是: 累觉不爱. &#160; 2012, 暑假之后. 拿到第一笔工资, 感觉是: 我做我喜欢做的事情, 还有人给我钱, 很爽~ 现在想来给的还真不算多, 但是花自己的钱舒服, 比啃老舒服多了. &#160; 2013, 元旦之后. 1月份的卡城还很冷, 11号答辩, 然后生日, 一起就那么过去了, examiner说, 大概C+. 感觉: 有点淡淡的忧桑&#8230; 我明明给导师说过, B以下就不要让我答辩了, 我只要A和B. &#160; 2013, 冬夏之交. 一直觉得这里没有春天, 过了冬天就是夏天了, 3月份改完论文交了终稿, 坐等分数. &#160; 2013, 夏冬之交. 由于examiner离校, 拖了这么久, 终于在9月, 收到了论文成绩: B. 挺喜欢这样的导师, 我努力了, 他也给了我比较满意的分数. &#160; 2012+2013, 1614小时, [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><span style="line-height: 1.714285714; font-size: 1rem;">2012, 暑假之前.</span></p>
+<p>上午瑞典语课, 下午代实验课, 晚上做论文实验, 半夜去学校调试设备, 每周80小时的工作量, 晚上能睡6小时就要谢天谢地. 当时感觉真的是: 累觉不爱.</p>
+<p>&nbsp;</p>
+<p>2012, 暑假之后.</p>
+<p>拿到第一笔工资, 感觉是: 我做我喜欢做的事情, 还有人给我钱, 很爽~ 现在想来给的还真不算多, 但是花自己的钱舒服, 比啃老舒服多了.</p>
+<p>&nbsp;</p>
+<p>2013, 元旦之后.</p>
+<p>1月份的卡城还很冷, 11号答辩, 然后生日, 一起就那么过去了, examiner说, 大概C+. 感觉: 有点淡淡的忧桑&#8230; 我明明给导师说过, B以下就不要让我答辩了, 我只要A和B.</p>
+<p>&nbsp;</p>
+<p>2013, 冬夏之交.</p>
+<p>一直觉得这里没有春天, 过了冬天就是夏天了, 3月份改完论文交了终稿, 坐等分数.</p>
+<p>&nbsp;</p>
+<p>2013, 夏冬之交.</p>
+<p>由于examiner离校, 拖了这么久, 终于在9月, 收到了论文成绩: B. 挺喜欢这样的导师, 我努力了, 他也给了我比较满意的分数.</p>
+<p>&nbsp;</p>
+<p>2012+2013, 1614小时, 41分钟, 15秒. 2012年初开始筹备的时候, 是肯定想不到会付出这么多时间吧, 呵呵~</p>
+<p>&nbsp;</p>
+<p>谨以此文纪念到目前为止我做过最大的工程, 耗时两年的硕士论文. 这里是结束, 也是开始.</p>
+<p>&nbsp;</p>
+<p>二〇一三年九月二十六号</p>
+<p>于杜马拉</p>
+<p>&nbsp;</p>
+<p>附toggl截图<br />
+<img class="aligncenter" alt="thesis 2012" src="http://blog.sunnyboy.me/wp-content/uploads/2013/09/thesis-2012.png" width="555" /></p>
+<p><img class="aligncenter" alt="thesis 2012" src="http://blog.sunnyboy.me/wp-content/uploads/2013/09/thesis-2013.png" width="555" /></p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2013/09/26/15201/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>关于减肥 [fat]</title>
+		<link>http://Blog.SunnyBoy.Me/2013/09/24/15191/</link>
+		<comments>http://Blog.SunnyBoy.Me/2013/09/24/15191/#respond</comments>
+		<pubDate>Tue, 24 Sep 2013 18:51:25 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Life]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15191</guid>
+		<description><![CDATA[好吧, 我也加入这个行列, 算了一下, 减到65-70比较合适. &#160; 1. 看bbc有感. http://v.youku.com/v_show/id_XNTYyODM5MjE2.html 粥庚, 蛋白质, 运动后燃烧, 低脂乳品, 额外活动. 2. 同学推荐的L-C 和网站, 谢霜姐. 左旋肉碱  L-carnitine 必须加运动. 是水肿就吃巴西莓. 保健品网站, Mark留用: www.hollandandbarrett.com 3. 左旋肉碱服用后大概2小时起效, (峰值期不知&#8230;), 6小时之后基本就没作用了, 所以服用后2小时应开始有氧运动 (定义: www.wretch.cc/blog/bevis1104/6101024 ) A. 男性: [(220-年龄)-静态心率]x0.7+静态心率 &#60;  有效有氧运动心跳数区间 &#60;  [(220-年龄)-静态心率]x0.85+静态心率. B. 女性: [(200-年龄)-静态心率]x0.7+静态心率 &#60;  有效有氧运动心跳数区间 &#60;  [(200-年龄)-静态心率]x0.85+静态心率. 若是心跳率低于0.7者，则此运动只能强化心肺功能，若是超过0.85者，则是运动员的无氧训练. &#160; 另一个角度是体脂率, 这个只好目测了: 体脂率自测表: http://www.guokr.com/post/469174/ http://www.douban.com/group/topic/30982320/ &#160;]]></description>
+				<content:encoded><![CDATA[<p>好吧, 我也加入这个行列, 算了一下, 减到65-70比较合适.</p>
+<p>&nbsp;</p>
+<p>1. 看bbc有感. http://v.youku.com/v_show/id_XNTYyODM5MjE2.html</p>
+<p>粥庚, 蛋白质, 运动后燃烧, 低脂乳品, 额外活动.</p>
+<p>2. 同学推荐的L-C 和网站, 谢霜姐. 左旋肉碱  L-carnitine 必须加运动. 是水肿就吃巴西莓.</p>
+<p>保健品网站, Mark留用: www.hollandandbarrett.com</p>
+<p>3. 左旋肉碱服用后大概2小时起效, (峰值期不知&#8230;), 6小时之后基本就没作用了, 所以服用后2小时应开始有氧运动 (定义: www.wretch.cc/blog/bevis1104/6101024 )</p>
+<p><span style="font-family: 新細明體; font-size: small;">A. 男性:</span></p>
+<p><span style="font-family: 新細明體; font-size: small;">[(<strong>220</strong>-年龄)-静态心率]x0.7+静态心率 &lt;  有效有氧运动心跳数区间 &lt;  [(<strong>220</strong>-年龄)-静态心率]x0.85+静态心率.</span></p>
+<p><span style="font-family: 新細明體; font-size: small;">B. 女性:</span></p>
+<p><span style="font-family: 新細明體; font-size: small;">[(<strong>200</strong>-年龄)-静态心率]x0.7+静态心率 &lt;  有效有氧运动心跳数区间 &lt;  [(<strong>200</strong>-年龄)-静态心率]x0.85+静态心率.</span></p>
+<p>若是心跳率低于0.7者，则此运动只能强化心肺功能，若是超过0.85者，则是运动员的无氧训练.</p>
+<p>&nbsp;</p>
+<p>另一个角度是体脂率, 这个只好目测了:</p>
+<p>体脂率自测表:</p>
+<p>http://www.guokr.com/post/469174/</p>
+<p>http://www.douban.com/group/topic/30982320/</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2013/09/24/15191/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>.NET MVC C#</title>
+		<link>http://Blog.SunnyBoy.Me/2013/08/25/15173/</link>
+		<comments>http://Blog.SunnyBoy.Me/2013/08/25/15173/#respond</comments>
+		<pubDate>Sun, 25 Aug 2013 09:49:56 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15173</guid>
+		<description><![CDATA[Connect to Mysql http://dev.mysql.com/downloads/connector/net/ http://www.360doc.com/content/07/0630/11/14386_586808.shtml &#160;]]></description>
+				<content:encoded><![CDATA[<h2>Connect to Mysql</h2>
+<p><a href="http://dev.mysql.com/downloads/connector/net/">http://dev.mysql.com/downloads/connector/net/</a></p>
+<p><a href="http://www.360doc.com/content/07/0630/11/14386_586808.shtml">http://www.360doc.com/content/07/0630/11/14386_586808.shtml</a></p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2013/08/25/15173/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>每周总结 Week33 2013 0812-0818 [SSO]</title>
+		<link>http://Blog.SunnyBoy.Me/2013/08/19/15165/</link>
+		<comments>http://Blog.SunnyBoy.Me/2013/08/19/15165/#respond</comments>
+		<pubDate>Mon, 19 Aug 2013 06:55:30 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Life]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15165</guid>
+		<description><![CDATA[做了个single-sign-on单点登录, 感觉不是那么难. 做方案用的时间不到编程一半, 但是感觉时间比编程还多, 为什么呢 &#8230; 他/她在车棚里躲雨 ~~ // 话说怎么看兔子公母啊, 还有, 兔子尾巴是白色的, 不是伪装色, 为啥啊 ? 这是省会么? 毕竟是小村]]></description>
+				<content:encoded><![CDATA[<p><img class="aligncenter" alt="" src="http://i.minus.com/jbgDEXcYmjjRVB.png" width="555" /></p>
+<p>做了个single-sign-on单点登录, 感觉不是那么难. 做方案用的时间不到编程一半, 但是感觉时间比编程还多, 为什么呢 &#8230;</p>
+<p><img class="aligncenter" alt="" src="http://i.minus.com/jOJ4dj0mSUvz.jpg" width="555" /></p>
+<p>他/她在车棚里躲雨 ~~ // 话说怎么看兔子公母啊, 还有, 兔子尾巴是白色的, 不是伪装色, 为啥啊 ?</p>
+<p><img class="aligncenter" alt="" src="http://i.minus.com/jW6o1mQVq2WMd.jpg" width="555" /></p>
+<p>这是省会么? 毕竟是小村</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2013/08/19/15165/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>每周总结 Week32 2013 0805-0811 [Mosh]</title>
+		<link>http://Blog.SunnyBoy.Me/2013/08/19/15162/</link>
+		<comments>http://Blog.SunnyBoy.Me/2013/08/19/15162/#respond</comments>
+		<pubDate>Mon, 19 Aug 2013 06:41:50 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Life]]></category>
+		<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15162</guid>
+		<description><![CDATA[装了cygwin和mosh. 稍早的mosh版本需要perl的一个包, 结果就是装不上, 还以为cygwin有问题, 最后发现新版的mosh已经用c替换了, 那个Perl的包有问题. Perl在走下坡么? 要完蛋了? 话说我blog貌似有不明输出??? 有空再查吧, 幸好我只是当作记事本用 &#8230;.]]></description>
+				<content:encoded><![CDATA[<p><img class="aligncenter" alt="" src="http://i.minus.com/jxA9tB5IPhy8X.png" width="555" /></p>
+<p>装了cygwin和mosh. 稍早的mosh版本需要perl的一个包, 结果就是装不上, 还以为cygwin有问题, 最后发现新版的mosh已经用c替换了, 那个Perl的包有问题. Perl在走下坡么? 要完蛋了?</p>
+<p>话说我blog貌似有不明输出??? 有空再查吧, 幸好我只是当作记事本用 &#8230;.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2013/08/19/15162/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>瑞典语 语法: 代词 [Pronomen] [Svenska]</title>
+		<link>http://Blog.SunnyBoy.Me/2013/08/14/15132/</link>
+		<comments>http://Blog.SunnyBoy.Me/2013/08/14/15132/#respond</comments>
+		<pubDate>Wed, 14 Aug 2013 09:29:48 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Svenska]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15132</guid>
+		<description><![CDATA[Bestämd Pronomen 定代词 Bestämd Pronomen 定代词 Personliga Pronomen 人称代词 Genitiva/Possessiva Pronomen 物主代词 Subj. Obj. Reflexivt  Personliga Subj. , Obj. Reflexivt  Personliga 第一人称 jag mig &#60;= min/mitt/mina &#60;= vi oss vår/vårt/våra 第二人称 du dig din/ditt/dina ni er er/ert/era 第三人称 han honom sig hans sin/sitt/sina hon henne hennes den/det den/det dess de dem deras t.ex: Min kompis och [&#8230;]]]></description>
+				<content:encoded><![CDATA[<h2>Bestämd Pronomen 定代词</h2>
+<table style="text-align: center; background-color: #c5d9f1;" width="537" border="0" cellspacing="0" cellpadding="0">
+<colgroup>
+<col width="81" />
+<col span="3" width="75" />
+<col width="120" />
+<col width="111" /> </colgroup>
+<tbody>
+<tr>
+<td rowspan="2" width="81" height="85">Bestämd Pronomen<br />
+定代词</td>
+<td colspan="3" width="225">Personliga Pronomen<br />
+人称代词</td>
+<td colspan="2" width="231">Genitiva/Possessiva Pronomen<br />
+物主代词</td>
+</tr>
+<tr>
+<td width="75" height="40">Subj.</td>
+<td width="75">Obj.</td>
+<td width="75">Reflexivt  Personliga</td>
+<td width="120">Subj. , Obj.</td>
+<td width="111">Reflexivt  Personliga</td>
+</tr>
+<tr>
+<td rowspan="2" width="81" height="40">第一人称</td>
+<td width="75">jag</td>
+<td width="75">mig</td>
+<td rowspan="4" width="75">&lt;=</td>
+<td width="120">min/mitt/mina</td>
+<td rowspan="4" width="111">&lt;=</td>
+</tr>
+<tr>
+<td width="75" height="20">vi</td>
+<td width="75">oss</td>
+<td width="120">vår/vårt/våra</td>
+</tr>
+<tr>
+<td rowspan="2" width="81" height="40">第二人称</td>
+<td width="75">du</td>
+<td width="75">dig</td>
+<td width="120">din/ditt/dina</td>
+</tr>
+<tr>
+<td width="75" height="20">ni</td>
+<td width="75">er</td>
+<td width="120">er/ert/era</td>
+</tr>
+<tr>
+<td rowspan="4" width="81" height="80">第三人称</td>
+<td width="75">han</td>
+<td width="75">honom</td>
+<td rowspan="4" width="75">sig</td>
+<td width="120">hans</td>
+<td rowspan="4" width="111">sin/sitt/sina</td>
+</tr>
+<tr>
+<td width="75" height="20">hon</td>
+<td width="75">henne</td>
+<td width="120">hennes</td>
+</tr>
+<tr>
+<td width="75" height="20">den/det</td>
+<td width="75">den/det</td>
+<td width="120">dess</td>
+</tr>
+<tr>
+<td width="75" height="20">de</td>
+<td width="75">dem</td>
+<td width="120">deras</td>
+</tr>
+</tbody>
+</table>
+<p>t.ex:</p>
+<p>Min kompis och hans fru tar gärna sitt barn med sig ut på museer eller utställningar.</p>
+<p>Sina egna pengar sparar de till biobiljetter eller godis.</p>
+<p>Deras föräldrar vill hellre <span style="color: #ff0000;"><strong>att</strong></span> <span style="text-decoration: underline;"><span style="color: #0000ff; text-decoration: underline;">deras</span></span> söner ska ha en snygg skjorta på <span style="text-decoration: underline;"><span style="color: #0000ff; text-decoration: underline;">sig</span></span><span style="color: #c0c0c0;">(deras söner)</span>.</p>
+<p>Han sa <span style="color: #ff0000;"><strong>att</strong></span> <span style="text-decoration: underline;"><span style="color: #0000ff; text-decoration: underline;">de</span> </span>skulle ta <span style="text-decoration: underline;"><span style="color: #0000ff; text-decoration: underline;">sina</span></span> rullskridskor på <span style="text-decoration: underline; color: #0000ff;">sig</span><span style="color: #c0c0c0;"> (de)</span>.</p>
+<p>&nbsp;</p>
+<h2>Indefinita Pronomen 不定代词</h2>
+<table style="text-align: center; background-color: #fde9d9;" width="537" border="0" cellspacing="0" cellpadding="0">
+<colgroup>
+<col width="81" />
+<col span="3" width="75" />
+<col width="120" />
+<col width="111" /> </colgroup>
+<tbody>
+<tr>
+<td rowspan="2" width="81" height="80">Indefinita Pronomen<br />
+不定代词</td>
+<td colspan="3" width="225">Personliga Pronomen<br />
+人称代词</td>
+<td colspan="2" width="231">Genitiva/Possessiva Pronomen<br />
+物主代词</td>
+</tr>
+<tr>
+<td width="75" height="40">Subj.</td>
+<td width="75">Obj.</td>
+<td width="75">Reflexivt  Personliga</td>
+<td width="120">Subj. , Obj.</td>
+<td width="111">Reflexivt  Personliga</td>
+</tr>
+<tr>
+<td rowspan="8" width="81" height="160">所有人称</td>
+<td rowspan="8" width="75">man</td>
+<td rowspan="8" width="75">en</td>
+<td rowspan="8" width="75">sig</td>
+<td rowspan="8" width="120">ens</td>
+<td rowspan="8" width="111">sin/sitt/sina</td>
+</tr>
+</tbody>
+</table>
+<p>t.ex:</p>
+<p>Det är svårt att veta <span style="color: #ff0000;"><strong>vad</strong></span> <span style="text-decoration: underline;"><span style="color: #0000ff; text-decoration: underline;">man</span></span> ska göra <span style="color: #ff0000;"><strong>när</strong></span> <span style="text-decoration: underline; color: #0000ff;">ens</span> pengar har tagit slut.</p>
+<p><span style="color: #ff0000;"><strong>Om</strong></span> <span style="text-decoration: underline;"><span style="color: #0000ff; text-decoration: underline;">man</span></span> har telefon, kan <span style="text-decoration: underline; color: #0000ff;">man</span> ringa <span style="text-decoration: underline; color: #0000ff;">sina</span> vänner.</p>
+<p>Det finns ett uttryck som säger <span style="color: #ff0000;"><strong>att</strong></span> <span style="text-decoration: underline;"><span style="color: #0000ff; text-decoration: underline;">man</span></span> ska höra mycket, <span style="color: #ff0000;"><strong>innan</strong></span> <span style="text-decoration: underline;"><span style="color: #0000ff; text-decoration: underline;">ens</span></span> öron faller av.</p>
+<p>&nbsp;</p>
+<p>其他常用不定代词: hel, all, någon, vilken, var, vart, varandra.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2013/08/14/15132/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Protected: magento</title>
+		<link>http://Blog.SunnyBoy.Me/2013/08/13/15128/</link>
+		<comments>http://Blog.SunnyBoy.Me/2013/08/13/15128/#respond</comments>
+		<pubDate>Tue, 13 Aug 2013 14:24:30 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15128</guid>
+		<description><![CDATA[There is no excerpt because this is a protected post.]]></description>
+				<content:encoded><![CDATA[<form action="http://Blog.SunnyBoy.Me/wp-login.php?action=postpass" class="post-password-form" method="post">
+<p>This content is password protected. To view it please enter your password below:</p>
+<p><label for="pwbox-15128">Password: <input name="post_password" id="pwbox-15128" type="password" size="20" /></label> <input type="submit" name="Submit" value="Enter" /></p>
+</form>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2013/08/13/15128/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>每周总结 Week31 2013 0729-0804</title>
+		<link>http://Blog.SunnyBoy.Me/2013/08/11/15110/</link>
+		<comments>http://Blog.SunnyBoy.Me/2013/08/11/15110/#respond</comments>
+		<pubDate>Sun, 11 Aug 2013 17:20:00 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Life]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15110</guid>
+		<description><![CDATA[&#160; 还阔以 ~~~ &#160; 测试发视频, 貌似wp必须发布之后才能看, 存草稿没用.]]></description>
+				<content:encoded><![CDATA[<p>&nbsp;</p>
+<p><img class="aligncenter" alt="" src="http://i.minus.com/jLYBdorLwtpO1.png" width="555" /></p>
+<p>还阔以 ~~~</p>
+<p>&nbsp;</p>
+<p>测试发视频, 貌似wp必须发布之后才能看, 存草稿没用.</p>
+<p><center><iframe src="http://player.youku.com/embed/XNTkzNzU0NzIw" height="498" width="510" allowfullscreen="" frameborder="0"></iframe></center></p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2013/08/11/15110/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Google App</title>
+		<link>http://Blog.SunnyBoy.Me/2013/08/02/15103/</link>
+		<comments>http://Blog.SunnyBoy.Me/2013/08/02/15103/#respond</comments>
+		<pubDate>Fri, 02 Aug 2013 13:10:02 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15103</guid>
+		<description><![CDATA[Config App for email (no extra gateway) 1. Authorize Google as a sender. (SPF) http://support.google.com/a/bin/topic.py?hl=en&#38;topic=1409901 2. Confirm mail sender via public key. (DKIM) http://support.google.com/a/bin/answer.py?hl=en&#38;answer=174126 &#160; &#160;]]></description>
+				<content:encoded><![CDATA[<h2>Config App for email (no extra gateway)</h2>
+<p>1. Authorize Google as a sender. (SPF)</p>
+<p><a href="http://support.google.com/a/bin/topic.py?hl=en&amp;topic=1409901">http://support.google.com/a/bin/topic.py?hl=en&amp;topic=1409901</a></p>
+<p>2. Confirm mail sender via public key. (DKIM)</p>
+<p><a href="http://support.google.com/a/bin/answer.py?hl=en&amp;answer=174126">http://support.google.com/a/bin/answer.py?hl=en&amp;answer=174126</a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2013/08/02/15103/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>系统后台框架</title>
+		<link>http://Blog.SunnyBoy.Me/2013/07/30/15096/</link>
+		<comments>http://Blog.SunnyBoy.Me/2013/07/30/15096/#respond</comments>
+		<pubDate>Tue, 30 Jul 2013 16:33:59 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[web]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15096</guid>
+		<description><![CDATA[from: http://zz563143188.iteye.com/blog/1877266 原文好长, 好牛a &#8230; 所以我就拆开了, 当备份了 &#8230;]]></description>
+				<content:encoded><![CDATA[<p>from: <a href="http://zz563143188.iteye.com/blog/1877266">http://zz563143188.iteye.com/blog/1877266</a></p>
+<p>原文好长, 好牛a &#8230; 所以我就拆开了, 当备份了 &#8230;</p>
+<p><img class="aligncenter" alt="" src="http://dl2.iteye.com/upload/attachment/0085/0609/5771086d-7cd4-349c-a89f-025825bc3e66.jpg" width="555" /></p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2013/07/30/15096/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>从程序员到CTO的Java技术路线图 // 有木有给PHP的&#8230;</title>
+		<link>http://Blog.SunnyBoy.Me/2013/07/30/15094/</link>
+		<comments>http://Blog.SunnyBoy.Me/2013/07/30/15094/#respond</comments>
+		<pubDate>Tue, 30 Jul 2013 16:03:14 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[web]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15094</guid>
+		<description><![CDATA[转自 http://zz563143188.iteye.com/blog/1877266  在技术方面无论我们怎么学习，总感觉需要提升自已不知道自己处于什么水平了。但如果有清晰的指示图供参考还是非常不错的，这样我们清楚的知道我们大概处于那个阶段和水平。 &#160; Java程序员 高级特性 反射、泛型、注释符、自动装箱和拆箱、枚举类、可变 参数、可变返回类型、增强循环、静态导入 核心编程 IO、多线程、实体类、 集合类、正则表达式、 XML和属性文件 图形编程 AWT（Java2D/JavaSound/JMF）、Swing、SWT、JFace 网路编程 Applet、Socket/TCP/UDP、NIO、RMI、CORBA Java语法基础 类、抽象类、接口、最终类、静态类、匿名类、内部类、异常类、编码规范 Java开发环境 JDK、JVM、Eclipse、Linux Java核心编程技术 Java，设计而又非常精巧的语言。学习Java，须从Java开发环境开始，到Java语法，再到Java的核心API。 1.Java开发入门：Java开发环境的安装与使用，包括JDK命令、EclipseIDE、Linux下Java程序的开发和部署等。 2.Java语法基础：基于JDK和Eclipse环境，进行Java核心功能开发，掌握Java面向对象的语法构成，包括类、抽象类、接口、最终类、静态类、匿名类、内部类、异常的编写。 3.Java核心API：基于JDK提供的类库，掌握三大核心功能： A。Java核心编程:包括Java编程的两大核心功能——Java输入/输出流和多线程，以及常用的辅助类库——实体类、集合类、正则表达式、XML和属性文件。 B。Java图形编程：包括Sun的GUI库AWT（Java2D、JavaSound、JMF）和Swing，IBM和GUI库SWT和Jface; C. Java网路编程：Applet组件编程，Socket编程，NIO非阻塞Socket编程、RMI和CORBA分布式开发。 4.Java高级特性：掌握JDK1.4、JDK5.0、JDK6.0中的Java高级特性，包括反射、泛型、注释，以及java高级特性——自动装箱和拆箱、枚举类、可变参数、可变返回类型、增强循环、静态导入等。 JavaEE初级软件工程师 JSF框架开发技术 配置文件（页面导航、后台Bean）、JSF组件库（JSF EL语言、HTML标签、事件处理、）、JSF核心库（格式转换、输入验证、国际化） Javaweb核心开发技术 开发环境（Eclipse、Linux） 三大组件（JSP、JavaBean、Servlet） 扩展技术（EL、JSTL、Taglib） 网页开发技术 HTML、XML、CSS、JavaScript、AJAX 数据库设计技术 SQL、MySql、Oracle、SQLServer、JDBC Web服务器（Tomcat/Jetty/Resin/JBossWeb） JavaWeb核心技术： JavaWeb项目开发的全过程可以分解为： 网页开发+数据库设计——&#62;JavaWeb项目开发，其中，javaWeb由6项基本技术组成：JSP+JavaBean+Servlet+EL+JSTL+Taglib，而JSF正是将这6种技术进行有机结合的技术框架： JavaEE中级软件工程师 四种经典架构SSH1、SSI1、SSH2、SSI2 Struts1表现层框架 入门配置、核心组件、标签库、国际化、数据检验、数据库开发、Sitemesh集成、集成Hibernate/iBATIS Struts2表现层框架 入门配置、核心组件、标签库、国际化、数据校验、Sitemesh集成转换器、拦截器、集成Hibernate/iBATIS Spring业务层框架 入门配置、IoC容器、MVC、标签库、国际化、数据校验、数据库开发 Hibernate持久层框架 MySQL、Oracle、SQLServer [&#8230;]]]></description>
+				<content:encoded><![CDATA[<h4>转自 <a href="http://zz563143188.iteye.com/blog/1877266">http://zz563143188.iteye.com/blog/1877266</a></h4>
+<h4> 在技术方面无论我们怎么学习，总感觉需要提升自已不知道自己处于什么水平了。但如果有清晰的指示图供参考还是非常不错的，这样我们清楚的知道我们大概处于那个阶段和水平。</h4>
+<h4><img class="aligncenter" alt="" src="http://dl.iteye.com/upload/attachment/0082/7802/3a0ef496-b1c8-365c-853b-310fec44b836.jpg" /></h4>
+<p>&nbsp;</p>
+<h4>Java程序员</h4>
+<p>高级特性</p>
+<p>反射、泛型、注释符、自动装箱和拆箱、枚举类、可变</p>
+<p>参数、可变返回类型、增强循环、静态导入</p>
+<p>核心编程</p>
+<p>IO、多线程、实体类、</p>
+<p>集合类、正则表达式、</p>
+<p>XML和属性文件</p>
+<p>图形编程</p>
+<p>AWT（Java2D/JavaSound/JMF）、Swing、SWT、JFace</p>
+<p>网路编程</p>
+<p>Applet、Socket/TCP/UDP、NIO、RMI、CORBA</p>
+<p>Java语法基础</p>
+<p>类、抽象类、接口、最终类、静态类、匿名类、内部类、异常类、编码规范</p>
+<p>Java开发环境</p>
+<p>JDK、JVM、Eclipse、Linux</p>
+<p>Java核心编程技术</p>
+<p>Java，设计而又非常精巧的语言。学习Java，须从Java开发环境开始，到Java语法，再到Java的核心API。</p>
+<p>1.Java开发入门：Java开发环境的安装与使用，包括JDK命令、EclipseIDE、Linux下Java程序的开发和部署等。</p>
+<p>2.Java语法基础：基于JDK和Eclipse环境，进行Java核心功能开发，掌握Java面向对象的语法构成，包括类、抽象类、接口、最终类、静态类、匿名类、内部类、异常的编写。</p>
+<p>3.Java核心API：基于JDK提供的类库，掌握三大核心功能：</p>
+<p>A。Java核心编程:包括Java编程的两大核心功能——Java输入/输出流和多线程，以及常用的辅助类库——实体类、集合类、正则表达式、XML和属性文件。</p>
+<p>B。Java图形编程：包括Sun的GUI库AWT（Java2D、JavaSound、JMF）和Swing，IBM和GUI库SWT和Jface;</p>
+<p>C. Java网路编程：Applet组件编程，Socket编程，NIO非阻塞Socket编程、RMI和CORBA分布式开发。</p>
+<p>4.Java高级特性：掌握JDK1.4、JDK5.0、JDK6.0中的Java高级特性，包括反射、泛型、注释，以及java高级特性——自动装箱和拆箱、枚举类、可变参数、可变返回类型、增强循环、静态导入等。</p>
+<h4>JavaEE初级软件工程师</h4>
+<p>JSF框架开发技术</p>
+<p>配置文件（页面导航、后台Bean）、JSF组件库（JSF EL语言、HTML标签、事件处理、）、JSF核心库（格式转换、输入验证、国际化）</p>
+<p>Javaweb核心开发技术</p>
+<p>开发环境（Eclipse、Linux）</p>
+<p>三大组件（JSP、JavaBean、Servlet）</p>
+<p>扩展技术（EL、JSTL、Taglib）</p>
+<p>网页开发技术</p>
+<p>HTML、XML、CSS、JavaScript、AJAX</p>
+<p>数据库设计技术</p>
+<p>SQL、MySql、Oracle、SQLServer、JDBC</p>
+<p>Web服务器（Tomcat/Jetty/Resin/JBossWeb）</p>
+<p>JavaWeb核心技术：</p>
+<p>JavaWeb项目开发的全过程可以分解为：</p>
+<p>网页开发+数据库设计——&gt;JavaWeb项目开发，其中，javaWeb由6项基本技术组成：JSP+JavaBean+Servlet+EL+JSTL+Taglib，而JSF正是将这6种技术进行有机结合的技术框架：</p>
+<h4>JavaEE中级软件工程师</h4>
+<p>四种经典架构SSH1、SSI1、SSH2、SSI2</p>
+<p>Struts1表现层框架</p>
+<p>入门配置、核心组件、标签库、国际化、数据检验、数据库开发、Sitemesh集成、集成Hibernate/iBATIS</p>
+<p>Struts2表现层框架</p>
+<p>入门配置、核心组件、标签库、国际化、数据校验、Sitemesh集成转换器、拦截器、集成Hibernate/iBATIS</p>
+<p>Spring业务层框架</p>
+<p>入门配置、IoC容器、MVC、标签库、国际化、数据校验、数据库开发</p>
+<p>Hibernate持久层框架</p>
+<p>MySQL、Oracle、SQLServer iBATIS持久层框架</p>
+<p>MySQL、Oracle、SQLServer</p>
+<p>Web服务器（Tomcat/Jetty/Resin/JBossWeb）</p>
+<h4>Java高级软件工程师</h4>
+<p>javaWeb开源技术与框架</p>
+<p>工作流、</p>
+<p>规则引擎</p>
+<p>搜索引擎、</p>
+<p>缓存引擎 、</p>
+<p>任务调度、</p>
+<p>身份认证</p>
+<p>报表服务、</p>
+<p>系统测试、</p>
+<p>集群、</p>
+<p>负载平衡、</p>
+<p>故障转移</p>
+<p>JavaWeb分布式开发技术</p>
+<p>JTA（Java事物管理）</p>
+<p>JAAS（Java验证和授权服务）</p>
+<p>JNDI（Java命名和目录服务）</p>
+<p>JavaMail（Java邮件服务）</p>
+<p>JMS（java信息服务）</p>
+<p>WebService(web服务)</p>
+<p>JCA（java连接体系）</p>
+<p>JMS（java管理体系）</p>
+<p>应用服务器（JBossAS/WebLogic/WebSphere）</p>
+<h4>JavaEE系统架构师</h4>
+<p>面向云架构（COA）</p>
+<p>COA、SaaS、网格计算、集群计算、分布式计算、云计算</p>
+<p>面向资源架构（ROA）</p>
+<p>ROA、RESI</p>
+<p>面向web服务架构（SOA）</p>
+<p>WebService、SOA、SCA、ESB、OSGI、EAI</p>
+<p>Java设计模式</p>
+<p>创建式模式：抽象工厂/建造者/工厂方法/原型/单例</p>
+<p>构造型模式：适配器/桥接/组合/装饰/外观/享元/代理</p>
+<p>行为型模式：责任链/命令/解释器/迭代子/中介者/备忘录/观察者/状态/策略/模板方法/访问者</p>
+<p>Java与UML建模</p>
+<p>对象图、用例图、组件图、部署图、序列图、交互图、活动图、正向工程与逆向工程</p>
+<h4>CTO首席技术官</h4>
+<p>发展战略</p>
+<p>技术总监</p>
+<p>团队提升</p>
+<p>团队建设</p>
+<p>项目管理</p>
+<p>产品管理</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2013/07/30/15094/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>前端工程师 路线图 知识结构 web roadmap</title>
+		<link>http://Blog.SunnyBoy.Me/2013/07/30/15092/</link>
+		<comments>http://Blog.SunnyBoy.Me/2013/07/30/15092/#respond</comments>
+		<pubDate>Tue, 30 Jul 2013 14:42:24 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[web]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15092</guid>
+		<description><![CDATA[from: http://www.yevol.net/post/140.html]]></description>
+				<content:encoded><![CDATA[<p style="text-align: center;">
+<img class="aligncenter" style="border: 1px solid black;" alt="" src="http://i.minus.com/ibeEWr0kl7uWi5.jpg" width="555" height="345" />
+</p>
+<p>from: <a href="http://www.yevol.net/post/140.html">http://www.yevol.net/post/140.html</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2013/07/30/15092/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>每周总结 Week30 2013 0722-0728</title>
+		<link>http://Blog.SunnyBoy.Me/2013/07/29/15081/</link>
+		<comments>http://Blog.SunnyBoy.Me/2013/07/29/15081/#respond</comments>
+		<pubDate>Mon, 29 Jul 2013 19:12:14 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Life]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15081</guid>
+		<description><![CDATA[关键词: 网站迁移, 修饰词: 累死&#8230; 这周没瑞典语课, 时间都用在公司了. 本以为在vm测试完没大问题, 结果几个小问题也折腾的够呛, 比如服务器上有很多东西不能装 (虽然没人管我装不装&#8230;), 至少不能像某外包公司一样, 在服务器上装360吧&#8230;  话说ssd跑vmware也挺爽的, 同时测试3平台毫无压力 ~ CEO让我交工作报告, 我就直接给这个帖图了, 嘿嘿~]]></description>
+				<content:encoded><![CDATA[<p><img class="aligncenter" alt="" src="http://i.minus.com/j3Z7JHkQ1qo1t.png" width="555" /></p>
+<p>关键词: 网站迁移, 修饰词: 累死&#8230;</p>
+<p>这周没瑞典语课, 时间都用在公司了.</p>
+<p>本以为在vm测试完没大问题, 结果几个小问题也折腾的够呛, 比如服务器上有很多东西不能装 (虽然没人管我装不装&#8230;), 至少不能像某外包公司一样, 在服务器上装360吧&#8230;  话说ssd跑vmware也挺爽的, 同时测试3平台毫无压力 ~</p>
+<p>CEO让我交工作报告, 我就直接给这个帖图了, 嘿嘿~</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2013/07/29/15081/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>每周总结 Week29 2013 0715-0721 [SSD]</title>
+		<link>http://Blog.SunnyBoy.Me/2013/07/29/15076/</link>
+		<comments>http://Blog.SunnyBoy.Me/2013/07/29/15076/#respond</comments>
+		<pubDate>Mon, 29 Jul 2013 19:04:40 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Life]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15076</guid>
+		<description><![CDATA[这周&#8230; 主要任务重装系统 ~~ 开机15分钟, tmd实在忍无可忍, 在捉襟见肘的情况下, 毅然决然, 毫不留情, 绝不手软, 赊账买了比国内贵n多的ssd. //实在等不及了, 随便开个程序就卡死 (已经开了两排了&#8230; 木滴办法&#8230;) &#8230; 话说效果还是不错滴 ~~ 纯净系统自检之后3秒见&#8221;welcome&#8221; 至于显卡 &#8230; 算了, 暂时不玩游戏, 不做设计 ~~]]></description>
+				<content:encoded><![CDATA[<p><img class="aligncenter" alt="" src="http://i.minus.com/jbjw82wZBNnDEf.png" width="555" /></p>
+<p>这周&#8230; 主要任务重装系统 ~~<br />
+<img class="aligncenter" alt="" src="http://i.minus.com/jiJMQK0fvqLiZ.jpg" width="555" /></p>
+<p>开机15分钟, tmd实在忍无可忍, 在捉襟见肘的情况下, 毅然决然, 毫不留情, 绝不手软, 赊账买了比国内贵n多的ssd. //实在等不及了, 随便开个程序就卡死 (已经开了两排了&#8230; 木滴办法&#8230;) &#8230;<br />
+<img class="aligncenter" alt="" src="http://i.minus.com/jbcKA0qOfCnQIZ.png" width="555" /></p>
+<p>话说效果还是不错滴 ~~ 纯净系统自检之后3秒见&#8221;welcome&#8221;</p>
+<p>至于显卡 &#8230; 算了, 暂时不玩游戏, 不做设计 ~~</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2013/07/29/15076/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>每周总结 Week28 2013 0708-0714 [谢俊哥]</title>
+		<link>http://Blog.SunnyBoy.Me/2013/07/29/15070/</link>
+		<comments>http://Blog.SunnyBoy.Me/2013/07/29/15070/#respond</comments>
+		<pubDate>Mon, 29 Jul 2013 18:42:00 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Life]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15070</guid>
+		<description><![CDATA[总算有一点 life 了, 呵呵 ~ // 是谁第一个把&#8221;呵呵&#8221;翻译成&#8221; interesting 的? 用cpu代替声卡, 也只能这么着了, 外置声卡好贵啊&#8230; 继续读&#60;白帽子讲web安全&#62;, 道哥讲的不错, 发现知道的太少了&#8230; 再谢谢俊哥当时留下这批好书 ~ 小熊抱着的是&#8221;最好的朋友&#8221;, 呵呵 ~ 放着挺合适 //那个蹩脚的 c++ 是当时自己带的, 因为笔记都在上面, 尤其指针部分 &#8230;. &#160;]]></description>
+				<content:encoded><![CDATA[<p><img class="aligncenter" alt="" src="http://i.minus.com/j7eO2OmQGMIss.png" width="555" /></p>
+<p>总算有一点 life 了, 呵呵 ~ // 是谁第一个把&#8221;呵呵&#8221;翻译成&#8221; interesting 的?</p>
+<p>用cpu代替声卡, 也只能这么着了, 外置声卡好贵啊&#8230;</p>
+<p>继续读&lt;白帽子讲web安全&gt;, 道哥讲的不错, 发现知道的太少了&#8230; 再谢谢俊哥当时留下这批好书 ~</p>
+<p>小熊抱着的是&#8221;最好的朋友&#8221;, 呵呵 ~ 放着挺合适</p>
+<p>//那个蹩脚的 c++ 是当时自己带的, 因为笔记都在上面, 尤其指针部分 &#8230;.<br />
+<img class="aligncenter" alt="" src="http://i.minus.com/jiYAOmXA9qxCr.jpg" width="555" /></p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2013/07/29/15070/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>每周总结 Week27 2013 0701-0707</title>
+		<link>http://Blog.SunnyBoy.Me/2013/07/29/15068/</link>
+		<comments>http://Blog.SunnyBoy.Me/2013/07/29/15068/#respond</comments>
+		<pubDate>Mon, 29 Jul 2013 18:35:47 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Life]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15068</guid>
+		<description><![CDATA[额&#8230; 自从用了 scrum board, 就没在blog写过总结&#8230; 还是补上吧, 这个习惯挺不错的. week 27开始暑假瑞典语班 // 我汗, 为啥暑假还有班 &#8230;&#8230; 话说life的时间有点少&#8230;. 额&#8230; 貌似这种总结本身就是life分类的, 我晕 &#8230;.]]></description>
+				<content:encoded><![CDATA[<p><img class="aligncenter" alt="" src="http://i.minus.com/jq0To7jLVoXMg.png" width="555" /></p>
+<p>额&#8230; 自从用了 scrum board, 就没在blog写过总结&#8230; 还是补上吧, 这个习惯挺不错的.</p>
+<p>week 27开始暑假瑞典语班 // 我汗, 为啥暑假还有班 &#8230;&#8230;</p>
+<p>话说life的时间有点少&#8230;. 额&#8230; 貌似这种总结本身就是life分类的, 我晕 &#8230;.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2013/07/29/15068/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>O&#8217;Reilly原版Linux图书学习线路图</title>
+		<link>http://Blog.SunnyBoy.Me/2013/07/29/15065/</link>
+		<comments>http://Blog.SunnyBoy.Me/2013/07/29/15065/#respond</comments>
+		<pubDate>Mon, 29 Jul 2013 18:23:59 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[nix]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15065</guid>
+		<description><![CDATA[from: http://www.embeddedlinux.org.cn/html/xinshourumen/200811/07-311.html]]></description>
+				<content:encoded><![CDATA[<p><img class="aligncenter" alt="" src="http://www.embeddedlinux.org.cn/uploads/userup/0811/0G5023341C.png" width="555" /></p>
+<p>from: <a href="http://www.embeddedlinux.org.cn/html/xinshourumen/200811/07-311.html">http://www.embeddedlinux.org.cn/html/xinshourumen/200811/07-311.html</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2013/07/29/15065/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Web Stressing [压力测试] 工具</title>
+		<link>http://Blog.SunnyBoy.Me/2013/07/29/15062/</link>
+		<comments>http://Blog.SunnyBoy.Me/2013/07/29/15062/#respond</comments>
+		<pubDate>Mon, 29 Jul 2013 17:32:47 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15062</guid>
+		<description><![CDATA[先mark一下, 待用. 搜了一下 http://bit.ly/18Nbz4N , http://coolshell.cn/articles/2589.html 常见的压力测试工具: apache自带的ab; jmeter http://www.cnblogs.com/wang1988ming/archive/2012/08/01/2618550.html pylot grinder http://grinder.sourceforge.net/ siege web bench http_load &#160; REF: http://coolshell.cn/articles/2589.html http://blog.csdn.net/lxlmj/article/details/6881224]]></description>
+				<content:encoded><![CDATA[<p>先mark一下, 待用.</p>
+<p>搜了一下 <a href="http://bit.ly/18Nbz4N">http://bit.ly/18Nbz4N</a> , <a href="http://coolshell.cn/articles/2589.html">http://coolshell.cn/articles/2589.html</a></p>
+<p>常见的压力测试工具:</p>
+<ul>
+<li>apache自带的ab;</li>
+<li>jmeter <a href="http://www.cnblogs.com/wang1988ming/archive/2012/08/01/2618550.html">http://www.cnblogs.com/wang1988ming/archive/2012/08/01/2618550.html</a></li>
+<li>pylot</li>
+<li>grinder <a href="http://grinder.sourceforge.net/">http://grinder.sourceforge.net/</a></li>
+<li>siege</li>
+<li>web bench</li>
+<li>http_load</li>
+</ul>
+<p>&nbsp;</p>
+<p>REF:</p>
+<p><a href="http://coolshell.cn/articles/2589.html">http://coolshell.cn/articles/2589.html</a></p>
+<p><a href="http://blog.csdn.net/lxlmj/article/details/6881224">http://blog.csdn.net/lxlmj/article/details/6881224</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2013/07/29/15062/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>如何写出好的SEO的博客</title>
+		<link>http://Blog.SunnyBoy.Me/2013/07/24/15015/</link>
+		<comments>http://Blog.SunnyBoy.Me/2013/07/24/15015/#respond</comments>
+		<pubDate>Wed, 24 Jul 2013 22:59:39 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[seo]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15015</guid>
+		<description><![CDATA[其实, SEO 的对象就是用户习惯. 一方面要去猜用户习惯, 另一方面, 要通过技术或其他的分析了解用户&#8221;下意识&#8221;的习惯. 这里有个配图是个很好的例子: http://www.woseo.cn/xuzhi/264.html &#160; 写文章 标题要短小精悍, 突出关键词, 越重要的词汇应该越靠前. 对于wordpress, 由于编辑完题目后wp会自动生成链接, 所以一定要先想好题目再&#8221;新建&#8221;博文. &#160; 放视频 如下图, 取iframe通用代码, 复制之后粘贴到text编辑模式中, 发布之后才能看到真实的效果. 发外链【to be cont】 在自己文章指向的网址里面加个评论, 然后在评论里写上自己网站的某个页面, 不要是同一篇文章. &#160; 常更新 每周至少两篇文章, 这样搜索引擎会认为站点活跃. &#160; 放图片 最吸引眼球的就是图片和视频了. 在wp插入媒体时, 可以选择上传或者直接使用图片url地址. 前者稳定, 使用自己的服务器, 后者可以减少自己服务器负担, 但是图片有可能会失效, 比如原网站关闭或者使用了外链限制. 如果一个图片本身不清晰, 例如这个: http://bit.ly/1aPR3kM , 可以使用 images.google.com 的图片搜索功能找到更清晰的. 只要先在原图片点右键, 复制图片url地址, 然后在这里: 点照相机图标, 然后粘贴进去刚才复制的地址, G00GLE就会给出很多相似图片: http://bit.ly/16JcNXQ . 因为希望看到中文的, 所以选择第三个搜索结果 (&#8220;德国工业设计师迪特·拉姆斯&#8220;). 同样, 在图片点右键可以得到这张图片的链接是: [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>其实, SEO 的对象就是用户习惯. 一方面要去猜用户习惯, 另一方面, 要通过技术或其他的分析了解用户&#8221;下意识&#8221;的习惯. 这里有个配图是个很好的例子: <a href="http://www.woseo.cn/xuzhi/264.html">http://www.woseo.cn/xuzhi/264.html</a></p>
+<p>&nbsp;</p>
+<h2>写文章</h2>
+<p>标题要短小精悍, 突出关键词, 越重要的词汇应该越靠前. 对于wordpress, 由于编辑完题目后wp会自动生成链接, 所以一定要先想好题目再&#8221;新建&#8221;博文.</p>
+<p>&nbsp;</p>
+<h2 id="video">放视频</h2>
+<p>如下图, 取iframe通用代码, 复制之后粘贴到text编辑模式中, 发布之后才能看到真实的效果.</p>
+<p style="text-align: center;"><img class="aligncenter" style="border: 1px solid black;" alt="" src="http://i.minus.com/jV6ubvxQIV9GT.png" width="555" height="346" /><br />
+<img class="aligncenter" style="border: 1px solid black;" alt="" src="http://i.minus.com/joR2WHaYt7vH.png" width="555" /></p>
+<h2>发外链【to be cont】</h2>
+<p>在自己文章指向的网址里面加个评论, 然后在评论里写上自己网站的某个页面, 不要是同一篇文章.</p>
+<p>&nbsp;</p>
+<h2>常更新</h2>
+<p>每周至少两篇文章, 这样搜索引擎会认为站点活跃.</p>
+<p>&nbsp;</p>
+<h2>放图片</h2>
+<p>最吸引眼球的就是图片和视频了.</p>
+<p>在wp插入媒体时, 可以选择上传或者直接使用图片url地址. 前者稳定, 使用自己的服务器, 后者可以减少自己服务器负担, 但是图片有可能会失效, 比如原网站关闭或者使用了外链限制.</p>
+<p style="text-align: left;">如果一个图片本身不清晰, 例如这个: <a href="http://bit.ly/1aPR3kM">http://bit.ly/1aPR3kM</a> , 可以使用 <a href="http://images.google.com">images.google.com</a> 的图片搜索功能找到更清晰的. 只要先在原图片点右键, 复制<strong>图片url地址</strong>, 然后在这里:</p>
+<div style="width: 586px" class="wp-caption aligncenter"><img class=" " style="border: 1px solid black;" alt="google image search" src="http://Blog.SunnyBoy.Me/wp-content/uploads/2013/07/image search google.png" width="576" height="200" /><p class="wp-caption-text">google image search</p></div>
+<p style="text-align: left;">点照相机图标, 然后粘贴进去刚才复制的地址, G00GLE就会给出很多相似图片: <a href="http://bit.ly/16JcNXQ">http://bit.ly/16JcNXQ</a> . 因为希望看到中文的, 所以选择第三个搜索结果 (&#8220;<a href="http://huaban.com/pins/32869400" target="_blank">德国工业设计师迪特·拉姆斯</a>&#8220;). 同样, 在图片点右键可以得到这张图片的链接是:  <a href="http://img.hb.aicdn.com/1d37cc200e4fbf483f279364c8667832982488491ee8d-i4vVh1_fw580">http://img.hb.aicdn.com/1d37cc200e4fbf483f279364c8667832982488491ee8d-i4vVh1_fw580</a>  比原来的那张清晰许多.</p>
+<p style="text-align: left;"><span style="text-decoration: underline;">上传图片之前先把图片文件名改成英文的, wp对中文支持不好.</span></p>
+<p style="text-align: left;">插入图片时候, 有个&#8221;alt&#8221;(&#8220;替代文本&#8221;), 最好填写有意义的词来描述图片. 例如上图&#8221; google-图片搜索&#8221;. 最好用短横线分隔图片文件名和&#8221;替代文本&#8221;里面的关键词.</p>
+<h2 style="text-align: left;">Tags</h2>
+<p>本人平时用tags最方便的是回车分隔，另外， &#8220;智能家居&#8221; 和 &#8220;智能&#8221; 以及 &#8220;家居&#8221; 是三个词.</p>
+<p>&nbsp;</p>
+<h2>WordPress SEO by Yoast</h2>
+<p>正式发表之前, 先“存草稿”，使用&#8221;Focus keyword&#8221;预测和矫正SEO结果.</p>
+<p>&nbsp;</p>
+<h2>Technical Troubleshooting</h2>
+<p>Yoast SEO sitemap 404: <a href="http://www.wpbeginner.com/wp-tutorials/how-to-fix-yoasts-wordpress-seo-sitemap-404-error/">http://www.wpbeginner.com/wp-tutorials/how-to-fix-yoasts-wordpress-seo-sitemap-404-error/</a></p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2013/07/24/15015/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>NIX (unix OR&#8221;linux&#8221; OR&#8221;ubuntu&#8221; OR&#8221;kubuntu&#8221; OR&#8221;redhat&#8221; OR&#8221;debian&#8221; OR&#8221;centos&#8221; OR&#8221;fedora&#8221;)</title>
+		<link>http://Blog.SunnyBoy.Me/2013/07/24/15023/</link>
+		<comments>http://Blog.SunnyBoy.Me/2013/07/24/15023/#comments</comments>
+		<pubDate>Wed, 24 Jul 2013 17:53:15 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[nix]]></category>
+		<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15023</guid>
+		<description><![CDATA[Linux入门 http://vbird.dic.ksu.edu.tw/ &#160; SELinux Set right for apache/httpd: https://access.redhat.com/site/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Security-Enhanced_Linux/sect-Security-Enhanced_Linux-Working_with_SELinux-SELinux_Contexts_Labeling_Files.html To disable selinux: http://www.thegeekstuff.com/2009/06/how-to-disable-selinux-redhat-fedora-debian-unix/ SElinux &#62; Allow apache to use remote  DB: setsebool -P httpd_can_network_connect_db=1 SELinux &#62; Allow apache /php to send email: sudo setsebool -P httpd_can_sendmail 1 ## with the &#8220;-P&#8221; for persistent (across reboots). Trouble shooting: "You have new mail ...": install mailx updatedb / [&#8230;]]]></description>
+				<content:encoded><![CDATA[<h2>Linux入门</h2>
+<p>http://vbird.dic.ksu.edu.tw/</p>
+<p>&nbsp;</p>
+<h2>SELinux</h2>
+<h3>Set right for apache/httpd:</h3>
+<p>https://access.redhat.com/site/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Security-Enhanced_Linux/sect-Security-Enhanced_Linux-Working_with_SELinux-SELinux_Contexts_Labeling_Files.html</p>
+<h3>To disable selinux:</h3>
+<p>http://www.thegeekstuff.com/2009/06/how-to-disable-selinux-redhat-fedora-debian-unix/</p>
+<h2>SElinux &gt; Allow apache to use remote  DB:</h2>
+<pre>setsebool -P httpd_can_network_connect_db=1</pre>
+<h2>SELinux &gt; Allow apache /php to send email:</h2>
+<p><code>sudo setsebool -P httpd_can_sendmail 1 </code>## with the &#8220;-P&#8221; for persistent (across reboots).</p>
+<h2>Trouble shooting:</h2>
+<pre>"You have new mail ...": install mailx</pre>
+<pre>updatedb / locate: command not found: install mlocate</pre>
+<p>&nbsp;</p>
+<h2>SSH Tunneling</h2>
+<p><span style="line-height: 1.714285714; font-size: 1rem;">ssh -D 8080 -f -C -q -N myuser@remote_ssh_server</span></p>
+<p>-D 8080 : This does the dynamic stuff and makes it behave as a SOCKS server.<br />
+-f : This will fork the process into the background after you type your password.<br />
+-C : Turns on compression.<br />
+-q : Quiet mode. Since this is just a tunnel we can make it quiet.<br />
+-N : Tells it no commands will be sent. (the -f will complain if we don’t specify this)</p>
+<p>In Firefox use about:config</p>
+<p>network.proxy.no_proxies_on : localhost, 127.0.0.1, 192.168.0.0/24, .yourcompany.com<br />
+network.proxy.socks : 127.0.0.1<br />
+network.proxy.socks_port : 8080<br />
+<strong>network.proxy.socks.remote_dns : true</strong><br />
+network.proxy.socks_version : 5<br />
+network.proxy.type : 1</p>
+<p>ref: http://www.linuxjournal.com/content/use-ssh-create-http-proxy</p>
+<p>&nbsp;</p>
+<h2>Install RHEL <span style="text-decoration: underline;"><em>EPEL Repo</em></span> on Centos 6</h2>
+<p>OBS: when installing CentOS, it is suggested to install the &#8220;with updates&#8221; version.</p>
+<pre>wget http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
+wget http://rpms.famillecollet.com/enterprise/remi-release-6.rpm
+sudo rpm -Uvh remi-release-6*.rpm epel-release-6*.rpm</pre>
+<pre>sudo vim /etc/yum.repos.d/remi.repo 
+    enabled=1</pre>
+<p>http://www.rackspace.com/knowledge_center/article/installing-rhel-epel-repo-on-centos-5x-or-6x</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2013/07/24/15023/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>PHP In Case Of</title>
+		<link>http://Blog.SunnyBoy.Me/2013/07/24/15026/</link>
+		<comments>http://Blog.SunnyBoy.Me/2013/07/24/15026/#respond</comments>
+		<pubDate>Wed, 24 Jul 2013 17:53:04 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[nix]]></category>
+		<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15026</guid>
+		<description><![CDATA[Fatal error: Call to undefined function mb_strlen() apt-get / yum search mbstring ; apt-get / yum install php-mbstring ... http://blog.fity.cn/post/187/ &#160; Fatal error: Call to undefined function imagecreate() and it takes a lot of time to upload a image. apt-get install php5-gd http://www.php.net/manual/en/image.installation.php &#160; Warning: It is not safe to rely on the system&#8217;s timezone settings Solution: [&#8230;]]]></description>
+				<content:encoded><![CDATA[<h2>Fatal error: Call to undefined function <span style="text-decoration: underline;">mb_strlen()</span></h2>
+<pre>apt-get / yum search mbstring ; apt-get / yum install php-mbstring ...</pre>
+<p><a href="http://blog.fity.cn/post/187/">http://blog.fity.cn/post/187/</a></p>
+<p>&nbsp;</p>
+<h2>Fatal error: Call to undefined function <span style="text-decoration: underline;">imagecreate()</span></h2>
+<p>and it takes a lot of time to upload a image.</p>
+<pre>apt-get install php5-gd</pre>
+<p><a href="http://www.php.net/manual/en/image.installation.php">http://www.php.net/manual/en/image.installation.php</a></p>
+<p>&nbsp;</p>
+<h2>Warning: It is not safe to rely on the system&#8217;s timezone settings</h2>
+<p>Solution: modify php.ini:</p>
+<pre>date.timezone = Asia/Shanghai</pre>
+<p><a href="http://stackoverflow.com/questions/2213608/php-configuration-it-is-not-safe-to-rely-on-the-systems-timezone-settings">http://stackoverflow.com/questions/2213608/php-configuration-it-is-not-safe-to-rely-on-the-systems-timezone-settings</a></p>
+<p>&nbsp;</p>
+<h2>Set Include Path in PHP File</h2>
+<pre>set_include_path(get_include_path() . PATH_SEPARATOR . $path);</pre>
+<p>&nbsp;</p>
+<h2>Speedup Zend Studio</h2>
+<p><a href="http://devzone.zend.com/3291/10-tips-for-a-speedy-zend-studio/">http://devzone.zend.com/3291/10-tips-for-a-speedy-zend-studio/</a></p>
+<p>&nbsp;</p>
+<h2>Error and Log</h2>
+<p><strong>user_error($str)</strong> prints the string in apache error log with php file path and line number.</p>
+<p><strong>error_log($str)</strong> prints only the string in apache error log.</p>
+<p>Both will not influence http status (will be 200).</p>
+<p><a href="http://php.net/manual/en/ref.errorfunc.php">http://php.net/manual/en/ref.errorfunc.php</a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2013/07/24/15026/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Password</title>
+		<link>http://Blog.SunnyBoy.Me/2013/07/16/15013/</link>
+		<comments>http://Blog.SunnyBoy.Me/2013/07/16/15013/#respond</comments>
+		<pubDate>Tue, 16 Jul 2013 20:41:01 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15013</guid>
+		<description><![CDATA[Many people have the problem of memorizing passwords in different web sites, so they decided to use one password for all the web sites. But the risk is obvious, if a hacker could get one of your accounts, it means all your accounts, maybe even your online bank. Then one may try use different passwords [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>Many people have the problem of memorizing passwords in different web sites, so they decided to use one password for all the web sites. But the risk is obvious, if a hacker could get one of your accounts, it means all your accounts, maybe even your online bank.</p>
+<p>Then one may try use different passwords for different sites &#8230; It becomes a vicious circle &#8230;</p>
+<p>Here are some tips which you could use to generate your passwords.</p>
+<ol>
+<li><strong>Catheterize</strong> the web sites. For example, here are my categories:
+<ul>
+<li>Online Bank and other very personal accounts.</li>
+<li>Business and social friends.</li>
+<li>Free-hacking, very not important, one-time, or for downloading, etc.</li>
+</ul>
+</li>
+<li><strong>Decide &#8220;algorithm&#8221;</strong> for each category. For example, for the most important category:
+<ol>
+<li><strong>Choose a username.</strong> If you have a domain(like me), you could make use of it to have many emails, which is great. If not, then what you need is one category one email / username. Three usernames, or even several more, should not be a problem. Actually, I have &#8230;..  sorry, cannot count, toooooo many &#8230;.</li>
+<li><strong>Choose a number.</strong> which should be meaningless. For instance, take your two friends&#8217; birthday, (1950-05-16, 1966-06-19) and mix them together to 9165591. But how? This might be complicated: <span style="color: #0000ff;">1950-05</span><span style="color: #999999;">-16, 1966-</span><span style="color: #0000ff;">06-19</span> (remove middle)&gt; 195<span style="color: #c0c0c0;">0-0</span>5<span style="color: #c0c0c0;">-0</span>6-19 &gt; 195-56-19 (reverse)&gt; 9165591. You may choose a easier-to-remember method, but make sure you did some reverse thing, so the continuous digits will not be considered as a number / birthday in a calendar, as the hackers would like to try birthdays first.</li>
+<li><strong>Choose a string.</strong> The easiest way will be the name / domain / pinyin of the website, so you could have one site one pass. But make sure the hacker could not guess how you generate the string. For example, instead of use &#8220;google&#8221; for your gmail, &#8220;gg&#8221; (initilized pinyin) is a better choice, especially for non-chinese websites, as there is a wall between chinese sites and the others. &#8220;gg&#8221; could be optimized as &#8220;Gg&#8221;, so you could also get the capital letter(s).</li>
+<li><strong>Choose a special char</strong>acteristic. For example, single quote, equal sign, comma, dot,  etc&#8230;.</li>
+<li><strong>Concatenate</strong> the number, the string and the char. You may wanna put the char into the number to further improve the security and randomness.</li>
+</ol>
+</li>
+<li>For less important accounts, the algorithm could become less complicated, but also make sure that even the hacker got one of the algorithms, they could not guess another one.</li>
+</ol>
+<p>Done</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2013/07/16/15013/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>ｇ＋ digest 更新 2013/07/05</title>
+		<link>http://Blog.SunnyBoy.Me/2013/07/05/14989/</link>
+		<comments>http://Blog.SunnyBoy.Me/2013/07/05/14989/#respond</comments>
+		<pubDate>Fri, 05 Jul 2013 05:00:48 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Default]]></category>
+		<category><![CDATA[Music]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/2013/07/05/14989/</guid>
+		<description><![CDATA[04.07.2013 21:19 Wiktionary RDF extraction. Currently available languages: English, German, French, Russian In the works: Greece, Vietnamese Need data from other languages? Help us creating wrappers for each language editions (if you know Regex, XML and Wiktionary, an initial wrapper can be created in less than &#8230; Digest powered by RSS Digest]]></description>
+				<content:encoded><![CDATA[<ul class="scrd_digest">
+<li><a href="https://plus.google.com/112706220355730950411/posts/EwJWCc8aPTG" rel="external">04.07.2013 21:19</a>
+<div>
+<div class='attachments'>
+<p class='attachment article'>
+										<a href='http://wiki.dbpedia.org/Wiktionary?show_files=1' target='_blank'><img src='https://lh5.googleusercontent.com/proxy/tygbzAPl0Eb07JWuIU15RL63UlG-MAHAFXEDIkCc3nJhXNCmBFRR-d2opHL7KRlb2seb7dNdVwfPmmjve3S4=w125-h125' height='100' />
+<p class='attachment_article_content'>Wiktionary RDF extraction. Currently available languages: English, German, French, Russian In the works: Greece, Vietnamese Need data from other languages? Help us creating wrappers for each language editions (if you know Regex, XML and Wiktionary, an initial wrapper can be created in less than &#8230;</p>
+<p></a>
+									</p>
+</div>
+</div>
+</li>
+</ul>
+<p class="scrd_credit">Digest powered by <a href="http://www.rssdigestpro.com">RSS Digest</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2013/07/05/14989/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>瑞典语 语法: 动词-&gt;常见 近义词,反义词 [Verb] [Synonym], [Motsats]/[Motsatsord]</title>
+		<link>http://Blog.SunnyBoy.Me/2013/07/04/14974/</link>
+		<comments>http://Blog.SunnyBoy.Me/2013/07/04/14974/#respond</comments>
+		<pubDate>Thu, 04 Jul 2013 18:51:14 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Stefanie]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=14974</guid>
+		<description><![CDATA[&#160; Synonymer: arbetar jobbar börjar startar dör avlider faller snubblar fixar 1. reparerar; 2. ordnar = organiserar; 3. lagar förstår begriper går promenerar hatar /²h`a:tar/ avskyr /²`a:vʃy:/ kastar slänger lagar reparerar pratar talar söker letar tycker anser /²`an:se:r/ tycker om gillar åker reser &#160; Motsatser: börjar slutar exporterar importerar förstår misförstår går in går ut [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>&nbsp;</p>
+<p>Synonymer:</p>
+<table width="289" border="0" cellspacing="0" cellpadding="0">
+<colgroup>
+<col width="128" />
+<col width="161" /> </colgroup>
+<tbody>
+<tr>
+<td width="128" height="21">arbetar</td>
+<td width="161">jobbar</td>
+</tr>
+<tr>
+<td width="128" height="21">börjar</td>
+<td width="161">startar</td>
+</tr>
+<tr>
+<td width="128" height="21">dör</td>
+<td width="161"><span style="color: #ff0000;">avlider</span></td>
+</tr>
+<tr>
+<td width="128" height="21">faller</td>
+<td width="161">snubblar</td>
+</tr>
+<tr>
+<td width="128" height="43"><span style="text-decoration: underline;">fixar</span></td>
+<td width="161"><span style="text-decoration: underline;">1. reparerar;</span><br />
+<span style="text-decoration: underline;"> 2. ordnar = organiserar;</span><br />
+<span style="text-decoration: underline;"> 3. lagar</span></td>
+</tr>
+<tr>
+<td width="128" height="21">förstår</td>
+<td width="161">begriper</td>
+</tr>
+<tr>
+<td width="128" height="21">går</td>
+<td width="161">promenerar</td>
+</tr>
+<tr>
+<td width="128" height="21">hatar /²h`a:tar/</td>
+<td width="161">avskyr /²`a:vʃy:/</td>
+</tr>
+<tr>
+<td width="128" height="21">kastar</td>
+<td width="161"><span style="color: #ff0000;">slänger</span></td>
+</tr>
+<tr>
+<td width="128" height="21">lagar</td>
+<td width="161">reparerar</td>
+</tr>
+<tr>
+<td width="128" height="21">pratar</td>
+<td width="161">talar</td>
+</tr>
+<tr>
+<td width="128" height="21">söker</td>
+<td width="161">letar</td>
+</tr>
+<tr>
+<td width="128" height="21">tycker</td>
+<td width="161"><span style="color: #ff0000;">anser</span> /²`an:se:r/</td>
+</tr>
+<tr>
+<td width="128" height="21">tycker om</td>
+<td width="161">gillar</td>
+</tr>
+<tr>
+<td width="128" height="20"><span style="text-decoration: underline;">åker</span></td>
+<td width="161"><span style="text-decoration: underline;">reser</span></td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>Motsatser:</p>
+<table width="289" border="0" cellspacing="0" cellpadding="0">
+<colgroup>
+<col width="128" />
+<col width="161" /> </colgroup>
+<tbody>
+<tr>
+<td width="128" height="21">börjar</td>
+<td width="161">slutar</td>
+</tr>
+<tr>
+<td width="128" height="21"><span style="text-decoration: underline;">exporterar</span></td>
+<td width="161"><span style="text-decoration: underline;">importerar</span></td>
+</tr>
+<tr>
+<td width="128" height="21">förstår</td>
+<td width="161">misförstår</td>
+</tr>
+<tr>
+<td width="128" height="21">går in</td>
+<td width="161">går ut</td>
+</tr>
+<tr>
+<td width="128" height="21">hö<span style="color: #ff0000;">j</span>er</td>
+<td width="161">sänker</td>
+</tr>
+<tr>
+<td width="128" height="21">kommer ihåg</td>
+<td width="161">glömm<span style="color: #ff0000;">er</span></td>
+</tr>
+<tr>
+<td width="128" height="21">köper</td>
+<td width="161">säljer</td>
+</tr>
+<tr>
+<td width="128" height="21">lever</td>
+<td width="161">dör</td>
+</tr>
+<tr>
+<td width="128" height="21">lyckas</td>
+<td width="161"><span style="color: #ff0000;">mi<strong>ss</strong>lyckas</span></td>
+</tr>
+<tr>
+<td width="128" height="21"><span style="color: #ff0000;">skratt</span><span style="color: #ff0000;"><strong><span style="color: #ff0000;">ar </span> </strong><span style="color: #999999;">/²skr`at:ar/</span></span></td>
+<td width="161"><span style="color: #ff0000;">gråt<strong>er</strong></span></td>
+</tr>
+<tr>
+<td width="128" height="21">somnar</td>
+<td width="161">vaknar</td>
+</tr>
+<tr>
+<td width="128" height="21">tömm<span style="color: #ff0000;"><strong>er</strong></span></td>
+<td width="161">fyll<strong><span style="color: #ff0000;">er</span></strong></td>
+</tr>
+<tr>
+<td width="128" height="21">vinner</td>
+<td width="161"><span style="color: #ff0000;">förlorar</span> <span style="color: #999999;">/för‿l`o:rar/</span></td>
+</tr>
+<tr>
+<td width="128" height="21">älskar</td>
+<td width="161">hatar</td>
+</tr>
+<tr>
+<td width="128" height="20">öppnar</td>
+<td width="161">stänger</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2013/07/04/14974/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>瑞典语 语法: 句子副词 / 副词状语 [Adverbial] [Adverb] [Svenska]</title>
+		<link>http://Blog.SunnyBoy.Me/2013/07/04/14939/</link>
+		<comments>http://Blog.SunnyBoy.Me/2013/07/04/14939/#respond</comments>
+		<pubDate>Thu, 04 Jul 2013 16:07:30 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Svenska]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=14939</guid>
+		<description><![CDATA[状语有4种. &#160; 1. Frågande adverb När &#8230;? Var &#8230;? Vart &#8230;? Varifrån &#8230;? Hur &#8230;? Varför &#8230;? &#160; 2. Tidsadverb 2.1 Dåtid 从现在到过去依次排列:  i morse nyss  (för en liten stund sedan) igår i förrgår = dagen före igår häromdagen  /hä:råmd`a:gen/ (någon dag sedan)  i fjol /fjo:l/ = förra året förut = förr, tidigare då ((at that time)) &#160; 时间状语中表 频率 的有(依次排列): alltid ofta då och då = [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>状语有4种.</p>
+<p>&nbsp;</p>
+<h2>1. Frågande adverb</h2>
+<p>När &#8230;? Var &#8230;? Vart &#8230;? Varifrån &#8230;? Hur &#8230;? Varför &#8230;?</p>
+<p>&nbsp;</p>
+<h2>2. Tidsadverb</h2>
+<h3>2.1 Dåtid</h3>
+<p><span style="color: #999999;">从现在到过去依次排列: </span></p>
+<p>i morse</p>
+<p><span style="color: #ff0000;">nyss </span> (för en liten stund sedan)</p>
+<p>igår</p>
+<p>i <span style="color: #ff0000;">förrgår <span style="color: #000000;">= dagen före igår</span></span></p>
+<p><span style="color: #ff0000;">häromdagen</span>  <span style="color: #999999;">/hä:råmd`a:gen/<span style="color: #000000;"> (någon dag sedan)</span> </span></p>
+<p><span style="color: #ff0000;">i fjol</span> <span style="color: #999999;">/fjo:l/</span> = förra året</p>
+<p><span style="color: #ff0000;">förut</span> = förr, tidigare</p>
+<p>då <span style="color: #999999;">((at that time))</span></p>
+<p>&nbsp;</p>
+<p><span style="color: #999999;">时间状语中表 <strong>频率 </strong>的有(依次排列):</span></p>
+<p>alltid</p>
+<p>ofta</p>
+<p>då och då = ibland</p>
+<p><span style="color: #ff0000;">sällan</span></p>
+<p>aldrig</p>
+<p>&nbsp;</p>
+<h3>2.2 Nutid</h3>
+<p>nu, idag, i år</p>
+<p>&nbsp;</p>
+<h3>2.3 Framtid</h3>
+<p><span style="color: #999999;">从现在到过去 依次排列:</span></p>
+<p>genast = snart = direkt = strax ≈ nu</p>
+<p>sedan = sen <span style="color: #999999;">((=later))</span></p>
+<p>i morgon <span style="color: #ff0000;">bitti</span> = tidigt i morgon<span style="color: #999999;"> ((&#8220;early in the morning&#8221;))</span></p>
+<p>i morgon</p>
+<p><span style="color: #ff0000;">i övermorgon</span></p>
+<p>nästa år</p>
+<p>&nbsp;</p>
+<h2>3. Rumsadverb</h2>
+<p><span style="color: #999999;">经典/易错的有:</span></p>
+<table>
+<tbody>
+<tr>
+<td><span style="color: #999999;"><strong>动态动词(rörelse)</strong></span></td>
+<td><span style="color: #999999;"><strong>静态动词(befintlighet)</strong></span></td>
+</tr>
+<tr>
+<td>kommer <span style="color: #0000ff;">hit / dit</span></td>
+<td>är <span style="color: #0000ff;">här / där</span></td>
+</tr>
+<tr>
+<td>går <span style="color: #0000ff;">in / ut</span></td>
+<td>är<span style="color: #0000ff;"> inne / ute</span></td>
+</tr>
+<tr>
+<td>spring <span style="color: #0000ff;">upp</span></td>
+<td>sitter <span style="color: #0000ff;">uppe</span></td>
+</tr>
+<tr>
+<td>går <span style="color: #0000ff;">ner</span></td>
+<td>står <span style="color: #0000ff;">nere</span></td>
+</tr>
+<tr>
+<td>Vi ska åka <span style="color: #0000ff;">bort</span>.</td>
+<td><span style="color: #0000ff;">Borta </span>bra men hemma bäst.</td>
+</tr>
+<tr>
+<td>Kom <span style="color: #0000ff;">hem</span>!</td>
+<td>Jag är <span style="color: #0000ff;">hemma</span>.</td>
+</tr>
+<tr>
+<td><span style="text-decoration: underline; color: #ff0000;">Vart </span>ska du gå?</td>
+<td><span style="text-decoration: underline; color: #ff0000;">Var</span> bor du?</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p><span style="color: #999999;">有些副词可以表示方向:</span></p>
+<p>t.ex: in -&gt; <span style="color: #0000ff;">in-i-från</span>, ut -&gt; <span style="color: #0000ff;">ut-i-från</span>,</p>
+<p><span style="color: #0000ff;">härifrån, därifrån, uppifrån, nerifrån, hemifrån, bortifrån, framifrån</span>.</p>
+<p><span style="color: #888888;">例句:</span></p>
+<p>&#8212; Stäng dörren! Det drar så kallt <span style="color: #0000ff;">utifrån</span>.</p>
+<p>&#8212; Nu går vi <span style="color: #0000ff;">härifrån</span>. Jag vill inte stå <strong>här</strong> längre.</p>
+<p>&#8212; Vi måste köra <span style="color: #0000ff;">hemifrån</span> nu så att jag hinner <span style="color: #ff0000;">byta om</span>.</p>
+<p>&#8212; Ljudet kommer <span style="color: #0000ff;">nerifrån</span> källaren. Vi måste gå <strong>ner</strong> och titta.</p>
+<p>&#8212; Nej, jag vågar inte. Där <strong>nere</strong> är det så mörkt.</p>
+<p>&#8212; När <span style="text-decoration: underline;">är</span> tåget <span style="color: #ff0000;"><span style="text-decoration: underline;"><strong>framme</strong></span> i</span> <span style="color: #999999;">((=arrive at ))</span> Stockholm? &#8212; Kl 12.</p>
+<p>&#8212; Var ligger restaurang-vagn-en?<span style="color: #999999;"> /vaŋ:n/</span></p>
+<p>&#8212; Den ligger långt <strong>fram / framme</strong> i tåget, tredje vagnen<span style="text-decoration: underline;"> <span style="color: #ff0000; text-decoration: underline;">räknat</span> <span style="color: #0000ff; text-decoration: underline;">framifrån</span></span>.</p>
+<p>&nbsp;</p>
+<h2>4. Satsadverb</h2>
+<p><span style="color: #999999;">//Satsadverb bestämmer <strong>hela</strong> satsen, inte något speciellt ord.</span></p>
+<p>&nbsp;</p>
+<p><span style="color: #999999;">表可能性 从大到小 依次排列: </span></p>
+<p>absolut = definitivt; <span style="color: #ff0000;">naturligtvis</span>; ju; säkert</p>
+<p><span style="color: #ff0000;">nog</span> = <span style="color: #ff0000;">antagligen</span> <span style="color: #999999;">/²`an:ta:gligen/. /* </span><span style="color: #999999;">nog同时表示动作执行者主观希望动作发生 */</span></p>
+<p>kanske = möjligen = <span style="color: #ff0000;">eventuellt</span></p>
+<p>inte</p>
+<p>&nbsp;</p>
+<p><span style="color: #999999;">其他:</span></p>
+<p>bara, gärna, <span style="color: #ff0000;">plötsligt</span> <span style="color: #999999;">(hastigt /²h`as:tig/ och oväntat /²`o:ven:tad/)</span>, tyvärr, väl ≈ bra, <span style="color: #ff0000;">äntligen</span> = till slut = till sist = slutligen,</p>
+<p>Jag cyklade snabbt <span style="text-decoration: underline;">hem / till skolan</span> igår.</p>
+<p>&nbsp;</p>
+<p><span style="color: #888888;">例句:</span></p>
+<p>Klockan är 9:45. Klockan är drygt 10. Klockan är knappt 11.</p>
+<p>&#8212; Jag har tyvärr glömt din bok hemma. Du får den i morgon.</p>
+<p>&#8212; Jag vill bara ha lite vatten. Det räcker.</p>
+<p>&#8212; Är du redan hemma? Jag hörde inte när du kom.</p>
+<p>&#8212; Har du <span style="color: #00ff00;">kanske</span> / <span style="color: #00ff00;">möjligen</span> / <span style="color: #ff0000;">nog(×)</span> en hundralapp att låna mig? Du får ju tillbaka den i morgon. <span style="color: #999999;">不能nog, /* 因为nog表示动作执行者主观乐意 */ </span></p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2013/07/04/14939/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>瑞典语 疾病与治疗 [Olycksfall]et [Sjukdom]en, +ar</title>
+		<link>http://Blog.SunnyBoy.Me/2013/07/04/14963/</link>
+		<comments>http://Blog.SunnyBoy.Me/2013/07/04/14963/#respond</comments>
+		<pubDate>Thu, 04 Jul 2013 13:20:48 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Svenska]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=14963</guid>
+		<description><![CDATA[[TO BE CONT&#8230;.] &#160; 注意: 从老师的资料总结, 自己造句, 肯能有错误. olycksfall /²`o:lyksfal/ ((accident)) &#160; 症状描述: Han hostar. Hon blöder. Han är förkyld. Han har feber. Han tittar på en termometer. /tärmom`e:ter/ Näsan rinner. Han nyser  ((=sneeze, 喷嚏)). Hon är snuvig (= lite förkyld). Hon smittar (=sprida sjukdom). Han ramlar och slår sig. Hon kräks. //原形: kräkas. ((=vomit)) &#160; &#160; 治疗方案: En sjuksköterska [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>[TO BE CONT&#8230;.]</p>
+<p>&nbsp;</p>
+<p>注意: 从老师的资料总结, 自己造句, 肯能有错误.</p>
+<p><span style="color: #2f4f4f;"><b>olycksfall </b></span><span style="color: #008b8b;">/²`o:lyksfal/<span style="color: #c0c0c0;"> ((accident))</span></span></p>
+<p>&nbsp;</p>
+<p>症状描述:</p>
+<p>Han hostar.</p>
+<p>Hon blöder.</p>
+<p>Han är <span style="color: #ff0000;">förkyld</span>. Han har feber. Han tittar på en termometer. /tärmom`e:ter/</p>
+<p>Näsan <span style="color: #ff0000;">rinner</span>. Han <span style="color: #ff0000;">nyser</span><span style="color: #999999;">  ((=sneeze, 喷嚏))</span>.</p>
+<p>Hon är <span style="color: #ff0000;">snuvig</span> (= lite förkyld). Hon <span style="color: #ff0000;">smittar</span> (=sprida sjukdom).</p>
+<p>Han ramlar och slår sig.</p>
+<p>Hon <span style="color: #ff0000;">kräks</span>. <span style="color: #999999;">//原形: kräkas. ((=vomit))</span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>治疗方案:</p>
+<p>En sjuksköterska tar ett blodprov.</p>
+<p>En sjuksköterska ger en <span style="color: #ff0000;">spruta</span>.</p>
+<p>En sjuksköterska tar ett blod-<span style="color: #ff0000;">tryck</span>. /tryk:/</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>感官:</p>
+<p>ser inte &#8212; blind /blin:d/</p>
+<p>hör inte &#8212; dö:v</p>
+<p>talar inte &#8212; stum:</p>
+<p>&nbsp;</p>
+<p>在剧集skärgårdsdoktorn里面出现了一个词, efterbliven, 意为&#8221;后进的&#8221;, &#8220;发育有问题的&#8221;, 这个词有贬义, 应该使用的中性词为: funktion-s-hindrad (adjektiv), funktion-s-hinder (substantiv).</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2013/07/04/14963/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

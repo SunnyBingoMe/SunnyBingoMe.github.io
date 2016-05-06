@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>Comments for Sunny Blog</title>
+	<atom:link href="http://Blog.SunnyBoy.Me/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>http://Blog.SunnyBoy.Me</link>
+	<description>Mind And Hand Let There Be Light.</description>
+	<lastBuildDate>Fri, 11 Mar 2016 10:44:34 +0000</lastBuildDate>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.5.1</generator>
+	<item>
+		<title>Comment on Swedish-English 瑞英 真人发音双解字/词典: Sunny Folkets Lexikon by Sunny</title>
+		<link>http://Blog.SunnyBoy.Me/2012/03/01/13452/#comment-36619</link>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+		<pubDate>Fri, 11 Mar 2016 10:44:34 +0000</pubDate>
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=13452#comment-36619</guid>
+		<description><![CDATA[这个问题我用着也有点烦，但是一直没时间我也凑合着用。有时间我一定修复。]]></description>
+		<content:encoded><![CDATA[<p>这个问题我用着也有点烦，但是一直没时间我也凑合着用。有时间我一定修复。</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on Swedish-English 瑞英 真人发音双解字/词典: Sunny Folkets Lexikon by roger</title>
+		<link>http://Blog.SunnyBoy.Me/2012/03/01/13452/#comment-36084</link>
+		<dc:creator><![CDATA[roger]]></dc:creator>
+		<pubDate>Sat, 19 Dec 2015 16:03:37 +0000</pubDate>
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=13452#comment-36084</guid>
+		<description><![CDATA[你好，我用安卓手机装了mdict然后下载了mdd,mdx。
+问题是里面的链接貌似坏了，比如我搜索tiden, 软件会给出一个
+&#062;&#062; &#062;&#062;
+tid
+的链接，当我点这个连接后，软件就显示当前页面无法显示，连接中断。
+你能修复一下么？谢谢]]></description>
+		<content:encoded><![CDATA[<p>你好，我用安卓手机装了mdict然后下载了mdd,mdx。<br />
+问题是里面的链接貌似坏了，比如我搜索tiden, 软件会给出一个<br />
+&gt;&gt; &gt;&gt;<br />
+tid<br />
+的链接，当我点这个连接后，软件就显示当前页面无法显示，连接中断。<br />
+你能修复一下么？谢谢</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on mod_apache_snmp, net-SNMP (给apache2添加SNMP支持) by Bret</title>
+		<link>http://Blog.SunnyBoy.Me/2012/04/18/13618/#comment-8282</link>
+		<dc:creator><![CDATA[Bret]]></dc:creator>
+		<pubDate>Wed, 13 Aug 2014 06:06:22 +0000</pubDate>
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=13618#comment-8282</guid>
+		<description><![CDATA[I have done all the steps you recommended.
+I have got:
+]# /usr/local/apache2/bin/apachectl -v
+Server version: Apache/2.0.65
+]# /usr/local/sbin/snmpd -v
+
+NET-SNMP version:  5.6.2.1
+Web:               http://www.net-snmp.org/
+Email:             net-snmp-coders@lists.sourceforge.net
+
+]# /usr/local/apache2/bin/apachectl -l
+Compiled in modules:
+  core.c
+  mod_access.c
+  mod_auth.c
+  mod_include.c
+  mod_log_config.c
+  mod_env.c
+  mod_setenvif.c
+  prefork.c
+  http_core.c
+  mod_mime.c
+  mod_status.c
+  mod_autoindex.c
+  mod_asis.c
+  mod_cgi.c
+  mod_negotiation.c
+  mod_dir.c
+  mod_imap.c
+  mod_actions.c
+  mod_userdir.c
+  mod_alias.c
+  mod_so.c
+
+&#038;
+installed mod_ap2_snmp_1.04.tar.gz
+
+The issue is, when I perform snmpget, I always either get 0 or an empty string in return.
+
+]# snmpget -v1 -c public localhost APACHE2-MIB::serverUptime.0
+APACHE2-MIB::serverUptime.0 = STRING: Not running
+]# snmpget -v2c -c public localhost APACHE2-MIB::httpError404.0
+APACHE2-MIB::httpError404.0 = Counter32: 0
+
+The Apache error_log has following entries:
+[Wed Aug 13 15:32:26 2014] [notice] caught SIGTERM, shutting down
+[Wed Aug 13 15:32:26 2014] [error] AP2_SNMP: Can&#039;t set MIB value.
+[Wed Aug 13 15:32:26 2014] [error] APACHE2-MIB::serverStatus.0
+[Wed Aug 13 15:32:31 2014] [notice] Apache/2.0.65 (Unix) configured -- resuming normal operations
+
+What do you thing I&#039;ve done wrong? 
+Please advise.
+
+Regards.]]></description>
+		<content:encoded><![CDATA[<p>I have done all the steps you recommended.<br />
+I have got:<br />
+]# /usr/local/apache2/bin/apachectl -v<br />
+Server version: Apache/2.0.65<br />
+]# /usr/local/sbin/snmpd -v</p>
+<p>NET-SNMP version:  5.6.2.1<br />
+Web:               <a href="http://www.net-snmp.org/" rel="nofollow">http://www.net-snmp.org/</a><br />
+Email:             <a href="mailto:net-snmp-coders@lists.sourceforge.net">net-snmp-coders@lists.sourceforge.net</a></p>
+<p>]# /usr/local/apache2/bin/apachectl -l<br />
+Compiled in modules:<br />
+  core.c<br />
+  mod_access.c<br />
+  mod_auth.c<br />
+  mod_include.c<br />
+  mod_log_config.c<br />
+  mod_env.c<br />
+  mod_setenvif.c<br />
+  prefork.c<br />
+  http_core.c<br />
+  mod_mime.c<br />
+  mod_status.c<br />
+  mod_autoindex.c<br />
+  mod_asis.c<br />
+  mod_cgi.c<br />
+  mod_negotiation.c<br />
+  mod_dir.c<br />
+  mod_imap.c<br />
+  mod_actions.c<br />
+  mod_userdir.c<br />
+  mod_alias.c<br />
+  mod_so.c</p>
+<p>&amp;<br />
+installed mod_ap2_snmp_1.04.tar.gz</p>
+<p>The issue is, when I perform snmpget, I always either get 0 or an empty string in return.</p>
+<p>]# snmpget -v1 -c public localhost APACHE2-MIB::serverUptime.0<br />
+APACHE2-MIB::serverUptime.0 = STRING: Not running<br />
+]# snmpget -v2c -c public localhost APACHE2-MIB::httpError404.0<br />
+APACHE2-MIB::httpError404.0 = Counter32: 0</p>
+<p>The Apache error_log has following entries:<br />
+[Wed Aug 13 15:32:26 2014] [notice] caught SIGTERM, shutting down<br />
+[Wed Aug 13 15:32:26 2014] [error] AP2_SNMP: Can&#8217;t set MIB value.<br />
+[Wed Aug 13 15:32:26 2014] [error] APACHE2-MIB::serverStatus.0<br />
+[Wed Aug 13 15:32:31 2014] [notice] Apache/2.0.65 (Unix) configured &#8212; resuming normal operations</p>
+<p>What do you thing I&#8217;ve done wrong?<br />
+Please advise.</p>
+<p>Regards.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on Monthly Report 2014 Mar by Sunny</title>
+		<link>http://Blog.SunnyBoy.Me/2014/04/14/15322/#comment-1486</link>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+		<pubDate>Fri, 25 Apr 2014 19:39:12 +0000</pubDate>
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15322#comment-1486</guid>
+		<description><![CDATA[本来就是日记啊~ 嘿嘿]]></description>
+		<content:encoded><![CDATA[<p>本来就是日记啊~ 嘿嘿</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on About me 关于我 by 重庆</title>
+		<link>http://Blog.SunnyBoy.Me/about_me/#comment-1482</link>
+		<dc:creator><![CDATA[重庆]]></dc:creator>
+		<pubDate>Wed, 23 Apr 2014 14:47:31 +0000</pubDate>
+		<guid isPermaLink="false">http://sunnybingome.wordpress.com/?page_id=2#comment-1482</guid>
+		<description><![CDATA[博主的博客完全是国外的模板和程序啊]]></description>
+		<content:encoded><![CDATA[<p>博主的博客完全是国外的模板和程序啊</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on Monthly Report 2014 Mar by 重庆</title>
+		<link>http://Blog.SunnyBoy.Me/2014/04/14/15322/#comment-1481</link>
+		<dc:creator><![CDATA[重庆]]></dc:creator>
+		<pubDate>Wed, 23 Apr 2014 14:46:39 +0000</pubDate>
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15322#comment-1481</guid>
+		<description><![CDATA[没有看懂博主表达的什么，感觉就是日记。]]></description>
+		<content:encoded><![CDATA[<p>没有看懂博主表达的什么，感觉就是日记。</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on NIX (unix OR&#8221;linux&#8221; OR&#8221;ubuntu&#8221; OR&#8221;kubuntu&#8221; OR&#8221;redhat&#8221; OR&#8221;debian&#8221; OR&#8221;centos&#8221; OR&#8221;fedora&#8221;) by με</title>
+		<link>http://Blog.SunnyBoy.Me/2013/07/24/15023/#comment-769</link>
+		<dc:creator><![CDATA[με]]></dc:creator>
+		<pubDate>Thu, 13 Feb 2014 09:14:39 +0000</pubDate>
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15023#comment-769</guid>
+		<description><![CDATA[I think this is among the most significant info for me.
+And i am glad reading your article. But want to remark on some 
+general things, The website style is perfect, the articles is really excellent : D.
+Good job, cheers
+]]></description>
+		<content:encoded><![CDATA[<p>I think this is among the most significant info for me.<br />
+And i am glad reading your article. But want to remark on some<br />
+general things, The website style is perfect, the articles is really excellent : D.<br />
+Good job, cheers</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on Online Video Player Performance Comparison: Flash vs HTML5 by Sunny</title>
+		<link>http://Blog.SunnyBoy.Me/2013/01/15/14634/#comment-286</link>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+		<pubDate>Wed, 16 Jan 2013 16:02:03 +0000</pubDate>
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=14634#comment-286</guid>
+		<description><![CDATA[简单的说, 在同样操作的情况下, flash能更快地传送数据.
+所有的峰值都是操作youtube引起的, 比如, 手动快进到达&quot;已缓冲数据的最后边沿&quot;, 但是还在已缓冲数据内, 看看client接收数据的情况.
+
+另一方面, 说明html5更省带宽 (RTSP 也是). 
+&lt;a href=&quot;#comment-285&quot; rel=&quot;nofollow&quot;&gt;@vvoody &lt;/a&gt;]]></description>
+		<content:encoded><![CDATA[<p>简单的说, 在同样操作的情况下, flash能更快地传送数据.<br />
+所有的峰值都是操作youtube引起的, 比如, 手动快进到达&#8221;已缓冲数据的最后边沿&#8221;, 但是还在已缓冲数据内, 看看client接收数据的情况.</p>
+<p>另一方面, 说明html5更省带宽 (RTSP 也是).<br />
+<a href="#comment-285" rel="nofollow">@vvoody </a></p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on Online Video Player Performance Comparison: Flash vs HTML5 by vvoody</title>
+		<link>http://Blog.SunnyBoy.Me/2013/01/15/14634/#comment-285</link>
+		<dc:creator><![CDATA[vvoody]]></dc:creator>
+		<pubDate>Wed, 16 Jan 2013 12:43:53 +0000</pubDate>
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=14634#comment-285</guid>
+		<description><![CDATA[这图片啥也看不清啊]]></description>
+		<content:encoded><![CDATA[<p>这图片啥也看不清啊</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on mod_apache_snmp, net-SNMP (给apache2添加SNMP支持) by Sunny</title>
+		<link>http://Blog.SunnyBoy.Me/2012/04/18/13618/#comment-284</link>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+		<pubDate>Wed, 10 Oct 2012 13:38:05 +0000</pubDate>
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=13618#comment-284</guid>
+		<description><![CDATA[&quot; cannot find -lcrypto &quot;.
+u need this lib.
+may be u could check &lt;strong&gt;hints-&gt;1.&lt;/strong&gt;]]></description>
+		<content:encoded><![CDATA[<p>&#8221; cannot find -lcrypto &#8220;.<br />
+u need this lib.<br />
+may be u could check <strong>hints->1.</strong></p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on Swedish-English 瑞英 真人发音双解字/词典: Sunny Folkets Lexikon by Sunny</title>
+		<link>http://Blog.SunnyBoy.Me/2012/03/01/13452/#comment-283</link>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+		<pubDate>Wed, 10 Oct 2012 13:32:06 +0000</pubDate>
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=13452#comment-283</guid>
+		<description><![CDATA[my pleasure, u r welcome  :)]]></description>
+		<content:encoded><![CDATA[<p>my pleasure, u r welcome  🙂</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on Swedish-English 瑞英 真人发音双解字/词典: Sunny Folkets Lexikon by Lee</title>
+		<link>http://Blog.SunnyBoy.Me/2012/03/01/13452/#comment-282</link>
+		<dc:creator><![CDATA[Lee]]></dc:creator>
+		<pubDate>Sun, 07 Oct 2012 17:25:22 +0000</pubDate>
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=13452#comment-282</guid>
+		<description><![CDATA[Thanks so much for this. It&#039;s really good of you to make this available. I have just moved to Sweden and am learning Swedish. This will be very useful!]]></description>
+		<content:encoded><![CDATA[<p>Thanks so much for this. It&#8217;s really good of you to make this available. I have just moved to Sweden and am learning Swedish. This will be very useful!</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on mod_apache_snmp, net-SNMP (给apache2添加SNMP支持) by Arthur</title>
+		<link>http://Blog.SunnyBoy.Me/2012/04/18/13618/#comment-281</link>
+		<dc:creator><![CDATA[Arthur]]></dc:creator>
+		<pubDate>Fri, 28 Sep 2012 14:11:31 +0000</pubDate>
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=13618#comment-281</guid>
+		<description><![CDATA[I have some problems in the 6 step, maybe any can help me?
+
+root@ubuntu:/home/aduarte/Downloads/mod_ap2_snmp_1.04# ./install.sh
+
+Use of assignment to $[ is deprecated at /usr/local/apache2/bin/apxs line 86.
+/usr/local/apache2/build/libtool --silent --mode=compile gcc -prefer-pic  -DAP_HAVE_DESIGNATED_INITIALIZER -D_REENTRANT -D_GNU_SOURCE -g -O2 -pthread -I/usr/local/apache2/include  -I/usr/local/apache2/include   -I/usr/local/apache2/include  -I/usr/local/include  -c -o mod_ap2_snmp.lo mod_ap2_snmp.c &#038;&#038; touch mod_ap2_snmp.slo
+mod_ap2_snmp.c: In function ‘snmp_set’:
+mod_ap2_snmp.c:147:11: warning: format not a string literal and no format arguments [-Wformat-security]
+mod_ap2_snmp.c:182:2: warning: format not a string literal and no format arguments [-Wformat-security]
+mod_ap2_snmp.c: In function ‘set_agent_address’:
+mod_ap2_snmp.c:200:3: warning: format not a string literal and no format arguments [-Wformat-security]
+mod_ap2_snmp.c: In function ‘set_community’:
+mod_ap2_snmp.c:215:3: warning: format not a string literal and no format arguments [-Wformat-security]
+mod_ap2_snmp.c: In function ‘set_tmp_dir’:
+mod_ap2_snmp.c:236:3: warning: format not a string literal and no format arguments [-Wformat-security]
+mod_ap2_snmp.c: In function ‘set_snmp_http_address’:
+mod_ap2_snmp.c:300:3: warning: format not a string literal and no format arguments [-Wformat-security]
+mod_ap2_snmp.c: In function ‘ap2_snmp_pre_mpm’:
+mod_ap2_snmp.c:350:2: warning: format not a string literal and no format arguments [-Wformat-security]
+mod_ap2_snmp.c:359:2: warning: passing argument 3 of ‘snmp_set’ discards ‘const’ qualifier from pointer target type [enabled by default]
+mod_ap2_snmp.c:75:12: note: expected ‘char *’ but argument is of type ‘const char *’
+mod_ap2_snmp.c:360:2: warning: passing argument 3 of ‘snmp_set’ discards ‘const’ qualifier from pointer target type [enabled by default]
+mod_ap2_snmp.c:75:12: note: expected ‘char *’ but argument is of type ‘const char *’
+mod_ap2_snmp.c:361:2: warning: passing argument 3 of ‘snmp_set’ discards ‘const’ qualifier from pointer target type [enabled by default]
+mod_ap2_snmp.c:75:12: note: expected ‘char *’ but argument is of type ‘const char *’
+mod_ap2_snmp.c:375:3: warning: format not a string literal and no format arguments [-Wformat-security]
+mod_ap2_snmp.c:381:3: warning: format not a string literal and no format arguments [-Wformat-security]
+mod_ap2_snmp.c:382:7: warning: format not a string literal and no format arguments [-Wformat-security]
+mod_ap2_snmp.c: In function ‘ap2_snmp_handler’:
+mod_ap2_snmp.c:601:3: warning: format not a string literal and no format arguments [-Wformat-security]
+/usr/local/apache2/build/libtool --silent --mode=link gcc -o mod_ap2_snmp.la  -L/usr/local/lib -rpath /usr/local/apache2/modules -module -avoid-version    mod_ap2_snmp.lo -lnetsnmp -lcrypto -ldl -g
+/usr/bin/ld: cannot find -lcrypto
+collect2: ld returned 1 exit status
+apxs:Error: Command failed with rc=65536]]></description>
+		<content:encoded><![CDATA[<p>I have some problems in the 6 step, maybe any can help me?</p>
+<p>root@ubuntu:/home/aduarte/Downloads/mod_ap2_snmp_1.04# ./install.sh</p>
+<p>Use of assignment to $[ is deprecated at /usr/local/apache2/bin/apxs line 86.<br />
+/usr/local/apache2/build/libtool &#8211;silent &#8211;mode=compile gcc -prefer-pic  -DAP_HAVE_DESIGNATED_INITIALIZER -D_REENTRANT -D_GNU_SOURCE -g -O2 -pthread -I/usr/local/apache2/include  -I/usr/local/apache2/include   -I/usr/local/apache2/include  -I/usr/local/include  -c -o mod_ap2_snmp.lo mod_ap2_snmp.c &amp;&amp; touch mod_ap2_snmp.slo<br />
+mod_ap2_snmp.c: In function ‘snmp_set’:<br />
+mod_ap2_snmp.c:147:11: warning: format not a string literal and no format arguments [-Wformat-security]<br />
+mod_ap2_snmp.c:182:2: warning: format not a string literal and no format arguments [-Wformat-security]<br />
+mod_ap2_snmp.c: In function ‘set_agent_address’:<br />
+mod_ap2_snmp.c:200:3: warning: format not a string literal and no format arguments [-Wformat-security]<br />
+mod_ap2_snmp.c: In function ‘set_community’:<br />
+mod_ap2_snmp.c:215:3: warning: format not a string literal and no format arguments [-Wformat-security]<br />
+mod_ap2_snmp.c: In function ‘set_tmp_dir’:<br />
+mod_ap2_snmp.c:236:3: warning: format not a string literal and no format arguments [-Wformat-security]<br />
+mod_ap2_snmp.c: In function ‘set_snmp_http_address’:<br />
+mod_ap2_snmp.c:300:3: warning: format not a string literal and no format arguments [-Wformat-security]<br />
+mod_ap2_snmp.c: In function ‘ap2_snmp_pre_mpm’:<br />
+mod_ap2_snmp.c:350:2: warning: format not a string literal and no format arguments [-Wformat-security]<br />
+mod_ap2_snmp.c:359:2: warning: passing argument 3 of ‘snmp_set’ discards ‘const’ qualifier from pointer target type [enabled by default]<br />
+mod_ap2_snmp.c:75:12: note: expected ‘char *’ but argument is of type ‘const char *’<br />
+mod_ap2_snmp.c:360:2: warning: passing argument 3 of ‘snmp_set’ discards ‘const’ qualifier from pointer target type [enabled by default]<br />
+mod_ap2_snmp.c:75:12: note: expected ‘char *’ but argument is of type ‘const char *’<br />
+mod_ap2_snmp.c:361:2: warning: passing argument 3 of ‘snmp_set’ discards ‘const’ qualifier from pointer target type [enabled by default]<br />
+mod_ap2_snmp.c:75:12: note: expected ‘char *’ but argument is of type ‘const char *’<br />
+mod_ap2_snmp.c:375:3: warning: format not a string literal and no format arguments [-Wformat-security]<br />
+mod_ap2_snmp.c:381:3: warning: format not a string literal and no format arguments [-Wformat-security]<br />
+mod_ap2_snmp.c:382:7: warning: format not a string literal and no format arguments [-Wformat-security]<br />
+mod_ap2_snmp.c: In function ‘ap2_snmp_handler’:<br />
+mod_ap2_snmp.c:601:3: warning: format not a string literal and no format arguments [-Wformat-security]<br />
+/usr/local/apache2/build/libtool &#8211;silent &#8211;mode=link gcc -o mod_ap2_snmp.la  -L/usr/local/lib -rpath /usr/local/apache2/modules -module -avoid-version    mod_ap2_snmp.lo -lnetsnmp -lcrypto -ldl -g<br />
+/usr/bin/ld: cannot find -lcrypto<br />
+collect2: ld returned 1 exit status<br />
+apxs:Error: Command failed with rc=65536</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on Swedish-English 瑞英 真人发音双解字/词典: Sunny Folkets Lexikon by Sunny</title>
+		<link>http://Blog.SunnyBoy.Me/2012/03/01/13452/#comment-280</link>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+		<pubDate>Sun, 15 Apr 2012 08:27:23 +0000</pubDate>
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=13452#comment-280</guid>
+		<description><![CDATA[varsågod :)]]></description>
+		<content:encoded><![CDATA[<p>varsågod 🙂</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on Swedish-English 瑞英 真人发音双解字/词典: Sunny Folkets Lexikon by Nadeem</title>
+		<link>http://Blog.SunnyBoy.Me/2012/03/01/13452/#comment-279</link>
+		<dc:creator><![CDATA[Nadeem]]></dc:creator>
+		<pubDate>Fri, 13 Apr 2012 08:12:10 +0000</pubDate>
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=13452#comment-279</guid>
+		<description><![CDATA[Thusan tack , det fungera mycket bra . M.V.H]]></description>
+		<content:encoded><![CDATA[<p>Thusan tack , det fungera mycket bra . M.V.H</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on Swedish-English 瑞英 真人发音双解字/词典: Sunny Folkets Lexikon by Sunny</title>
+		<link>http://Blog.SunnyBoy.Me/2012/03/01/13452/#comment-278</link>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+		<pubDate>Sat, 31 Mar 2012 10:34:51 +0000</pubDate>
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=13452#comment-278</guid>
+		<description><![CDATA[Thanks and glad you like it.
+:)]]></description>
+		<content:encoded><![CDATA[<p>Thanks and glad you like it.<br />
+🙂</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on Swedish-English 瑞英 真人发音双解字/词典: Sunny Folkets Lexikon by lucius</title>
+		<link>http://Blog.SunnyBoy.Me/2012/03/01/13452/#comment-277</link>
+		<dc:creator><![CDATA[lucius]]></dc:creator>
+		<pubDate>Thu, 29 Mar 2012 09:30:04 +0000</pubDate>
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=13452#comment-277</guid>
+		<description><![CDATA[Very good, it works and thanks very much!]]></description>
+		<content:encoded><![CDATA[<p>Very good, it works and thanks very much!</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on OpenSwan IPSec setup configuration by Sunny</title>
+		<link>http://Blog.SunnyBoy.Me/2012/03/10/13523/#comment-276</link>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+		<pubDate>Sat, 17 Mar 2012 20:10:50 +0000</pubDate>
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=13523#comment-276</guid>
+		<description><![CDATA[&quot;Theme by 4MB &amp; Wordpress Themes&quot;, wide-tree-10 和 illustrative. 用了tree的图, 不过当时是Linux用gimp编辑的jpg, 第一次用, 弄得图片效果不很好.]]></description>
+		<content:encoded><![CDATA[<p>&#8220;Theme by 4MB &#038; WordPress Themes&#8221;, wide-tree-10 和 illustrative. 用了tree的图, 不过当时是Linux用gimp编辑的jpg, 第一次用, 弄得图片效果不很好.</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on OpenSwan IPSec setup configuration by vvoody</title>
+		<link>http://Blog.SunnyBoy.Me/2012/03/10/13523/#comment-275</link>
+		<dc:creator><![CDATA[vvoody]]></dc:creator>
+		<pubDate>Sat, 17 Mar 2012 18:23:08 +0000</pubDate>
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=13523#comment-275</guid>
+		<description><![CDATA[模板不错，用的是？]]></description>
+		<content:encoded><![CDATA[<p>模板不错，用的是？</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on Hundra nittioåtta by Sunny</title>
+		<link>http://Blog.SunnyBoy.Me/2010/12/31/383/#comment-7</link>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+		<pubDate>Sat, 08 Jan 2011 20:45:07 +0000</pubDate>
+		<guid isPermaLink="false">http://sunnybingome.wordpress.com/?p=383#comment-7</guid>
+		<description><![CDATA[你参加过几次party?]]></description>
+		<content:encoded><![CDATA[<p>你参加过几次party?</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on Hundra nittioåtta by Justdoit</title>
+		<link>http://Blog.SunnyBoy.Me/2010/12/31/383/#comment-6</link>
+		<dc:creator><![CDATA[Justdoit]]></dc:creator>
+		<pubDate>Tue, 04 Jan 2011 04:34:36 +0000</pubDate>
+		<guid isPermaLink="false">http://sunnybingome.wordpress.com/?p=383#comment-6</guid>
+		<description><![CDATA[这边跨年时比较混乱，坐公交车外加500米长跑到Navi Pier看倒计时和烟火，结果还是晚了10多秒钟没赶上倒计时。。。]]></description>
+		<content:encoded><![CDATA[<p>这边跨年时比较混乱，坐公交车外加500米长跑到Navi Pier看倒计时和烟火，结果还是晚了10多秒钟没赶上倒计时。。。</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on An deiner Seite &#8211; Unheilig by Frederica Kaliska</title>
+		<link>http://Blog.SunnyBoy.Me/2010/09/14/13/#comment-2</link>
+		<dc:creator><![CDATA[Frederica Kaliska]]></dc:creator>
+		<pubDate>Thu, 25 Nov 2010 21:28:29 +0000</pubDate>
+		<guid isPermaLink="false">http://sunnybingome.wordpress.com/2010/09/14/an-deiner-seite-unheilig#comment-2</guid>
+		<description><![CDATA[Apperently you&#039;re a fan from Unheilig aswell!
+I found your songs on an awesome streaming-player!
+It can directly spile the database from EMI, Sony Music &#038; Universal with better quality than mp3 or CD!!
+If you like, we can swap our playlists! &lt;strong&gt;Legaly!&lt;/strong&gt; XD
+my other favorites:
+http#my-dub-li.de/?act=EmpireOfTheSun
+http#my-dub-li.de/?act=CulchaCandela]]></description>
+		<content:encoded><![CDATA[<p>Apperently you&#8217;re a fan from Unheilig aswell!<br />
+I found your songs on an awesome streaming-player!<br />
+It can directly spile the database from EMI, Sony Music &amp; Universal with better quality than mp3 or CD!!<br />
+If you like, we can swap our playlists! <strong>Legaly!</strong> XD<br />
+my other favorites:<br />
+http#my-dub-li.de/?act=EmpireOfTheSun<br />
+http#my-dub-li.de/?act=CulchaCandela</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on Hundra trettioåtta by Bingo</title>
+		<link>http://Blog.SunnyBoy.Me/2010/10/31/151/#comment-4</link>
+		<dc:creator><![CDATA[Bingo]]></dc:creator>
+		<pubDate>Wed, 03 Nov 2010 18:36:52 +0000</pubDate>
+		<guid isPermaLink="false">http://sunnybingome.wordpress.com/?p=151#comment-4</guid>
+		<description><![CDATA[竟然不同时改。。。。]]></description>
+		<content:encoded><![CDATA[<p>竟然不同时改。。。。</p>
+]]></content:encoded>
+	</item>
+	<item>
+		<title>Comment on Hundra trettioåtta by Qi Zhao</title>
+		<link>http://Blog.SunnyBoy.Me/2010/10/31/151/#comment-3</link>
+		<dc:creator><![CDATA[Qi Zhao]]></dc:creator>
+		<pubDate>Tue, 02 Nov 2010 06:16:20 +0000</pubDate>
+		<guid isPermaLink="false">http://sunnybingome.wordpress.com/?p=151#comment-3</guid>
+		<description><![CDATA[我们这周末也要改夏令时了…]]></description>
+		<content:encoded><![CDATA[<p>我们这周末也要改夏令时了…</p>
+]]></content:encoded>
+	</item>
+</channel>
+</rss>

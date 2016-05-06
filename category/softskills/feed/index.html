@@ -1,0 +1,1946 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Soft&amp;Skills &#8211; Sunny Blog</title>
+	<atom:link href="http://Blog.SunnyBoy.Me/category/softskills/feed/" rel="self" type="application/rss+xml" />
+	<link>http://Blog.SunnyBoy.Me</link>
+	<description>Mind And Hand Let There Be Light.</description>
+	<lastBuildDate>Wed, 04 May 2016 11:47:54 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.5.1</generator>
+
+<image>
+	<url>http://Blog.SunnyBoy.Me/wp-content/uploads/2010/10/e7919ee585b8ae9809ae98193efbc9f.jpg</url>
+	<title>Soft&amp;Skills &#8211; Sunny Blog</title>
+	<link>http://Blog.SunnyBoy.Me</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>screen tmux, window, session</title>
+		<link>http://Blog.SunnyBoy.Me/2015/12/09/15384/</link>
+		<pubDate>Wed, 09 Dec 2015 16:11:28 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[nix]]></category>
+		<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15384</guid>
+		<description><![CDATA[screen: http://neophob.com/2007/04/gnu-screen-cheat-sheet/ list all:             screen -ls  ( format: pid.session_name ) create:            screen  OR   screen -S session_name re-attach:        screen  -r session_name de-&#38; a-ttach:   screen  -dr session_name  /* force detach and then attach, use this when previous attachment is dropped due to network failure */ [&#8230;]]]></description>
+				<content:encoded><![CDATA[<div><b>screen</b>: <a href="http://neophob.com/2007/04/gnu-screen-cheat-sheet/">http://neophob.com/2007/04/gnu-screen-cheat-sheet/</a></div>
+<div></div>
+<div>list all:             screen -ls  ( format: pid.session_name )</div>
+<div>create:            screen  OR   screen -S session_name</div>
+<div>re-attach:        screen  -r session_name</div>
+<div>de-&amp; a-ttach:   screen  -dr session_name  /* force detach and then attach, use this when previous attachment is dropped due to network failure */</div>
+<div>remove dead:  screen -wipe</div>
+<div>kill session:      kill &lt;pid&gt;</div>
+<div>kill all:             killall screen</div>
+<div>detach:            Ctrl+a , d</div>
+<div>scroll back:       Ctrl+b , [ , Ctrl+u / Ctrl+d  ( mouse wheel works ! )</div>
+<div>switch session: //can NOT find a good method</div>
+<div></div>
+<div>Windows (tabs):</div>
+<div>Ctrl+a , c           -&gt; create new window</div>
+<div>Ctrl+a , A           -&gt; set window name</div>
+<div>Ctrl+a , w           -&gt; window list</div>
+<div>Ctrl+a , 1|2|3|&#8230;   -&gt; switch to window n</div>
+<div>Ctrl+a , &#8221;           -&gt; choose window</div>
+<div>Ctrl+a , ctrl a      -&gt; switch between window</div>
+<div>Ctrl+a , d           -&gt; detach window</div>
+<div>Ctrl+a , ?           -&gt; help</div>
+<div>Ctrl+a , [           -&gt; start copy, move cursor to the copy location, press ENTER, select the chars, press ENTER to copy the selected characters to the buffer</div>
+<div>Ctrl+a , ]           -&gt; paste from buffer</div>
+<div></div>
+<div></div>
+<div><b>tmux</b>: <a href="https://gist.github.com/MohamedAlaa/2961058">https://gist.github.com/MohamedAlaa/2961058</a></div>
+<div></div>
+<div>list all:        tmux ls    ( session_name is the one before colon : symbol, the first string part of each line )</div>
+<div>create:       tmux new -s session_name</div>
+<div>re-attach:   tmux a -t target_session_name</div>
+<div>kill session: tmux kill-session -t target_session_name</div>
+<div>Kill all:        tmux kill-server</div>
+<div>scroll back:       Ctrl+b , [ , page_up/page_down /* Ctrl+u / Ctrl+d is also ok if set .tmux.conf   */ ( mouse wheel works ! )</div>
+<div>detach:             Ctrl+b , d</div>
+<div>switch session:  Ctrl+b , s  // &#8216;s&#8217; for &#8216;session&#8217;</div>
+<div></div>
+<div>Windows (tabs):</div>
+<div>     c  create window</div>
+<div>     w  windows list</div>
+<div>     n  next window</div>
+<div>     p  previous window</div>
+<div>     f   find window</div>
+<div>     ,   name window</div>
+<div>     &amp;  kill window</div>
+]]></content:encoded>
+			</item>
+		<item>
+		<title>Install Shiny Server (&#038; R) on Ubuntu 12 64bit</title>
+		<link>http://Blog.SunnyBoy.Me/2014/12/15/15369/</link>
+		<comments>http://Blog.SunnyBoy.Me/2014/12/15/15369/#respond</comments>
+		<pubDate>Mon, 15 Dec 2014 19:35:36 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15369</guid>
+		<description><![CDATA[[ 64 bit only] in:   /etc/apt/sources.list add:  deb http://cran.rstudio.com/bin/linux/ubuntu precise/ sudo apt-key adv &#8211;keyserver keyserver.ubuntu.com &#8211;recv-keys E084DAB9 // [i didn&#8217;t do this step] sudo add-apt-repository ppa:marutter/rdev sudo apt-get update sudo apt-get upgrade // if not R is not updated, then will get error: package ‘shiny’ is not available (for R version 2.14.1) // then follow ref [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>[ 64 bit only]</p>
+<p>in:   /etc/apt/sources.list<br />
+add:  deb http://cran.rstudio.com/bin/linux/ubuntu precise/</p>
+<p>sudo apt-key adv &#8211;keyserver keyserver.ubuntu.com &#8211;recv-keys E084DAB9</p>
+<p>// [i didn&#8217;t do this step] sudo add-apt-repository ppa:marutter/rdev<br />
+sudo apt-get update<br />
+sudo apt-get upgrade</p>
+<p>// if not R is not updated, then will get error: package ‘shiny’ is not available (for R version 2.14.1)</p>
+<p>// then follow ref 2 (official intro):</p>
+<p>sudo apt-get install r-base<br />
+sudo su &#8211; \<br />
+-c &#8220;R -e \&#8221;install.packages(&#8216;shiny&#8217;, repos=&#8217;http://cran.rstudio.com/&#8217;)\&#8221;&#8221;<br />
+sudo apt-get install gdebi-core<br />
+wget http://download3.rstudio.org/ubuntu-12.04/x86_64/shiny-server-1.2.3.368-amd64.deb<br />
+sudo gdebi shiny-server-1.2.3.368-amd64.deb</p>
+<p><strong>Next Steps</strong><br />
+Once installed, view the <a href="http://rstudio.github.io/shiny-server/latest/" target="_blank">Administrator’s Guide</a> to learn how to manage and configure Shiny Server. Stay up to date on RStudio Server news and software updates by subscribing above.</p>
+<p>&nbsp;</p>
+<p>ref:</p>
+<p>1.  http://askubuntu.com/questions/218708/installing-latest-version-of-r-base</p>
+<p>2.  http://www.rstudio.com/products/shiny/download-server/</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2014/12/15/15369/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Linux Reset Root Password</title>
+		<link>http://Blog.SunnyBoy.Me/2014/12/15/15367/</link>
+		<comments>http://Blog.SunnyBoy.Me/2014/12/15/15367/#respond</comments>
+		<pubDate>Mon, 15 Dec 2014 15:24:10 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15367</guid>
+		<description><![CDATA[Shift while booting (Esc for v9 earlier version); Highlight the normal booting item (actually, it is highlighted by default); &#8216;e&#8217; to edit; Find the line starts with &#8220;linux &#8230;.&#8221;; Edit &#8220;ro&#8221; (read only) to &#8220;rw&#8221;, and add &#8220;init=/bin/bash&#8221; to the end of the line; Ctrl+x or F10 to boot using this modified temporary item; Root [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>Shift while booting (Esc for v9 earlier version);</p>
+<p>Highlight the normal booting item (actually, it is highlighted by default);</p>
+<p>&#8216;e&#8217; to edit;</p>
+<p>Find the line starts with &#8220;linux &#8230;.&#8221;;</p>
+<p>Edit &#8220;ro&#8221; (read only) to &#8220;rw&#8221;, and add &#8220;init=/bin/bash&#8221; to the end of the line;</p>
+<p>Ctrl+x or F10 to boot using this modified temporary item;</p>
+<p>Root shell will be available, passwd to modify and then reboot.</p>
+<p>&nbsp;</p>
+<p>ref:</p>
+<p><a href="https://help.ubuntu.com/community/LostPassword">https://help.ubuntu.com/community/LostPassword</a> &gt; The Other Way</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2014/12/15/15367/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Reset Administrator Password [Windows]</title>
+		<link>http://Blog.SunnyBoy.Me/2014/01/09/15297/</link>
+		<comments>http://Blog.SunnyBoy.Me/2014/01/09/15297/#respond</comments>
+		<pubDate>Thu, 09 Jan 2014 10:55:16 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15297</guid>
+		<description><![CDATA[如果administrator之前没有密码, 可以F8进入安全模式, 再用命令行操作: net user &#60;username&#62; /active:yes net user &#60;username&#62; &#60;theNewPass&#62; &#160;]]></description>
+				<content:encoded><![CDATA[<p>如果administrator之前没有密码, 可以F8进入安全模式, 再用命令行操作:</p>
+<p>net user &lt;username&gt; /active:yes<br />
+net user &lt;username&gt; &lt;theNewPass&gt;</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2014/01/09/15297/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>.NET MVC C#</title>
+		<link>http://Blog.SunnyBoy.Me/2013/08/25/15173/</link>
+		<comments>http://Blog.SunnyBoy.Me/2013/08/25/15173/#respond</comments>
+		<pubDate>Sun, 25 Aug 2013 09:49:56 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15173</guid>
+		<description><![CDATA[Connect to Mysql http://dev.mysql.com/downloads/connector/net/ http://www.360doc.com/content/07/0630/11/14386_586808.shtml &#160;]]></description>
+				<content:encoded><![CDATA[<h2>Connect to Mysql</h2>
+<p><a href="http://dev.mysql.com/downloads/connector/net/">http://dev.mysql.com/downloads/connector/net/</a></p>
+<p><a href="http://www.360doc.com/content/07/0630/11/14386_586808.shtml">http://www.360doc.com/content/07/0630/11/14386_586808.shtml</a></p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2013/08/25/15173/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>每周总结 Week32 2013 0805-0811 [Mosh]</title>
+		<link>http://Blog.SunnyBoy.Me/2013/08/19/15162/</link>
+		<comments>http://Blog.SunnyBoy.Me/2013/08/19/15162/#respond</comments>
+		<pubDate>Mon, 19 Aug 2013 06:41:50 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Life]]></category>
+		<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15162</guid>
+		<description><![CDATA[装了cygwin和mosh. 稍早的mosh版本需要perl的一个包, 结果就是装不上, 还以为cygwin有问题, 最后发现新版的mosh已经用c替换了, 那个Perl的包有问题. Perl在走下坡么? 要完蛋了? 话说我blog貌似有不明输出??? 有空再查吧, 幸好我只是当作记事本用 &#8230;.]]></description>
+				<content:encoded><![CDATA[<p><img class="aligncenter" alt="" src="http://i.minus.com/jxA9tB5IPhy8X.png" width="555" /></p>
+<p>装了cygwin和mosh. 稍早的mosh版本需要perl的一个包, 结果就是装不上, 还以为cygwin有问题, 最后发现新版的mosh已经用c替换了, 那个Perl的包有问题. Perl在走下坡么? 要完蛋了?</p>
+<p>话说我blog貌似有不明输出??? 有空再查吧, 幸好我只是当作记事本用 &#8230;.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2013/08/19/15162/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Protected: magento</title>
+		<link>http://Blog.SunnyBoy.Me/2013/08/13/15128/</link>
+		<comments>http://Blog.SunnyBoy.Me/2013/08/13/15128/#respond</comments>
+		<pubDate>Tue, 13 Aug 2013 14:24:30 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15128</guid>
+		<description><![CDATA[There is no excerpt because this is a protected post.]]></description>
+				<content:encoded><![CDATA[<form action="http://Blog.SunnyBoy.Me/wp-login.php?action=postpass" class="post-password-form" method="post">
+<p>This content is password protected. To view it please enter your password below:</p>
+<p><label for="pwbox-15128">Password: <input name="post_password" id="pwbox-15128" type="password" size="20" /></label> <input type="submit" name="Submit" value="Enter" /></p>
+</form>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2013/08/13/15128/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Google App</title>
+		<link>http://Blog.SunnyBoy.Me/2013/08/02/15103/</link>
+		<comments>http://Blog.SunnyBoy.Me/2013/08/02/15103/#respond</comments>
+		<pubDate>Fri, 02 Aug 2013 13:10:02 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15103</guid>
+		<description><![CDATA[Config App for email (no extra gateway) 1. Authorize Google as a sender. (SPF) http://support.google.com/a/bin/topic.py?hl=en&#38;topic=1409901 2. Confirm mail sender via public key. (DKIM) http://support.google.com/a/bin/answer.py?hl=en&#38;answer=174126 &#160; &#160;]]></description>
+				<content:encoded><![CDATA[<h2>Config App for email (no extra gateway)</h2>
+<p>1. Authorize Google as a sender. (SPF)</p>
+<p><a href="http://support.google.com/a/bin/topic.py?hl=en&amp;topic=1409901">http://support.google.com/a/bin/topic.py?hl=en&amp;topic=1409901</a></p>
+<p>2. Confirm mail sender via public key. (DKIM)</p>
+<p><a href="http://support.google.com/a/bin/answer.py?hl=en&amp;answer=174126">http://support.google.com/a/bin/answer.py?hl=en&amp;answer=174126</a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2013/08/02/15103/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Web Stressing [压力测试] 工具</title>
+		<link>http://Blog.SunnyBoy.Me/2013/07/29/15062/</link>
+		<comments>http://Blog.SunnyBoy.Me/2013/07/29/15062/#respond</comments>
+		<pubDate>Mon, 29 Jul 2013 17:32:47 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15062</guid>
+		<description><![CDATA[先mark一下, 待用. 搜了一下 http://bit.ly/18Nbz4N , http://coolshell.cn/articles/2589.html 常见的压力测试工具: apache自带的ab; jmeter http://www.cnblogs.com/wang1988ming/archive/2012/08/01/2618550.html pylot grinder http://grinder.sourceforge.net/ siege web bench http_load &#160; REF: http://coolshell.cn/articles/2589.html http://blog.csdn.net/lxlmj/article/details/6881224]]></description>
+				<content:encoded><![CDATA[<p>先mark一下, 待用.</p>
+<p>搜了一下 <a href="http://bit.ly/18Nbz4N">http://bit.ly/18Nbz4N</a> , <a href="http://coolshell.cn/articles/2589.html">http://coolshell.cn/articles/2589.html</a></p>
+<p>常见的压力测试工具:</p>
+<ul>
+<li>apache自带的ab;</li>
+<li>jmeter <a href="http://www.cnblogs.com/wang1988ming/archive/2012/08/01/2618550.html">http://www.cnblogs.com/wang1988ming/archive/2012/08/01/2618550.html</a></li>
+<li>pylot</li>
+<li>grinder <a href="http://grinder.sourceforge.net/">http://grinder.sourceforge.net/</a></li>
+<li>siege</li>
+<li>web bench</li>
+<li>http_load</li>
+</ul>
+<p>&nbsp;</p>
+<p>REF:</p>
+<p><a href="http://coolshell.cn/articles/2589.html">http://coolshell.cn/articles/2589.html</a></p>
+<p><a href="http://blog.csdn.net/lxlmj/article/details/6881224">http://blog.csdn.net/lxlmj/article/details/6881224</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2013/07/29/15062/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>NIX (unix OR&#8221;linux&#8221; OR&#8221;ubuntu&#8221; OR&#8221;kubuntu&#8221; OR&#8221;redhat&#8221; OR&#8221;debian&#8221; OR&#8221;centos&#8221; OR&#8221;fedora&#8221;)</title>
+		<link>http://Blog.SunnyBoy.Me/2013/07/24/15023/</link>
+		<comments>http://Blog.SunnyBoy.Me/2013/07/24/15023/#comments</comments>
+		<pubDate>Wed, 24 Jul 2013 17:53:15 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[nix]]></category>
+		<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15023</guid>
+		<description><![CDATA[Linux入门 http://vbird.dic.ksu.edu.tw/ &#160; SELinux Set right for apache/httpd: https://access.redhat.com/site/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Security-Enhanced_Linux/sect-Security-Enhanced_Linux-Working_with_SELinux-SELinux_Contexts_Labeling_Files.html To disable selinux: http://www.thegeekstuff.com/2009/06/how-to-disable-selinux-redhat-fedora-debian-unix/ SElinux &#62; Allow apache to use remote  DB: setsebool -P httpd_can_network_connect_db=1 SELinux &#62; Allow apache /php to send email: sudo setsebool -P httpd_can_sendmail 1 ## with the &#8220;-P&#8221; for persistent (across reboots). Trouble shooting: "You have new mail ...": install mailx updatedb / [&#8230;]]]></description>
+				<content:encoded><![CDATA[<h2>Linux入门</h2>
+<p>http://vbird.dic.ksu.edu.tw/</p>
+<p>&nbsp;</p>
+<h2>SELinux</h2>
+<h3>Set right for apache/httpd:</h3>
+<p>https://access.redhat.com/site/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Security-Enhanced_Linux/sect-Security-Enhanced_Linux-Working_with_SELinux-SELinux_Contexts_Labeling_Files.html</p>
+<h3>To disable selinux:</h3>
+<p>http://www.thegeekstuff.com/2009/06/how-to-disable-selinux-redhat-fedora-debian-unix/</p>
+<h2>SElinux &gt; Allow apache to use remote  DB:</h2>
+<pre>setsebool -P httpd_can_network_connect_db=1</pre>
+<h2>SELinux &gt; Allow apache /php to send email:</h2>
+<p><code>sudo setsebool -P httpd_can_sendmail 1 </code>## with the &#8220;-P&#8221; for persistent (across reboots).</p>
+<h2>Trouble shooting:</h2>
+<pre>"You have new mail ...": install mailx</pre>
+<pre>updatedb / locate: command not found: install mlocate</pre>
+<p>&nbsp;</p>
+<h2>SSH Tunneling</h2>
+<p><span style="line-height: 1.714285714; font-size: 1rem;">ssh -D 8080 -f -C -q -N myuser@remote_ssh_server</span></p>
+<p>-D 8080 : This does the dynamic stuff and makes it behave as a SOCKS server.<br />
+-f : This will fork the process into the background after you type your password.<br />
+-C : Turns on compression.<br />
+-q : Quiet mode. Since this is just a tunnel we can make it quiet.<br />
+-N : Tells it no commands will be sent. (the -f will complain if we don’t specify this)</p>
+<p>In Firefox use about:config</p>
+<p>network.proxy.no_proxies_on : localhost, 127.0.0.1, 192.168.0.0/24, .yourcompany.com<br />
+network.proxy.socks : 127.0.0.1<br />
+network.proxy.socks_port : 8080<br />
+<strong>network.proxy.socks.remote_dns : true</strong><br />
+network.proxy.socks_version : 5<br />
+network.proxy.type : 1</p>
+<p>ref: http://www.linuxjournal.com/content/use-ssh-create-http-proxy</p>
+<p>&nbsp;</p>
+<h2>Install RHEL <span style="text-decoration: underline;"><em>EPEL Repo</em></span> on Centos 6</h2>
+<p>OBS: when installing CentOS, it is suggested to install the &#8220;with updates&#8221; version.</p>
+<pre>wget http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
+wget http://rpms.famillecollet.com/enterprise/remi-release-6.rpm
+sudo rpm -Uvh remi-release-6*.rpm epel-release-6*.rpm</pre>
+<pre>sudo vim /etc/yum.repos.d/remi.repo 
+    enabled=1</pre>
+<p>http://www.rackspace.com/knowledge_center/article/installing-rhel-epel-repo-on-centos-5x-or-6x</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2013/07/24/15023/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>PHP In Case Of</title>
+		<link>http://Blog.SunnyBoy.Me/2013/07/24/15026/</link>
+		<comments>http://Blog.SunnyBoy.Me/2013/07/24/15026/#respond</comments>
+		<pubDate>Wed, 24 Jul 2013 17:53:04 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[nix]]></category>
+		<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15026</guid>
+		<description><![CDATA[Fatal error: Call to undefined function mb_strlen() apt-get / yum search mbstring ; apt-get / yum install php-mbstring ... http://blog.fity.cn/post/187/ &#160; Fatal error: Call to undefined function imagecreate() and it takes a lot of time to upload a image. apt-get install php5-gd http://www.php.net/manual/en/image.installation.php &#160; Warning: It is not safe to rely on the system&#8217;s timezone settings Solution: [&#8230;]]]></description>
+				<content:encoded><![CDATA[<h2>Fatal error: Call to undefined function <span style="text-decoration: underline;">mb_strlen()</span></h2>
+<pre>apt-get / yum search mbstring ; apt-get / yum install php-mbstring ...</pre>
+<p><a href="http://blog.fity.cn/post/187/">http://blog.fity.cn/post/187/</a></p>
+<p>&nbsp;</p>
+<h2>Fatal error: Call to undefined function <span style="text-decoration: underline;">imagecreate()</span></h2>
+<p>and it takes a lot of time to upload a image.</p>
+<pre>apt-get install php5-gd</pre>
+<p><a href="http://www.php.net/manual/en/image.installation.php">http://www.php.net/manual/en/image.installation.php</a></p>
+<p>&nbsp;</p>
+<h2>Warning: It is not safe to rely on the system&#8217;s timezone settings</h2>
+<p>Solution: modify php.ini:</p>
+<pre>date.timezone = Asia/Shanghai</pre>
+<p><a href="http://stackoverflow.com/questions/2213608/php-configuration-it-is-not-safe-to-rely-on-the-systems-timezone-settings">http://stackoverflow.com/questions/2213608/php-configuration-it-is-not-safe-to-rely-on-the-systems-timezone-settings</a></p>
+<p>&nbsp;</p>
+<h2>Set Include Path in PHP File</h2>
+<pre>set_include_path(get_include_path() . PATH_SEPARATOR . $path);</pre>
+<p>&nbsp;</p>
+<h2>Speedup Zend Studio</h2>
+<p><a href="http://devzone.zend.com/3291/10-tips-for-a-speedy-zend-studio/">http://devzone.zend.com/3291/10-tips-for-a-speedy-zend-studio/</a></p>
+<p>&nbsp;</p>
+<h2>Error and Log</h2>
+<p><strong>user_error($str)</strong> prints the string in apache error log with php file path and line number.</p>
+<p><strong>error_log($str)</strong> prints only the string in apache error log.</p>
+<p>Both will not influence http status (will be 200).</p>
+<p><a href="http://php.net/manual/en/ref.errorfunc.php">http://php.net/manual/en/ref.errorfunc.php</a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2013/07/24/15026/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Password</title>
+		<link>http://Blog.SunnyBoy.Me/2013/07/16/15013/</link>
+		<comments>http://Blog.SunnyBoy.Me/2013/07/16/15013/#respond</comments>
+		<pubDate>Tue, 16 Jul 2013 20:41:01 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=15013</guid>
+		<description><![CDATA[Many people have the problem of memorizing passwords in different web sites, so they decided to use one password for all the web sites. But the risk is obvious, if a hacker could get one of your accounts, it means all your accounts, maybe even your online bank. Then one may try use different passwords [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>Many people have the problem of memorizing passwords in different web sites, so they decided to use one password for all the web sites. But the risk is obvious, if a hacker could get one of your accounts, it means all your accounts, maybe even your online bank.</p>
+<p>Then one may try use different passwords for different sites &#8230; It becomes a vicious circle &#8230;</p>
+<p>Here are some tips which you could use to generate your passwords.</p>
+<ol>
+<li><strong>Catheterize</strong> the web sites. For example, here are my categories:
+<ul>
+<li>Online Bank and other very personal accounts.</li>
+<li>Business and social friends.</li>
+<li>Free-hacking, very not important, one-time, or for downloading, etc.</li>
+</ul>
+</li>
+<li><strong>Decide &#8220;algorithm&#8221;</strong> for each category. For example, for the most important category:
+<ol>
+<li><strong>Choose a username.</strong> If you have a domain(like me), you could make use of it to have many emails, which is great. If not, then what you need is one category one email / username. Three usernames, or even several more, should not be a problem. Actually, I have &#8230;..  sorry, cannot count, toooooo many &#8230;.</li>
+<li><strong>Choose a number.</strong> which should be meaningless. For instance, take your two friends&#8217; birthday, (1950-05-16, 1966-06-19) and mix them together to 9165591. But how? This might be complicated: <span style="color: #0000ff;">1950-05</span><span style="color: #999999;">-16, 1966-</span><span style="color: #0000ff;">06-19</span> (remove middle)&gt; 195<span style="color: #c0c0c0;">0-0</span>5<span style="color: #c0c0c0;">-0</span>6-19 &gt; 195-56-19 (reverse)&gt; 9165591. You may choose a easier-to-remember method, but make sure you did some reverse thing, so the continuous digits will not be considered as a number / birthday in a calendar, as the hackers would like to try birthdays first.</li>
+<li><strong>Choose a string.</strong> The easiest way will be the name / domain / pinyin of the website, so you could have one site one pass. But make sure the hacker could not guess how you generate the string. For example, instead of use &#8220;google&#8221; for your gmail, &#8220;gg&#8221; (initilized pinyin) is a better choice, especially for non-chinese websites, as there is a wall between chinese sites and the others. &#8220;gg&#8221; could be optimized as &#8220;Gg&#8221;, so you could also get the capital letter(s).</li>
+<li><strong>Choose a special char</strong>acteristic. For example, single quote, equal sign, comma, dot,  etc&#8230;.</li>
+<li><strong>Concatenate</strong> the number, the string and the char. You may wanna put the char into the number to further improve the security and randomness.</li>
+</ol>
+</li>
+<li>For less important accounts, the algorithm could become less complicated, but also make sure that even the hacker got one of the algorithms, they could not guess another one.</li>
+</ol>
+<p>Done</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2013/07/16/15013/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>限制QQ [祝病魔早日战胜方校长] [输入法]</title>
+		<link>http://Blog.SunnyBoy.Me/2013/06/29/14918/</link>
+		<comments>http://Blog.SunnyBoy.Me/2013/06/29/14918/#respond</comments>
+		<pubDate>Sat, 29 Jun 2013 10:07:25 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Life]]></category>
+		<category><![CDATA[POL]]></category>
+		<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=14918</guid>
+		<description><![CDATA[昨天把qq签名改成了&#8221;祝病魔早日战胜方校长&#8221;, 然后硬盘就没休息过. 本来以为是chrome (没办法, chrome占那么多内存, 有时候导致页面交换&#8230;) 一查是qq搞鬼, 实在受不了了, 虽然不担心跨国, 这也太恶心了, q有什么权利看我个人的资料和隐私. 想找曾经看到的那个限制qq进程访问的博客, 没搜到, 那就自己动手丰衣足食吧. //除了下面的方法, 发现有个 http://sourceforge.net/projects/qqsandbox/ 不知道这个东西有人用过没, 效果不清楚. &#160; 步骤: 1. 控制面板新建用户[1], 例如&#8221;qqUser&#8221;, 然后设置一个密码. 2. 设置安全策略[2]. 对qqUser使用白名单原则, 即, 通过ntfs的acl拒绝qq的一切fs请求 (例如, D盘, 右键&#62;属性&#62;安全&#62;编辑&#62;增加&#62;&#8221;qqUser&#8221;&#62;&#8221;检查用户名&#8221;&#62;提示&#8221;computerName\qqUser&#8221;&#62;&#8221;确定&#8221;&#62;选中用户&#8221;qqUser&#8221;&#62;拒绝一切访问), 然后开放它自己必须的文件夹, 例如安装程序路径, 消息历史记录路径 (注意, 需要解除&#8221;继承&#8221;, 并且保留已继承的策略, 然后删除对qqUser用户进程的访问限制). 3. 使用runas强制qq在qqUser权限内运行 [3], 并做成快捷方式, 再删除原有快捷方式, 包括&#8221;所有程序&#8221;里的. runas.exe   /user:computerName\qqUser   /savecred   &#8220;I:\Program Files (x86)\Tencent\QQ\QQProtect\Bin\QQProtect.exe&#8221; &#160; Trouble [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>昨天把qq签名改成了&#8221;祝病魔早日战胜方校长&#8221;, 然后硬盘就没休息过. 本来以为是chrome (没办法, chrome占那么多内存, 有时候导致页面交换&#8230;) 一查是qq搞鬼, 实在受不了了, 虽然不担心跨国, 这也太恶心了, q有什么权利看我个人的资料和隐私. 想找曾经看到的那个限制qq进程访问的博客, 没搜到, 那就自己动手丰衣足食吧.</p>
+<p>//除了下面的方法, 发现有个 <a href="http://sourceforge.net/projects/qqsandbox/">http://sourceforge.net/projects/qqsandbox/</a> 不知道这个东西有人用过没, 效果不清楚.</p>
+<p>&nbsp;</p>
+<h2>步骤:</h2>
+<p>1. 控制面板新建用户[1], 例如&#8221;qqUser&#8221;, 然后设置一个密码.</p>
+<p>2. 设置安全策略[2]. 对qqUser使用白名单原则, 即, 通过ntfs的acl拒绝qq的一切fs请求 (例如, D盘, 右键&gt;属性&gt;安全&gt;编辑&gt;增加&gt;&#8221;qqUser&#8221;&gt;&#8221;检查用户名&#8221;&gt;提示&#8221;computerName\qqUser&#8221;&gt;&#8221;确定&#8221;&gt;选中用户&#8221;qqUser&#8221;&gt;拒绝一切访问), 然后开放它自己必须的文件夹, 例如安装程序路径, 消息历史记录路径 (注意, 需要解除&#8221;继承&#8221;, 并且保留已继承的策略, 然后删除对qqUser用户进程的访问限制).</p>
+<p>3. 使用runas强制qq在qqUser权限内运行 [3], 并做成快捷方式, 再删除原有快捷方式, 包括&#8221;所有程序&#8221;里的.</p>
+<p>runas.exe   /user:computerName\qqUser   /savecred   &#8220;I:\Program Files (x86)\Tencent\QQ\QQProtect\Bin\QQProtect.exe&#8221;</p>
+<p>&nbsp;</p>
+<h2>Trouble Shooting:</h2>
+<p><del>然后运行, 发现自动登录和历史记录都没了. 原来是qq在qqUser里面新建了文件夹去做这个事情. 所以删除了&#8221;C:\用户\qqUser\文档\Tencent Files&#8221;, 然后再弄个link就行了[4], 根据个人情况, 路径和名字可能不同.</del></p>
+<p><del>mklink /d &#8220;C:\用户\qqUser\文档\Tencent Files&#8221;    &#8220;D:\我的文档\腾讯QQ文件&#8221;</del></p>
+<p>移动去c盘，然后c盘给q权限。否则会导致奇怪的问题。</p>
+<p>&nbsp;</p>
+<h2>拼音输入法失效</h2>
+<p>上面的设置会导致输入法问题，解决方法：开机先启动runas 快捷方式启动q，然后开启输入法，例如google pinyin， 然后自己的用户本身反而用不了google了，我就用了bing ~ ，目前感觉还可以。</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h2>REF:</h2>
+<p>[1] <a href="http://teliute.org/win/Tewin7/lesson16/lesson16.html">http://teliute.org/win/Tewin7/lesson16/lesson16.html</a> ;</p>
+<p><a href="http://www.wenbanzhu.com/%E5%A6%82%E4%BD%95%E5%9C%A8Windows_7%E4%B8%AD%E5%88%9B%E5%BB%BA%E6%A0%87%E5%87%86%E7%94%A8%E6%88%B7%EF%BC%9F">http://www.wenbanzhu.com/如何在Windows_7中创建标准用户？</a></p>
+<p>[2] <a href="http://hi.baidu.com/wuaner/item/ff9fcfc7d0b1e457bdef69db">http://hi.baidu.com/wuaner/item/ff9fcfc7d0b1e457bdef69db</a> ;</p>
+<p><a href="http://wenku.baidu.com/view/b651ed04bed5b9f3f90f1c4a.html">http://wenku.baidu.com/view/b651ed04bed5b9f3f90f1c4a.html</a></p>
+<p>[3] <a href="http://jingyan.baidu.com/article/da1091fbf561c3027849d682.html">http://jingyan.baidu.com/article/da1091fbf561c3027849d682.html</a></p>
+<p>[4] <a href="http://technet.microsoft.com/en-us/library/cc753194(v=ws.10).aspx">http://technet.microsoft.com/en-us/library/cc753194(v=ws.10).aspx</a></p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2013/06/29/14918/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>MS Tools, MicroSoft Tools</title>
+		<link>http://Blog.SunnyBoy.Me/2013/06/27/14914/</link>
+		<comments>http://Blog.SunnyBoy.Me/2013/06/27/14914/#respond</comments>
+		<pubDate>Thu, 27 Jun 2013 16:49:16 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=14914</guid>
+		<description><![CDATA[Sysinternals Utilities http://technet.microsoft.com/en-us/sysinternals/bb545027.aspx http://technet.microsoft.com/en-US/sysinternals &#160;]]></description>
+				<content:encoded><![CDATA[<p>Sysinternals Utilities</p>
+<p><a href="http://technet.microsoft.com/en-us/sysinternals/bb545027.aspx">http://technet.microsoft.com/en-us/sysinternals/bb545027.aspx</a></p>
+<p><a href="http://technet.microsoft.com/en-US/sysinternals">http://technet.microsoft.com/en-US/sysinternals</a></p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2013/06/27/14914/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>一个时区引发的血案 [timezone] [ubuntu] [cacti]</title>
+		<link>http://Blog.SunnyBoy.Me/2013/06/08/14878/</link>
+		<comments>http://Blog.SunnyBoy.Me/2013/06/08/14878/#respond</comments>
+		<pubDate>Sat, 08 Jun 2013 22:48:16 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Leading]]></category>
+		<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=14878</guid>
+		<description><![CDATA[拿cacti试着玩，和mrtg一起装的。 第一天（昨天）装上就睡觉了，今天起来接着玩。 发现自己新建的数据所产生的图表和rrd文件显示不出来数据，总是 NaN， copy其他已经有的文件替换新文件就可以显示，当然，数据还是老文件的。 然后，发现copy的rrd文件生成的图和原rrd一致，即使过了半小时也是一样的，难道从同一个数据源获取的信息被写到不同的rrd文件？md5检查证明这个想法是错误的。 还有个很诡异的问题，早晨我特地用bc算了一个很大的数，但是他显示的cpu load最高的时候却是在中午，我都怀疑有人在我吃饭的时候黑了我的服务器？ 把cacti的dev模式打开，详细检查log。没发现任何报错，update的rrd文件也没报错。我汗～～～灵异事件。。。 突然发现写入rrd文件的时间戳貌似和生成图表用的时间戳存在巨大差异，一对比，差4小时～！！！ 然后就想起来给这台服务器刚换过时区，应该是这个问题了。看来只替换时区文件是不行的 。。。 所以我： dpkg-reconfigure tzdata &#38;&#38; reboot 。。。 很难说清到底哪些程序需要重启，干脆整机重启吧，几秒的事儿～ //win server 就2了，几分钟起来就不错了。 &#160; 这里还有另一篇文章：（我没试过） http://www.wikihow.com/Change-the-Timezone-in-Linux &#160;]]></description>
+				<content:encoded><![CDATA[<p>拿cacti试着玩，和mrtg一起装的。</p>
+<p>第一天（昨天）装上就睡觉了，今天起来接着玩。</p>
+<p>发现自己新建的数据所产生的图表和rrd文件显示不出来数据，总是 NaN， copy其他已经有的文件替换新文件就可以显示，当然，数据还是老文件的。</p>
+<p>然后，发现copy的rrd文件生成的图和原rrd一致，即使过了半小时也是一样的，难道从同一个数据源获取的信息被写到不同的rrd文件？md5检查证明这个想法是错误的。</p>
+<p>还有个很诡异的问题，早晨我特地用bc算了一个很大的数，但是他显示的cpu load最高的时候却是在中午，我都怀疑有人在我吃饭的时候黑了我的服务器？</p>
+<p>把cacti的dev模式打开，详细检查log。没发现任何报错，update的rrd文件也没报错。我汗～～～灵异事件。。。</p>
+<p>突然发现写入rrd文件的时间戳貌似和生成图表用的时间戳存在巨大差异，一对比，差4小时～！！！</p>
+<p>然后就想起来给这台服务器刚换过时区，应该是这个问题了。看来只替换时区文件是不行的 。。。</p>
+<p>所以我： dpkg-reconfigure tzdata &amp;&amp; reboot 。。。</p>
+<p>很难说清到底哪些程序需要重启，干脆整机重启吧，几秒的事儿～ //win server 就2了，几分钟起来就不错了。</p>
+<p>&nbsp;</p>
+<p>这里还有另一篇文章：（我没试过）</p>
+<p><a href="http://www.wikihow.com/Change-the-Timezone-in-Linux">http://www.wikihow.com/Change-the-Timezone-in-Linux</a></p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2013/06/08/14878/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>我和雷娜思小姐的故事</title>
+		<link>http://Blog.SunnyBoy.Me/2013/05/24/14854/</link>
+		<comments>http://Blog.SunnyBoy.Me/2013/05/24/14854/#respond</comments>
+		<pubDate>Fri, 24 May 2013 20:32:44 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=14854</guid>
+		<description><![CDATA[&#160; http://www.bootingman.org/the-best-linux-tutorial-story-of-lady-linux-and-me/ &#160;]]></description>
+				<content:encoded><![CDATA[<p>&nbsp;</p>
+<p><a href="http://www.bootingman.org/the-best-linux-tutorial-story-of-lady-linux-and-me/">http://www.bootingman.org/the-best-linux-tutorial-story-of-lady-linux-and-me/</a></p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2013/05/24/14854/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Git In Case Of</title>
+		<link>http://Blog.SunnyBoy.Me/2013/05/01/14816/</link>
+		<comments>http://Blog.SunnyBoy.Me/2013/05/01/14816/#respond</comments>
+		<pubDate>Wed, 01 May 2013 19:06:41 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=14816</guid>
+		<description><![CDATA[http://git-scm.com/book http://ruby-china.org/topics/4768 http://robbinfan.com/blog/34/git-common-command &#160; 配置 git config -l # 列举所有配置 &#160; 常用命令 查看、添加、提交、删除、找回，重置修改文件 git help &#60;command&#62; # 显示command的help git show # 显示某次提交的内容 git show $id git co -- &#60;file&#62; # 抛弃工作区修改 // co = Check Out git co . # 抛弃工作区修改 git add &#60;file&#62; # 将工作文件修改提交到本地暂存区 git add . # 将所有修改过的工作文件提交暂存区 git st/status # 查看工作区状态 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>http://git-scm.com/book</p>
+<p>http://ruby-china.org/topics/4768</p>
+<p>http://robbinfan.com/blog/34/git-common-command</p>
+<p>&nbsp;</p>
+<h2>配置</h2>
+<p>git config -l # 列举所有配置</p>
+<p>&nbsp;</p>
+<h2 id="">常用命令</h2>
+<ul>
+<li><span style="color: #000000;">查看、添加、提交、删除、找回，重置修改文件</span></li>
+</ul>
+<pre>git help &lt;command&gt;  # 显示command的help
+git show            # 显示某次提交的内容
+git show $id
+
+git co  -- &lt;file&gt;   # 抛弃工作区修改 // co = Check Out
+git co  .           # 抛弃工作区修改
+
+git add &lt;file&gt;      # 将工作文件修改提交到本地暂存区
+git add .           # 将所有修改过的工作文件提交暂存区
+git st/status       # 查看工作区状态
+
+git rm &lt;file&gt;       # 从版本库中删除文件
+git rm &lt;file&gt; --cached  # 从版本库中删除文件，但不删除文件
+
+git reset &lt;file&gt;    # 从暂存区恢复到工作文件
+git reset -- .      # 从暂存区恢复到工作文件
+git reset --hard    # 恢复最近一次提交过的状态，即放弃上次提交后的所有本次修改</pre>
+<pre>git reset --soft HEAD~1  # 撤消最后一次commit，所有的修改都保留, 用的最多 !!!</pre>
+<pre>git ci &lt;file&gt;
+git ci .
+git ci -a           # 将git add, git rm和git ci等操作都合并在一起做
+git ci -am "some comments"
+git ci --amend      # 修改最后一次提交记录
+
+git revert &lt;$id&gt;    # 恢复某次提交的状态，恢复动作本身也创建了一次提交对象
+git revert HEAD     # 恢复最后一次提交的状态
+
+git blame commit1~1 -Ln1,n2 -- prev/file    # 文件移动</pre>
+<ul>
+<li><span style="font-size: 1.17em;">diff</span></li>
+</ul>
+<pre><code>git diff &lt;file&gt;     # 比较当前文件和暂存区文件差异
+git diff
+git diff &lt;$id1&gt; &lt;$id2&gt;   # 比较两次提交之间的差异
+git diff &lt;branch1&gt;..&lt;branch2&gt; # 在两个分支之间比较 
+git diff --staged   # 比较暂存区和版本库差异
+git diff --cached   # 比较暂存区和版本库差异
+git diff --stat     # 仅仅比较统计信息</code></pre>
+<ul>
+<li><span style="font-size: 1.17em;">查看提交记录</span></li>
+</ul>
+<pre><code>git log
+git log &lt;file&gt;      # 查看该文件每次提交记录
+git log -p &lt;file&gt;   # 查看每次详细修改内容的diff
+git log -p -2       # 查看最近两次详细修改内容的diff
+git log --stat      # 查看提交统计信息</code></pre>
+<h2 id="aeaoofnhgocdbnbeljkmbjdmhbcokfdb-mousedown">本地分支</h2>
+<ul>
+<li><span style="font-size: 1.17em;">查看</span></li>
+</ul>
+<pre><code>git br -r           # 查看远程分支
+git br &lt;new_branch&gt; # 创建新的分支
+git br -v           # 查看各个分支最后提交信息
+git br --merged     # 查看已经被合并到当前分支的分支
+git br --no-merged  # 查看尚未被合并到当前分支的分支</code></pre>
+<ul>
+<li><span style="font-size: 1.17em;">切换</span></li>
+</ul>
+<pre><code>git co &lt;branch&gt;     # 切换到某个分支
+git co -b &lt;new_branch&gt; # 创建新的分支，并且切换过去
+git co -b &lt;new_branch&gt; &lt;branch&gt;  # 基于branch创建新的new_branch</code></pre>
+<pre><code>git co $id          # 把某次历史提交记录checkout出来，但无分支信息，切换到其他分支会自动删除
+git co $id -b &lt;new_branch&gt;  # 把某次历史提交记录checkout出来，创建成一个分支</code></pre>
+<ul>
+<li><span style="font-size: 1.17em;">删除</span></li>
+</ul>
+<pre><code>git br -d &lt;branch&gt;  # 删除某个分支
+git br -D &lt;branch&gt;  # 强制删除某个分支 (未被合并的分支被删除的时候需要强制)</code></pre>
+<ul>
+<li><span style="font-size: 1.17em;">merge 和 rebase</span></li>
+</ul>
+<pre><code>git merge &lt;branch&gt;               # 将branch分支合并到当前分支
+git merge origin/master --no-ff  # 不要Fast-Foward合并，这样可以生成merge提交
+
+git rebase master &lt;branch&gt;       # 将master rebase到branch，相当于：
+git co &lt;branch&gt; &amp;&amp; git rebase master &amp;&amp; git co master &amp;&amp; git merge &lt;branch&gt;</code></pre>
+<h2 id="">远程分支</h2>
+<pre><code id="aeaoofnhgocdbnbeljkmbjdmhbcokfdb-mousedown">git pull                         # 抓取远程仓库所有分支更新并合并到本地
+git pull --no-ff                 # 抓取远程仓库所有分支更新并合并到本地，不要快进合并
+git fetch origin                 # 抓取远程仓库更新
+git merge origin/master          # 将远程主分支合并到本地当前分支
+git co --track origin/branch     # 跟踪某个远程分支创建相应的本地分支
+git co -b &lt;local_branch&gt; origin/&lt;remote_branch&gt;  # 基于远程分支创建本地分支，功能同上
+
+git push                         # push所有分支
+git push origin master           # 将本地主分支推到远程主分支
+git push -u origin master        # 将本地主分支推到远程(如无远程主分支则创建，用于初始化远程仓库)
+git push origin &lt;local_branch&gt;   # 创建远程分支， origin是远程仓库名
+git push origin &lt;local_branch&gt;:&lt;remote_branch&gt;  # 创建远程分支
+git push origin :&lt;remote_branch&gt;  #先删除本地分支(git br -d &lt;branch&gt;)，然后再push删除远程分支</code></pre>
+<h2 id="aeaoofnhgocdbnbeljkmbjdmhbcokfdb-mousedown">远程仓库</h2>
+<pre><code>git remote -v                    # 查看远程服务器地址和仓库名称
+git remote show origin           # 查看远程服务器仓库状态
+git remote add origin git@github:robbin/robbin_site.git         # 添加远程仓库地址
+git remote set-url origin git@github.com:robbin/robbin_site.git # 设置远程仓库地址(用于修改远程仓库地址)
+git remote rm &lt;repository&gt;       # 删除远程仓库
+</code></pre>
+<ul>
+<li><span style="font-size: 1.17em;">创建远程仓库</span></li>
+</ul>
+<pre><code>git clone --bare robbin_site robbin_site.git  # 用带版本的项目创建纯版本仓库
+scp -r my_project.git git@git.csdn.net:~      # 将纯仓库上传到服务器上
+
+mkdir robbin_site.git &amp;&amp; cd robbin_site.git &amp;&amp; git --bare init # 在服务器创建纯仓库
+git remote add origin git@github.com:robbin/robbin_site.git    # 设置远程仓库地址
+git push -u origin master                                      # 客户端首次提交
+git push -u origin develop  # 首次将本地develop分支提交到远程develop分支，并且track
+
+git remote set-head origin master   # 设置远程仓库的HEAD指向master分支
+</code></pre>
+<ul>
+<li>也可以命令设置跟踪远程库和本地库</li>
+</ul>
+<pre><code>git branch --set-upstream master origin/master
+git branch --set-upstream develop origin/develop</code></pre>
+<h2 id="aeaoofnhgocdbnbeljkmbjdmhbcokfdb-mousedown">Patch(方便在多台机器上开发同步时用)</h2>
+<pre><code>git diff &gt; ../sync.patch         # 生成补丁
+git apply ../sync.patch          # 打补丁
+git apply --check ../sync.patch  # 测试补丁能否成功
+
+</code></pre>
+<h2 id="">Stash 暂存</h2>
+<pre><code>git stash                        # 暂存
+git stash list                   # 列所有stash
+git stash apply                  # 恢复暂存的内容
+git stash drop                   # 删除暂存区</code></pre>
+<pre>notes:</pre>
+<h2>获取远程分支</h2>
+<p>运行 git fetch，fetch会获取所有远程分支到本地，再运行</p>
+<pre>git checkout -b &lt;local-branch-name&gt; origin/&lt;remote-branch-name&gt;</pre>
+<p>就可以将远程分支映射到本地命名为 &lt;local-branch-name&gt;  的分支 (如果没有此分支则自动建立)。</p>
+<p>http://www.cnblogs.com/hanxianlong/archive/2012/09/10/2678659.html</p>
+<p>&nbsp;</p>
+<h2>Force Overwrite a Local Branch</h2>
+<pre id=""><code id="aeaoofnhgocdbnbeljkmbjdmhbcokfdb-mousedown">git fetch --all
+git reset --hard origin/master
+</code></pre>
+<p id=""><code>git fetch</code> downloads the latest from remote without trying to merge or rebase anything. Then the<code>git reset</code> resets the master branch to what you just fetched.</p>
+<p>http://stackoverflow.com/questions/1125968/force-git-to-overwrite-local-files-on-pull</p>
+<p>&nbsp;</p>
+<h2>Ignore File permission Changes</h2>
+<pre>git config --global core.fileMode false</pre>
+<p>http://stackoverflow.com/questions/1580596/how-do-i-make-git-ignore-mode-changes-chmod</p>
+<p>&nbsp;</p>
+<h2>GUI Software</h2>
+<p>http://git-scm.com/downloads/guis</p>
+<p>&nbsp;</p>
+<h2>团队协作实例</h2>
+<p>http://git-scm.com/book/en/ -&gt;</p>
+<p>chapter 5. Distributed Git</p>
+<p>ch5.1 Distributed Workflows</p>
+<p>ch5.2 Contributing to a Project</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2013/05/01/14816/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Vim In Case Of</title>
+		<link>http://Blog.SunnyBoy.Me/2013/05/01/14814/</link>
+		<comments>http://Blog.SunnyBoy.Me/2013/05/01/14814/#respond</comments>
+		<pubDate>Wed, 01 May 2013 18:53:39 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=14814</guid>
+		<description><![CDATA[zr //unfold one level zR //unfold all levels zm //fold one level zM //fold all levels]]></description>
+				<content:encoded><![CDATA[<pre id="aeaoofnhgocdbnbeljkmbjdmhbcokfdb-mousedown"><span style="color: #c0c0c0;">zr //unfold one level</span>
+<strong>zR //unfold all</strong> levels
+<span style="color: #c0c0c0;">zm //fold one level</span>
+<strong>zM //fold all</strong> levels
+
+</pre>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2013/05/01/14814/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>那些缩略词们,那些词汇们. abbr abbreviation</title>
+		<link>http://Blog.SunnyBoy.Me/2013/04/20/14783/</link>
+		<comments>http://Blog.SunnyBoy.Me/2013/04/20/14783/#respond</comments>
+		<pubDate>Sat, 20 Apr 2013 17:44:11 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=14783</guid>
+		<description><![CDATA[理解记忆岂不更好~~ &#160; a: Anchor; href: Http REFerence; ol: Ordered List; ul: Un-ordered List; tr: Table Row; thead: Table Head; th: Table Head-data; td: Table Data; colspan: COLumn SPAN; rel: relationship; &#160; &#160; &#60;em&#62;: emphasis; font-size: 0.5em:  equivalent measurement. adj. [印]全身长(或宽)的(印刷符号). Courier: 急差; Cursive: 草书; palette: 调色板; serif: 衬线, 例如TimesNewRoman的字符们; sans: = without; &#160; &#160; 其他很熟悉的: css: Cascading Style Sheets; &#160;]]></description>
+				<content:encoded><![CDATA[<p>理解记忆岂不更好~~</p>
+<p>&nbsp;</p>
+<p>a: Anchor;</p>
+<p>href: Http REFerence;</p>
+<p>ol: Ordered List;</p>
+<p>ul: Un-ordered List;</p>
+<p>tr: Table Row;</p>
+<p>thead: Table Head;</p>
+<p>th: Table Head-data;</p>
+<p>td: Table Data;</p>
+<p>colspan: COLumn SPAN;</p>
+<p>rel: <strong>rel</strong>ationship;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&lt;em&gt;: <strong>em</strong>phasis;</p>
+<p>font-size: 0.5<strong>em</strong>:  <strong>e</strong>quivalent <strong>m</strong>easurement. <span style="color: #0000ff;">adj.</span> [印]全身长(或宽)的(印刷符号).</p>
+<p>Courier: 急差;</p>
+<p>Cursive: 草书;</p>
+<p>palette: 调色板;</p>
+<p>serif: 衬线, 例如TimesNewRoman的字符们;</p>
+<p>sans: = without;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>其他很熟悉的:</p>
+<p>css: <strong>C</strong>ascading <strong>S</strong>tyle <strong>S</strong>heets;</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2013/04/20/14783/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>诡异的无线路由掉线 [wireless] [router] [arp]</title>
+		<link>http://Blog.SunnyBoy.Me/2013/04/08/14760/</link>
+		<comments>http://Blog.SunnyBoy.Me/2013/04/08/14760/#respond</comments>
+		<pubDate>Sun, 07 Apr 2013 23:13:29 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Leading]]></category>
+		<category><![CDATA[Life]]></category>
+		<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=14760</guid>
+		<description><![CDATA[最近家里用本本无线, 但是总掉线, 刚开始以为是路由问题, 重启, 好了, 但是太麻烦, 而且很频繁. 后来偶然发现本本掉线之后 (但是显示还有连接), 手动重连即可. 问题是这个毛病太频繁了, 平时在学校没事儿, 回家之后很烦. 受不了, 于是wireshark, 发现路由很奇怪地不回答arp询问, 导致动态arp的cache过期之后本本找不到gateway的mac地址, 无法送出数据包. 但是此时尚可以接收数据包, 这也可能是为什么skype或者其他云服务之类发现&#8221;自己&#8221;off-line会滞后于错误的实际发生时间. 虽然不知道是不是路由的问题 (已经从dd-wrt返回出场状态, 不过依然不能解决问题), 总有办法bypass, 就是static arp. xp中使用 arp -s 192.168.1.1 68-7f-74-b0-f8-ab 可以设置静态arp, 但是在windows 7却得到 &#8220;The ARP entry addition failed: Access is denied.&#8221; ms官方论坛没有细说, 但给出netsh方案. stackoverflow 给出: netsh interface ip add neighbors &#60;interface-name&#62; &#60;peer-ip&#62; &#60;peer-mac&#62; 例如: [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>最近家里用本本无线, 但是总掉线, 刚开始以为是路由问题, 重启, 好了, 但是太麻烦, 而且很频繁.</p>
+<p>后来偶然发现本本掉线之后 (但是显示还有连接), 手动重连即可. 问题是这个毛病太频繁了, 平时在学校没事儿, 回家之后很烦.</p>
+<p>受不了, 于是wireshark, 发现路由很奇怪地不回答arp询问, 导致动态arp的cache过期之后本本找不到gateway的mac地址, 无法送出数据包. 但是此时尚可以接收数据包, 这也可能是为什么skype或者其他云服务之类发现&#8221;自己&#8221;off-line会滞后于错误的实际发生时间.</p>
+<p>虽然不知道是不是路由的问题 (已经从dd-wrt返回出场状态, 不过依然不能解决问题), 总有办法bypass, 就是static arp.</p>
+<p>xp中使用</p>
+<p>arp -s 192.168.1.1 68-7f-74-b0-f8-ab</p>
+<p>可以设置静态arp, 但是在windows 7却得到 &#8220;The ARP entry addition failed: Access is denied.&#8221;</p>
+<p>ms官方论坛没有细说, 但给出netsh方案. stackoverflow 给出:</p>
+<p><strong><strong>netsh interface ip add neighbors &lt;interface-name&gt; &lt;peer-ip&gt; &lt;peer-mac&gt;</strong></strong></p>
+<p>例如:</p>
+<p>netsh interface ip add neighbors &#8220;Wireless Network Connection&#8221; 192.168.1.1  69-7f-ff-bf-f8-gb</p>
+<p>但是错误提示: cannot load ipmontr.dll &#8230;. 我了个去 &#8230;</p>
+<p>然后去 <a href="http://www.opendll.com/index.php?file-download=ipmontr.dll&amp;arch=64bit&amp;version=6.1.7600.16385&amp;dsc=IP-Router-Monitor-DLL">www.opendll.com</a> 下载了一个64bit放到win7的windows文件夹, 终于netsh能用了&#8230;</p>
+<p>//有次仍然提示 &#8220;The filename, directory name, or volume label syntax is incorrect.&#8221; 原因是错误的 &lt;interface-name&gt;. 由于我查看的是ipconfig /all 回显信息, 而这个不是&#8221;interface-name&#8221;, 突然想起应该是在adapter settings里看. 改正这个名字之后, 终于解决这个问题了 &#8230;.</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2013/04/08/14760/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Putty, (MTPutty, Multi-Tab Putty) Configuration</title>
+		<link>http://Blog.SunnyBoy.Me/2013/01/20/14643/</link>
+		<comments>http://Blog.SunnyBoy.Me/2013/01/20/14643/#respond</comments>
+		<pubDate>Sun, 20 Jan 2013 19:19:11 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=14643</guid>
+		<description><![CDATA[Terminal -&#62; Bell : Visual. Window -&#62; Appearance -&#62; Font : DejaVu Sans Mono, 11 point. Window -&#62; Behaviour -&#62; Window Title : &#60;sth&#62; &#160; Connection -&#62;  Data -&#62; Auto-log user: &#60;user&#62; Connection -&#62;  SSH -&#62;Auth -&#62; Private key file : &#60;path/to/file&#62; &#160;]]></description>
+				<content:encoded><![CDATA[<p>Terminal -&gt; Bell : Visual.</p>
+<p>Window -&gt; Appearance -&gt; Font : DejaVu Sans Mono, 11 point.</p>
+<p>Window -&gt; Behaviour -&gt; Window Title : &lt;<em>sth</em>&gt;</p>
+<p>&nbsp;</p>
+<p>Connection -&gt;  Data -&gt; Auto-log user: &lt;user&gt;</p>
+<p>Connection -&gt;  SSH -&gt;Auth -&gt; Private key file : &lt;path/to/file&gt;</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2013/01/20/14643/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>change/modify/reset [chrome] [翻译] [translate] [translation] [config]</title>
+		<link>http://Blog.SunnyBoy.Me/2012/11/17/14583/</link>
+		<comments>http://Blog.SunnyBoy.Me/2012/11/17/14583/#respond</comments>
+		<pubDate>Sat, 17 Nov 2012 21:38:52 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=14583</guid>
+		<description><![CDATA[win + e, F4, esc: %USERPROFILE%\AppData\Local\Google\Chrome\User Data\Default\Preferences &#160;]]></description>
+				<content:encoded><![CDATA[<p>win + e, F4, esc:</p>
+<p>%USERPROFILE%\AppData\Local\Google\Chrome\User Data\Default\Preferences</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2012/11/17/14583/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Latex, Bib To MS</title>
+		<link>http://Blog.SunnyBoy.Me/2012/11/07/14558/</link>
+		<comments>http://Blog.SunnyBoy.Me/2012/11/07/14558/#respond</comments>
+		<pubDate>Wed, 07 Nov 2012 22:09:42 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=14558</guid>
+		<description><![CDATA[1. bib4word use bit.ly to solve the &#8220;／－&#8221; (optional hyphen) display problem at the end of one line. &#160; 2. jabref ＞ xml ＞ import &#160;]]></description>
+				<content:encoded><![CDATA[<p>1. bib4word</p>
+<p>use bit.ly to solve the &#8220;／－&#8221; (optional hyphen) display problem at the end of one line.</p>
+<p>&nbsp;</p>
+<p>2. jabref ＞ xml ＞ import</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2012/11/07/14558/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>bib format</title>
+		<link>http://Blog.SunnyBoy.Me/2012/11/07/14557/</link>
+		<comments>http://Blog.SunnyBoy.Me/2012/11/07/14557/#respond</comments>
+		<pubDate>Wed, 07 Nov 2012 21:36:11 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=14557</guid>
+		<description><![CDATA[web site/page @electronic{MetacafeURL, title = {Metacafe}, url = &#8220;http://www.metacafe.com/&#8221;, } &#160; white paper: @inproceedings{inproceedingsWhite, author = {John Doe}, title = {Full Reference metrics}, month = {Apr}, year = {9999}, type = {White Paper}, note = {{AccepTV}}, url = {http://goo.gl/cd8WE} } title, type, note (company/association) are mandatory. (IEEEtran_bst_HOWTO.pdf -&#62; [59]) notice: use double {} for notes to have the capital beginning [&#8230;]]]></description>
+				<content:encoded><![CDATA[<h2>web site/page</h2>
+<p>@electronic{MetacafeURL,<br />
+title = {Metacafe},<br />
+url = &#8220;http://www.metacafe.com/&#8221;,<br />
+}</p>
+<p>&nbsp;</p>
+<h2>white paper:</h2>
+<p>@inproceedings{inproceedingsWhite,<br />
+author = {John Doe},<br />
+<strong>title = {Full Reference metrics},</strong><br />
+month = {Apr},<br />
+year = {9999},<br />
+<strong>type = {White Paper},</strong><br />
+<strong>note = <span style="color: #ff0000;">{{</span>AccepTV<span style="color: #ff0000;">}}</span>,</strong><br />
+url = {http://goo.gl/cd8WE}<br />
+}</p>
+<p>title, type, note (company/association) are mandatory. (<a href="ftp://www.ctan.org/tex-archive/macros/latex/contrib/IEEEtran/bibtex/IEEEtran_bst_HOWTO.pdf">IEEEtran_bst_HOWTO.pdf</a> -&gt; [59])</p>
+<p>notice: use<strong> double {} </strong>for notes to have the capital beginning letter<strong>.</strong></p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2012/11/07/14557/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>MicroSoft (MS) Office Citation/Bibliography &#8211; How To</title>
+		<link>http://Blog.SunnyBoy.Me/2012/11/07/14549/</link>
+		<comments>http://Blog.SunnyBoy.Me/2012/11/07/14549/#respond</comments>
+		<pubDate>Wed, 07 Nov 2012 18:32:29 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=14549</guid>
+		<description><![CDATA[1. Import Resources  &#8220;over-write&#8221;, if asked. &#160; 2. Insert Citation &#160; &#160; 3. Append Bibliography &#160; 4. Known Issues 4.1. Delete Extra Items MS will not delete the extra items (not cited items) automatically. Make sure that your thesis is the final version, then you could delete the extra bib items. References &#62; Manage &#62; [&#8230;]]]></description>
+				<content:encoded><![CDATA[<h1>1. Import Resources</h1>
+<p style="text-align: center;"><img class="aligncenter" src="http://Blog.SunnyBoy.Me/wp-content/uploads/2012/11/1.source.png" alt="" width="555" /></p>
+<p> &#8220;over-write&#8221;, if asked.</p>
+<p>&nbsp;</p>
+<h1>2. Insert Citation</h1>
+<h1><img class="aligncenter" src="http://Blog.SunnyBoy.Me/wp-content/uploads/2012/11/2.cite.png" alt="" width="555" /></h1>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1>3. Append Bibliography</h1>
+<h1><img class="aligncenter" src="http://Blog.SunnyBoy.Me/wp-content/uploads/2012/11/3.bib.png" alt="" width="555" /></h1>
+<p>&nbsp;</p>
+<h1>4. Known Issues</h1>
+<h2>4.1. Delete Extra Items</h2>
+<p>MS will not delete the extra items (not cited items) automatically.</p>
+<p>Make sure that your thesis is the final version, then you could delete the extra bib items.</p>
+<p>References &gt; Manage &gt; Select (on the right hand) &gt; Delete.</p>
+<p>&nbsp;</p>
+<h2>4.2. Non-Latin Char</h2>
+<p>XML files generated by JabRef is still using latex format for the non-Latin chars, which could not be recognized by ms office.</p>
+<p>&nbsp;</p>
+<h2>4.3. Double {} in Latex</h2>
+<p>Only half could be recognized by ms office.</p>
+<p>&nbsp;</p>
+<p>ref:</p>
+<p><a href="http://www.ee.ic.ac.uk/hp/staff/dmb/perl/index.html">http://www.ee.ic.ac.uk/hp/staff/dmb/perl/index.html</a></p>
+<p><a href="http://www.paulkiddie.com/2009/07/jabref-exports-to-word-2007-xml/">http://www.paulkiddie.com/2009/07/jabref-exports-to-word-2007-xml/</a></p>
+<p><a href="http://www.paulkiddie.com/2010/06/what-does-word-2010-offer-for-reference-management/">http://www.paulkiddie.com/2010/06/what-does-word-2010-offer-for-reference-management/</a></p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2012/11/07/14549/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>MathType (Equation 公式编辑器) How-To</title>
+		<link>http://Blog.SunnyBoy.Me/2012/09/28/14172/</link>
+		<comments>http://Blog.SunnyBoy.Me/2012/09/28/14172/#respond</comments>
+		<pubDate>Fri, 28 Sep 2012 20:11:21 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=14172</guid>
+		<description><![CDATA[How to use mathtype: 1. Let there be green. run !)MathTypePortable.exe and click the left button “安装”. give any require a &#8220;pass&#8221;. wait 10 sec. done, you could close the window now. 2. run the main executable MathType.exe. enjoy! &#160; &#160; PS: 1. you could paste your latex equation text directly into MathType&#8217;s window. 2. you could get [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>How to use mathtype:</p>
+<h2>1. Let there be green.</h2>
+<p>run <span style="text-decoration: underline;">!)MathTypePortable.exe</span> and click the left button “<span style="text-decoration: underline;">安装</span>”.</p>
+<p>give any require a &#8220;pass&#8221;. wait 10 sec.</p>
+<p>done, you could close the window now.</p>
+<h2>2. run the main executable <span style="text-decoration: underline;">MathType.exe</span>. enjoy!</h2>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>PS:</p>
+<p>1. you could paste your latex equation text directly into MathType&#8217;s window.</p>
+<p>2. you could get the latex text by copying. (need to config <span style="text-decoration: underline;">Preferences</span> -&gt; <span style="text-decoration: underline;">Cut and Copy Preferences</span> first).</p>
+<p>&nbsp;</p>
+<p>bit:sunny-mathtype</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2012/09/28/14172/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>客户端+Gamil的发信地址的问题</title>
+		<link>http://Blog.SunnyBoy.Me/2012/09/25/14155/</link>
+		<comments>http://Blog.SunnyBoy.Me/2012/09/25/14155/#respond</comments>
+		<pubDate>Tue, 25 Sep 2012 16:19:48 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=14155</guid>
+		<description><![CDATA[我有俩Gmail的邮箱， A和B。 在thunderbird里面选择A发送时，收到者看到的是B发送的。 感觉是TB的问题，各种找设置，无果。bug？升级，没用。 使用gmail的C邮箱发信测试，没问题。 难道是因为我配置TB的时候的顺序问题？但这个测试耗费时间太长，太麻烦。 突然想起还有一个可能，gmail的设置。 我在A的google账户配置中，默认使用B帐号发信，测试，果然是因为这个设置。 &#160; 结论：如果B帐号允许A帐号以B的身份（地址）发信，且在A中默认使用B发信，则客户端的发信地址A会被google的服务器替换为B。这样，发信时看不出问题，但是收信者看到的是B地址。 &#160;]]></description>
+				<content:encoded><![CDATA[<p>我有俩Gmail的邮箱， A和B。</p>
+<p>在thunderbird里面选择A发送时，收到者看到的是B发送的。</p>
+<p>感觉是TB的问题，各种找设置，无果。bug？升级，没用。</p>
+<p>使用gmail的C邮箱发信测试，没问题。</p>
+<p>难道是因为我配置TB的时候的顺序问题？但这个测试耗费时间太长，太麻烦。</p>
+<p>突然想起还有一个可能，gmail的设置。</p>
+<p>我在A的google账户配置中，默认使用B帐号发信，测试，果然是因为这个设置。</p>
+<p>&nbsp;</p>
+<p>结论：如果B帐号允许A帐号以B的身份（地址）发信，且在A中默认使用B发信，则客户端的发信地址A会被google的服务器替换为B。这样，发信时看不出问题，但是收信者看到的是B地址。</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2012/09/25/14155/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Matlab In Case Of</title>
+		<link>http://Blog.SunnyBoy.Me/2012/08/31/13962/</link>
+		<comments>http://Blog.SunnyBoy.Me/2012/08/31/13962/#respond</comments>
+		<pubDate>Fri, 31 Aug 2012 20:00:07 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=13962</guid>
+		<description><![CDATA[1. matlab中gradient函数求f=2&#215;2+3y3的梯度的实例 http://www.zdh1909.com/html/matlab/9930.html matlab中gradient函数求f=2&#215;2+3y3的梯度的实例如下： 在上MATLAB课的时候,有学生问怎么用gradient函数求f=2&#215;2+3y3的梯度啊,不懂得怎么写格式,试了很多次都不行.解答如下: 在MATALB中,求梯度只能是求数值梯度,所以必须将函数f离散化,用差分代替微分,精度取决于差分步长,因为现在计算机速度足够快,所以差分可以取得足够小,也不影响计算速度和计算精度.方法如下: &#62;&#62;X=-6:0.6:6;   %计算区间是[-6 6],步长0.6 &#62;&#62;Y=X; &#62;&#62;[x,y]=meshgrid(X,Y)    %生成计算网格 &#62;&#62;f=2.*x.^2+3.*y.^3      %计算网格结点上的函数值 &#62;&#62;[Dx,Dy]=gradient(f)    %用数值方法求函数梯度 &#62;&#62;quiver(X,Y,Dx,Dy)    %用矢量绘图函数绘出梯度矢量大小分布 &#62;&#62;hold on &#62;&#62;contour(X,Y,f)    %与梯度值对应,绘出原函数的等值线图  2. Using errorbar() with semilogy() in MATLAB? http://stackoverflow.com/questions/3550241/using-errorbar-with-semilogy-in-matlab h = errorbar(x,y,ebar); set(get(h,'Parent'), 'XScale', 'log') or ax = axes(); errorbar(ax, x,y,ebar); set(ax, 'XScale', 'log'); 3. Multi y axis http://stackoverflow.com/questions/6573862/matlab-two-y-axis-with-the-same-x-axis]]></description>
+				<content:encoded><![CDATA[<h2>1. matlab中gradient函数求f=2&#215;2+3y3的梯度的实例</h2>
+<p><a href="http://www.zdh1909.com/html/matlab/9930.html">http://www.zdh1909.com/html/matlab/9930.html</a></p>
+<p>matlab中gradient函数求f=2&#215;2+3y3的梯度的实例如下：</p>
+<p>在上MATLAB课的时候,有学生问怎么用gradient函数求f=2&#215;2+3y3的梯度啊,不懂得怎么写格式,试了很多次都不行.解答如下:<br />
+在MATALB中,求梯度只能是求数值梯度,所以必须将函数f离散化,用差分代替微分,精度取决于差分步长,因为现在计算机速度足够快,所以差分可以取得足够小,也不影响计算速度和计算精度.方法如下:<br />
+&gt;&gt;X=-6:0.6:6;   %计算区间是[-6 6],步长0.6<br />
+&gt;&gt;Y=X;<br />
+&gt;&gt;[x,y]=meshgrid(X,Y)    %生成计算网格<br />
+&gt;&gt;f=2.*x.^2+3.*y.^3      %计算网格结点上的函数值<br />
+&gt;&gt;[Dx,Dy]=gradient(f)    %用数值方法求函数梯度<br />
+&gt;&gt;quiver(X,Y,Dx,Dy)    %用矢量绘图函数绘出梯度矢量大小分布<br />
+&gt;&gt;hold on<br />
+&gt;&gt;contour(X,Y,f)    %与梯度值对应,绘出原函数的等值线图</p>
+<h2> 2. Using errorbar() with semilogy() in MATLAB?</h2>
+<p><a href="http://stackoverflow.com/questions/3550241/using-errorbar-with-semilogy-in-matlab">http://stackoverflow.com/questions/3550241/using-errorbar-with-semilogy-in-matlab</a></p>
+<pre id="aeaoofnhgocdbnbeljkmbjdmhbcokfdb-mousedown"><code>h = errorbar(x,y,ebar); set(get(h,'Parent'), 'XScale', 'log') </code></pre>
+<p>or</p>
+<pre><code>ax = axes(); errorbar(ax, x,y,ebar); set(ax, 'XScale', 'log');</code></pre>
+<h2>3. Multi y axis</h2>
+<pre><a href="http://stackoverflow.com/questions/6573862/matlab-two-y-axis-with-the-same-x-axis">http://stackoverflow.com/questions/6573862/matlab-two-y-axis-with-the-same-x-axis</a></pre>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2012/08/31/13962/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>计算机领域学习路线图 roadmap</title>
+		<link>http://Blog.SunnyBoy.Me/2012/07/09/13836/</link>
+		<comments>http://Blog.SunnyBoy.Me/2012/07/09/13836/#respond</comments>
+		<pubDate>Mon, 09 Jul 2012 20:38:54 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Leading]]></category>
+		<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=13836</guid>
+		<description><![CDATA[1. 计算机领域学习路线图 from: http://goo.gl/RZtPC 目标 帮助计算机领域的初学者, 从零开始, 一步步成为一个靠谱的计算机领域的专家. 这里面只包含偏软件的部分. 我们需要达成以下目标: 了解计算机领域的基础知识. 对背景的了解是基础. 拥有计算机科学家的思维和解决问题的能力 能编程! 编程是我们解决问题的主要方式. 使用开源系统, 加入到开源社区中去 计算机基础课程学习 想要学习计算机领域的基础知识, 我选择使用mit公开课里面的内容. 下面我挑了一些必读课程: 入门课程. 6.00 入门课. 6.001 老牌入门课. 6.087 C语言是必须要掌握的.. 6.189 python也是必须要掌握的. 基础课程. 6.042J 恩, 一些计算机领域必须的数学基础. 6.046J 算法基础. 6.002 计算机组成原理. 6.828 操作系统 6.035 编译原理. 网络部分. 6.033 Computer System Engineering 6.171 Software Engineering for Web Applications 上面是必读, 当然还有其他的课程, 感兴趣可以学学, 都在: http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/ 可做和必做事项 下面我整理了一些必须做和可做的事情, 我觉得它们对于提高实力非常重要. 开源社区 安装和使用linux, 在linux上面做开发 学会翻墙, 以及搭建翻墙服务器 了解和熟悉开源社区的做事方式 [&#8230;]]]></description>
+				<content:encoded><![CDATA[<div>
+<h1>1. 计算机领域学习路线图</h1>
+<p>from: http://goo.gl/RZtPC</p>
+<div><img src="http://ocw.mit.edu/images/logo-ocw-home_new.gif" alt="http://ocw.mit.edu/images/logo-ocw-home_new.gif" /></p>
+<div id="id1">
+<h1>目标</h1>
+<p>帮助计算机领域的初学者, 从零开始, 一步步成为一个靠谱的计算机领域的专家. 这里面只包含偏软件的部分.</p>
+<p>我们需要达成以下目标:</p>
+<ul>
+<li>了解计算机领域的基础知识. 对背景的了解是基础.</li>
+<li>拥有计算机科学家的思维和解决问题的能力</li>
+<li>能编程! 编程是我们解决问题的主要方式.</li>
+<li>使用开源系统, 加入到开源社区中去</li>
+</ul>
+</div>
+<div id="id2">
+<h1>计算机基础课程学习</h1>
+<p>想要学习计算机领域的基础知识, 我选择使用mit公开课里面的内容. 下面我挑了一些必读课程:</p>
+<p>入门课程.</p>
+<ul>
+<li><a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-00-introduction-to-computer-science-and-programming-fall-2008">6.00</a> 入门课.</li>
+<li><a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005">6.001</a> 老牌入门课.</li>
+<li><a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-087-practical-programming-in-c-january-iap-2010/">6.087</a> C语言是必须要掌握的..</li>
+<li><a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2011/readings/">6.189</a> python也是必须要掌握的.</li>
+</ul>
+<p>基础课程.</p>
+<ul>
+<li><a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2010/">6.042J</a> 恩, 一些计算机领域必须的数学基础.</li>
+<li><a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-046j-introduction-to-algorithms-sma-5503-fall-2005/">6.046J</a> 算法基础.</li>
+<li><a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-004-computation-structures-spring-2009/">6.002</a> 计算机组成原理.</li>
+<li><a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-828-operating-system-engineering-fall-2006/">6.828</a> 操作系统</li>
+<li><a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-035-computer-language-engineering-sma-5502-fall-2005/">6.035</a> 编译原理.</li>
+</ul>
+<p>网络部分.</p>
+<ul>
+<li><a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-033-computer-system-engineering-spring-2009/">6.033</a> Computer System Engineering</li>
+<li><a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-171-software-engineering-for-web-applications-fall-2003/">6.171</a> Software Engineering for Web Applications</li>
+</ul>
+<p>上面是必读, 当然还有其他的课程, 感兴趣可以学学, 都在: <a href="http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/">http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/</a></p>
+</div>
+<div id="id13">
+<h1>可做和必做事项</h1>
+<p>下面我整理了一些必须做和可做的事情, 我觉得它们对于提高实力非常重要.</p>
+<p>开源社区</p>
+<ul>
+<li>安装和使用linux, 在linux上面做开发</li>
+<li>学会翻墙, 以及搭建翻墙服务器</li>
+<li>了解和熟悉开源社区的做事方式</li>
+</ul>
+<p>编程</p>
+<ul>
+<li>超过1万行的编程代码量</li>
+<li>完成程序: 1个网站, 1个GUI程序, 1个手机程序</li>
+<li>选作: 设计实现一个简单的CPU, 实现一门语言的编译器或解释器, 实现一个http服务器, 搭建一个web开发框架</li>
+</ul>
+</div>
+<div id="id14">
+<h1>下一步?</h1>
+<p>经过上面课程的学习, 你基本上掌握了所有必须掌握的知识了, 然后你可以深入去学习你更感兴趣的部分(人工智能? 算法?), 或者直接去做你想做的程序开发吧!</p>
+</div>
+</div>
+</div>
+<div>
+<p>建立时间: 2011/07/11 15:04:00</p>
+<p>更新时间: 2011/09/06 13:58:00</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1>2. 嵌入式：</h1>
+<p><a href="http://www.upemb.com/online/xuexiluxiantu/">http://www.upemb.com/online/xuexiluxiantu/</a></p>
+<p><a href="http://developer.51cto.com/art/200711/125679.htm">http://developer.51cto.com/art/200711/125679.htm</a></p>
+<p>&nbsp;</p>
+<h1>O&#8217;Reilly原版：Linux图书学习线路图</h1>
+<p><img class="alignnone" src="http://i.minus.com/jvzOJbseGlBGb.png" alt="" width="555" /></p>
+<p>&nbsp;</p>
+</div>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2012/07/09/13836/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>php in case of</title>
+		<link>http://Blog.SunnyBoy.Me/2012/05/26/13759/</link>
+		<comments>http://Blog.SunnyBoy.Me/2012/05/26/13759/#respond</comments>
+		<pubDate>Sat, 26 May 2012 22:20:05 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=13759</guid>
+		<description><![CDATA[skills: shortcut of &#8220;echo&#8221;: &#60;?=$foo?&#62; &#160; phpMyadmin timeout / maxlifttime / cookie validity: ref:http://birdchan.com/home/2011/06/06/phpmyadmin-timeout-after-1440-seconds/ vim /etc/phpmyadmin/config.inc.php : add: $cfg[&#8216;Servers&#8217;][$i][&#8216;LoginCookieValidity&#8217;] = 60 * 60 * 4; //4 hours vim /etc/php5/cli/php.ini : modify: session.gc_maxlifetime = 14400 &#160;]]></description>
+				<content:encoded><![CDATA[<h1>skills:</h1>
+<p>shortcut of &#8220;echo&#8221;: <strong><span style="color: #0000ff;"><span style="color: #ff00ff;">&lt;?=</span>$foo<span style="color: #ff00ff;">?&gt;</span></span></strong></p>
+<p>&nbsp;</p>
+<h1>phpMyadmin timeout / maxlifttime / cookie validity:</h1>
+<p>ref:<a href="http://birdchan.com/home/2011/06/06/phpmyadmin-timeout-after-1440-seconds/">http://birdchan.com/home/2011/06/06/phpmyadmin-timeout-after-1440-seconds/</a></p>
+<p>vim /etc/phpmyadmin/config.inc.php : add:</p>
+<p style="padding-left: 30px;">$cfg[&#8216;Servers&#8217;][$i][&#8216;LoginCookieValidity&#8217;] = 60 * 60 * 4; //4 hours</p>
+<p>vim /etc/php5/cli/php.ini : modify:</p>
+<p style="padding-left: 30px;">session.gc_maxlifetime = 14400</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2012/05/26/13759/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>mysql in case of</title>
+		<link>http://Blog.SunnyBoy.Me/2012/05/19/13702/</link>
+		<comments>http://Blog.SunnyBoy.Me/2012/05/19/13702/#respond</comments>
+		<pubDate>Sat, 19 May 2012 20:49:54 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=13702</guid>
+		<description><![CDATA[Add / Create a User: CREATE USER &#60;userName&#62;@localhost IDENTIFIED BY "&#60;newPassWd&#62;"; CREATE DATABASE &#60;newDbName&#62; DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci; GRANT ALL ON &#60;newDbName&#62;.* TO &#60;userName&#62;@localhost; Super PRIVILEGES: GRANT ALL PRIVILEGES ON *.* TO &#60;userName&#62;@localhost WITH GRANT OPTION; Revoke: REVOKE INSERT ON *.* FROM &#60;userName&#62;@localhost; REVOKE ALL PRIVILEGES, GRANT OPTION FROM &#60;userName&#62;@localhost; &#160; Reset the [&#8230;]]]></description>
+				<content:encoded><![CDATA[<h2>Add / Create a User:</h2>
+<pre>CREATE USER &lt;userName&gt;@localhost IDENTIFIED BY "&lt;newPassWd&gt;";
+CREATE DATABASE &lt;newDbName&gt; DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+GRANT ALL ON &lt;newDbName&gt;.* TO &lt;userName&gt;@localhost;</pre>
+<p>Super PRIVILEGES:</p>
+<pre>GRANT ALL <span style="text-decoration: underline;">PRIVILEGES</span> ON *.* TO &lt;userName&gt;@localhost WITH GRANT OPTION;</pre>
+<p>Revoke:</p>
+<pre>REVOKE INSERT ON *.* FROM &lt;userName&gt;@localhost;
+REVOKE ALL PRIVILEGES, GRANT OPTION FROM &lt;userName&gt;@localhost;</pre>
+<p>&nbsp;</p>
+<h2>Reset the password:</h2>
+<pre>SET PASSWORD FOR &lt;userName&gt;@localhost = PASSWORD('&lt;newPassWd&gt;');</pre>
+<p>reset root password: http://goo.gl/jGXR6</p>
+<h2>Injection</h2>
+<p>mysql injection protection methods [INJ]</p>
+<h3>Using an abstraction layer:</h3>
+<p>1. mysqli</p>
+<p>2. ADODB</p>
+<p>3. ODBC</p>
+<p>4. PDO</p>
+<h3>Using applications &amp; frameworks:</h3>
+<p>5. CakePHP: $this-&gt;MyModel-&gt;query</p>
+<p id="aeaoofnhgocdbnbeljkmbjdmhbcokfdb-mousedown">6. WordPress: global $wpdb;</p>
+<p>&nbsp;</p>
+<h2>Backup and Restore [BAK]</h2>
+<pre><strong>backup:</strong> # mysqldump -u root database_name -p &gt; dumpfilename.sql</pre>
+<pre>or:
+   mysqldump -u dump_user database_name -p 'pass' <span style="text-decoration: underline;"><strong>--routines</strong></span> --single-transaction --default-character-set=utf8 &gt; dumpfile.sql
+ (http://code.openark.org/blog/mysql/parameters-to-use-on-mysqldump)
+<strong>restore:</strong># mysql -u root database_name -p password &lt; dumpfilename.sql</pre>
+<p>Manual:</p>
+<p>Use of <strong>&#8211;opt</strong> is the same as specifying &#8211;add-drop-table, &#8211;add-locks, &#8211;create-options, &#8211;disable-keys, &#8211;extended-insert, &#8211;lock-tables, &#8211;quick, and &#8211;set-charset. All of the options that &#8211;opt stands for also are on by default because &#8211;opt is on by default.</p>
+<p>Use of <strong>&#8211;compact</strong> is the same as specifying &#8211;skip-add-drop-table, &#8211;skip-add-locks, &#8211;skip-comments, &#8211;skip-disable-keys, and &#8211;skip-set-charset options.</p>
+<p>To reverse the effect of a group option, uses its &#8211;skip-xxx form (&#8211;skip-opt or &#8211;skip-compact).</p>
+<p>&nbsp;</p>
+<h2>Myisam VS. Innodb</h2>
+<p>&nbsp;</p>
+<pre><code>                                             My ISAM   InnoDB
+Full text Search                                Yes     
+Transactions                                    Yes
+Frequent select queries                         Yes     
+Frequent insert,update,delete                           Yes
+Row Locking (multi processing on single table)          Yes
+Relational base design                                  Yes</code></pre>
+<p>http://stackoverflow.com/questions/20148/myisam-versus-innodb</p>
+<p>&nbsp;</p>
+<h2>Performance Test/Benchmark 数据库的性能测试</h2>
+<p>https://groups.google.com/forum/?fromgroups=#!topic/shlug/hT4tpIvlE8M</p>
+<p>&nbsp;</p>
+<h2>Memcached</h2>
+<p>http://crazyant.net/2012/08/30/使用php连接、操纵memcached的原理和教程/</p>
+<p>http://hi.baidu.com/khzmylyasdhjmwr/item/c9eb1988a42c935927ebd9c5</p>
+<p>http://blog.csdn.net/adparking/article/details/6179315</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h2>Several Ways to Set Up LAMP Environment</h2>
+<pre>1. sudo apt-get install lamp-server^</pre>
+<pre>2. sudo apt-get install apache2 mysql-server php5
+   sudo apt-get install libapache2-mod-php5 php-mysql phpmyadmin</pre>
+<p>or:</p>
+<pre>   sudo yum install httpd mysql-server php php-mysql ; 
+   mysql_secure_installation</pre>
+<p>3. for each ($lamp as $component) { git clone xxxx; &amp;&amp; ./configure &amp;&amp; make &amp;&amp; make install; }</p>
+<p>&nbsp;</p>
+<h2>Updating From MySQL 5.1 to MySQL 5.5</h2>
+<p>Got errors in log:</p>
+<pre><em>Native table 'performance_schema'.xxx has the wrong structure</em> , and :</pre>
+<pre><em>Cannot load from mysql.proc. The table is probably corrupted.
+</em></pre>
+<p>Reason: (see REF).</p>
+<p>Solution:</p>
+<pre>mysql stop &amp;&amp; mysqld_safe --skip-grant-tables;
+mysql_upgrade; kill ... ; mysql start;</pre>
+<p>REF: http://bugs.mysql.com/bug.php?id=58969</p>
+<p>&nbsp;</p>
+<h2>Garbled 乱码</h2>
+<h3>Problem check [GARa]</h3>
+<pre>SHOW VARIABLES LIKE 'character_set_%';
+SHOW VARIABLES LIKE 'collation_%';</pre>
+<p>&nbsp;</p>
+<h3>Solution (config in my.ini) [GARb]</h3>
+<pre>[client] 
+port = 3306 
+#socket = mysql  ## has problem when connect via socket
+#default-character-set=utf8
+#collation-server=utf8_general_ci
+
+[mysqld] 
+port = 3306 
+#socket = mysql 
+init_connect='SET collation_connection = utf8_general_ci' 
+init_connect='SET NAMES utf8'
+character-set-server = utf8
+#default-character-set=utf8 
+#collation-server = utf8_general_ci 
+
+[mysql] 
+#default-character-set=utf8  
+
+PS: when using default-character-set, log got:</pre>
+<pre>[ERROR] unknown variable 'default-character-set=utf8'</pre>
+<p>&nbsp;</p>
+<h2>InnoDB: mmap(xxxxxxxx bytes) failed; errno 12</h2>
+<p>When:</p>
+<pre>Initializing buffer pool, size = xxx M</pre>
+<p>Reason: there is no enough memory.</p>
+<p>Solution: kill apache, start mysql, start apache.</p>
+<p>REF: http://dba.stackexchange.com/questions/25165/intermittent-mysql-crashes-with-error-fatal-error-cannot-allocate-memory-for-t</p>
+<p>&nbsp;</p>
+<h2>Reference</h2>
+<p>[INJ] http://bobby-tables.com/php.html</p>
+<p>[BAK] http://www.thegeekstuff.com/2008/09/backup-and-restore-mysql-database-using-mysqldump/</p>
+<p>[GARa] http://www.itxx.com.cn/data/mysql/data_1969.html</p>
+<p>[GARb] http://dev.mysql.com/doc/refman/5.0/en/charset-applications.html  ; http://forums.mysql.com/read.php?103,28072,28072#msg-28072</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2012/05/19/13702/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>wireshark non-root (normal user) how to</title>
+		<link>http://Blog.SunnyBoy.Me/2012/05/16/13698/</link>
+		<comments>http://Blog.SunnyBoy.Me/2012/05/16/13698/#respond</comments>
+		<pubDate>Wed, 16 May 2012 17:27:26 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=13698</guid>
+		<description><![CDATA[only one user: chgrp ats /usr/bin/dumpcap chmod 4750 /usr/bin/dumpcap # chmod u+s &#160; for more users: groupadd wireshark usermod -a -G wireshark userName1 chgrp wireshark /usr/bin/dumpcap chmod 4750 /usr/bin/dumpcap &#160; ref: http://anonscm.debian.org/viewvc/collab-maint/ext-maint/wireshark/trunk/debian/README.Debian?view=markup &#160;]]></description>
+				<content:encoded><![CDATA[<p>only one user:</p>
+<p>chgrp ats /usr/bin/dumpcap</p>
+<p>chmod 4750 /usr/bin/dumpcap # chmod u+s</p>
+<p>&nbsp;</p>
+<p>for more users:</p>
+<p>groupadd wireshark</p>
+<p>usermod -a -G wireshark userName1</p>
+<p>chgrp wireshark /usr/bin/dumpcap</p>
+<p>chmod 4750 /usr/bin/dumpcap</p>
+<p>&nbsp;</p>
+<p>ref:</p>
+<p><a href="http://anonscm.debian.org/viewvc/collab-maint/ext-maint/wireshark/trunk/debian/README.Debian?view=markup">http://anonscm.debian.org/viewvc/collab-maint/ext-maint/wireshark/trunk/debian/README.Debian?view=markup</a></p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2012/05/16/13698/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>nfsd how-to (ubuntu)</title>
+		<link>http://Blog.SunnyBoy.Me/2012/05/11/13686/</link>
+		<comments>http://Blog.SunnyBoy.Me/2012/05/11/13686/#respond</comments>
+		<pubDate>Fri, 11 May 2012 19:13:28 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=13686</guid>
+		<description><![CDATA[Server: sudo -s; apt-get install nfs-kernel-server; vim /etc/exports &#60;absolutePathFolderToShare&#62; 192.168.1.0/24(rw,async,no_subtree_check,no_root_squash) OBS:  not 192.168.1.* /usr/sbin/exportfs -a; service nfs-kernel-server restart; &#160; Client: sudo -s; apt-get install nfs-common; mount -t nfs [-o nolock] &#60;nfsServerIp/Domain&#62;:&#60;absolutePathFolderToShare&#62; &#60;localMountPoint&#62; &#160;]]></description>
+				<content:encoded><![CDATA[<h2>Server:</h2>
+<p>sudo -s;</p>
+<p>apt-get install nfs-kernel-server;</p>
+<p>vim /etc/exports</p>
+<p>&lt;absolutePathFolderToShare&gt; 192.168.1.<span style="color: #0000ff;"><strong>0/24</strong></span>(rw,async,no_subtree_check,no_root_squash)</p>
+<p><span style="color: #ff00ff;"><span style="color: #ff99cc;">OBS:  <span style="color: #ff0000;">not</span> 192.168.</span><span style="color: #ff0000;">1.*</span></span></p>
+<p>/usr/sbin/exportfs -a;</p>
+<p>service nfs-kernel-server restart;</p>
+<p>&nbsp;</p>
+<h2>Client:</h2>
+<p>sudo -s;</p>
+<p id="aeaoofnhgocdbnbeljkmbjdmhbcokfdb-mousedown">apt-get install nfs-common;</p>
+<p>mount -t nfs [-o nolock] &lt;nfsServerIp/Domain&gt;:&lt;absolutePathFolderToShare&gt; &lt;localMountPoint&gt;</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2012/05/11/13686/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>how to set up as router / bridge</title>
+		<link>http://Blog.SunnyBoy.Me/2012/04/24/13646/</link>
+		<comments>http://Blog.SunnyBoy.Me/2012/04/24/13646/#respond</comments>
+		<pubDate>Tue, 24 Apr 2012 20:20:32 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=13646</guid>
+		<description><![CDATA[FreeBsd 7  (local only, no NAT): #/etc/rc.conf ifconfig_em0=&#8221;inet 10.0.0.12 netmask 255.255.255.0&#8243; ifconfig_em1=&#8221;inet 10.0.1.13 netmask 255.255.255.0&#8243; #as router, setup notice: will get route problem if using the same net-addr #/etc/sysctl.conf net.inet.ip.forwarding=1 #temp: &#62; sysctl net.inet.ip.forwarding=1; #reboot ping test: could get reply since icmp packet 113. where are the first 112 packets??? FreeBsd 7 bridge shaper freeBsd-v7 : [&#8230;]]]></description>
+				<content:encoded><![CDATA[<h1><strong>FreeBsd 7  (local only, no NAT):</strong></h1>
+<p>#/etc/rc.conf</p>
+<p style="padding-left: 30px;">ifconfig_em0=&#8221;inet 10.0.0.12 netmask 255.255.255.0&#8243;<br />
+ifconfig_em1=&#8221;inet 10.0.1.13 netmask 255.255.255.0&#8243;</p>
+<p style="padding-left: 30px;">#as router, setup notice: will get route problem if using the same net-addr</p>
+<p>#/etc/sysctl.conf</p>
+<p style="padding-left: 30px;">net.inet.ip.forwarding=1</p>
+<p style="padding-left: 30px;">#temp: &gt; sysctl net.inet.ip.forwarding=1;</p>
+<p>#reboot</p>
+<p>ping test: could get reply since icmp packet 113. where are the first 112 packets???</p>
+<h1><strong>FreeBsd 7 bridge</strong></h1>
+<p><strong><strong>shaper freeBsd-v7 : bridge <a href="http://www.freebsd.org/doc/handbook/network-bridging.html">http://www.freebsd.org/doc/handbook/network-bridging.html</a><br />
+</strong></strong></p>
+<p dir="ltr">#/etc/rc.conf</p>
+<p dir="ltr" style="padding-left: 30px;">ifconfig_bge0=&#8221;inet 192.168.1.176 netmask 255.255.255.0&#8243;</p>
+<p dir="ltr" style="padding-left: 30px;">cloned_interfaces=&#8221;bridge0&#8243;</p>
+<p dir="ltr" style="padding-left: 30px;">ifconfig_bridge0=&#8221;addm em0 addm em1 up&#8221;</p>
+<p dir="ltr" style="padding-left: 30px;">ifconfig_em0=&#8221;up&#8221;</p>
+<p dir="ltr" style="padding-left: 30px;">ifconfig_em1=&#8221;up&#8221;</p>
+<p dir="ltr" style="padding-left: 30px;">defaultrouter=&#8221;192.168.1.168&#8243;</p>
+<p dir="ltr" style="padding-left: 30px;">nameserver 8.8.8.8</p>
+<p dir="ltr" style="padding-left: 30px;">firewall_enable=&#8221;YES&#8221;</p>
+<p dir="ltr" style="padding-left: 30px;">firewall_type=&#8221;open&#8221;</p>
+<p dir="ltr">#/etc/sysctl.conf</p>
+<p dir="ltr" style="padding-left: 30px;">net.inet.ip.forwarding=1</p>
+<p dir="ltr" style="padding-left: 30px;">#or, using cmd : sysctl net.inet.ip.forwarding=1;</p>
+<h1><strong>Ubuntu 10.04 (NAT):</strong></h1>
+<p>#/etc/sysctl.conf</p>
+<p style="padding-left: 30px;">net.ipv4.ip_forward = 1</p>
+<p>#sysctl -p</p>
+<p>#/etc/rc.local</p>
+<pre> iptables --table nat --append POSTROUTING --out-interface &lt;outer-WAN&gt;0 -j MASQUERADE</pre>
+<pre> iptables --append FORWARD --in-interface &lt;eth-inner-lan&gt;1 -j ACCEPT</pre>
+<p># service networking restart</p>
+<h1><strong>Ubuntu 10.04 (bridge):</strong></h1>
+<p># sudo apt-get install bridge-utils;</p>
+<h2>type1: bridge with ip:</h2>
+<div>
+<p>auto br0<br />
+iface br0 inet static</p>
+<p style="padding-left: 30px;"><span style="color: #333399;">address 192.168.1.2</span><br />
+<span style="color: #333399;"> network 192.168.1.0</span><br />
+<span style="color: #333399;"> netmask 255.255.255.0</span><br />
+<span style="color: #333399;"> broadcast 192.168.1.255</span><br />
+<span style="color: #333399;"> gateway 192.168.1.1</span><br />
+bridge_ports all</p>
+</div>
+<h2>type2: anonymous bridge (bridge without IP):</h2>
+<div>auto br1</div>
+<div>iface br1 inet manual</div>
+<div style="padding-left: 30px;">bridge_ports eth1 eth2</div>
+<div style="padding-left: 30px;">#bridge_ports all</div>
+<div style="padding-left: 30px;">bridge_maxwait 0</div>
+<p>ref: <a href="http://manpages.ubuntu.com/manpages/lucid/man5/bridge-utils-interfaces.5.html">http://manpages.ubuntu.com/manpages/lucid/man5/bridge-utils-interfaces.5.html</a></p>
+<p>&nbsp;</p>
+<h1>Change nic (network interface card) name</h1>
+<p>vim /etc/udev/rules.d/70-persistent-net.rules</p>
+<p>ref: <a href="https://help.ubuntu.com/10.04/serverguide/network-configuration.html">https://help.ubuntu.com/10.04/serverguide/network-configuration.html</a></p>
+<p>&nbsp;</p>
+<h1>Windows 7</h1>
+<pre>&gt; <strong>netsh wlan set hostednetwork mode=allow ssid="&lt;ssid_name&gt;" key=&lt;passwd_plain_text&gt;</strong>
+The hosted network mode has been set to allow.
+The SSID of the hosted network has been successfully changed.
+The user key passphrase of the hosted network has been successfully changed.</pre>
+<pre>&gt; <strong>netsh wlan start hostednetwork</strong>
+The hosted network started.</pre>
+<p>睡眠/休眠后需要再次执行&#8221;start&#8221;命令.</p>
+<p><span style="line-height: 1.714285714; font-size: 1rem;">ref: </span></p>
+<p><a href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=3&amp;ved=0CD8QFjAC&amp;url=http%3A%2F%2Fmsdn.microsoft.com%2Fen-us%2Flibrary%2Fwindows%2Fdesktop%2Fdd815243(v%3Dvs.85).aspx&amp;ei=37TXUojjAcrDtQbNyIGwDQ&amp;usg=AFQjCNEzn6C02m2h5MU2EC33p0I5bbMJJw&amp;sig2=EPeUw2qJEs856d7KU9yPlw" data-href="http://msdn.microsoft.com/en-us/library/windows/desktop/dd815243(v=vs.85).aspx">About the Wireless Hosted Network (Windows) &#8211; MSDN &#8211; Microsoft</a></p>
+<p><a href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=1&amp;ved=0CC8QFjAA&amp;url=http%3A%2F%2Fcommunity.spiceworks.com%2Fhow_to%2Fshow%2F897-how-to-set-up-virtual-wifi-in-windows-7&amp;ei=37TXUojjAcrDtQbNyIGwDQ&amp;usg=AFQjCNGhNWWVds0GsJHlCIiAy6RSLXjI1g&amp;sig2=dK-bmQmRaK9SPaDYDnZnqw" data-href="http://community.spiceworks.com/how_to/show/897-how-to-set-up-virtual-wifi-in-windows-7">How to set up Virtual Wifi in Windows 7</a></p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2012/04/24/13646/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Installing Nginx in Ubuntu 10.04 LTS</title>
+		<link>http://Blog.SunnyBoy.Me/2012/04/24/13645/</link>
+		<comments>http://Blog.SunnyBoy.Me/2012/04/24/13645/#respond</comments>
+		<pubDate>Tue, 24 Apr 2012 20:10:12 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=13645</guid>
+		<description><![CDATA[nginx is a great alternative to apache2, it is better to handle static web pages and files. another one is lighttpd which is optimized for long-time keep-alive (a lot of connections). sudo -s apt-get install gcc g++; wget http://downloads.sourceforge.net/pcre/pcre-8.10.tar.bz2 (seems hard-coded version in nginx v1.2; otherwise, such as me, ln -s xxx.so.xxx &#8230;); tar xvjf [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>nginx is a great alternative to apache2, it is better to handle static web pages and files. another one is lighttpd which is optimized for long-time keep-alive (a lot of connections).</p>
+<p>sudo -s</p>
+<p>apt-get install gcc g++;</p>
+<p>wget http://downloads.sourceforge.net/pcre/pcre-8.10.tar.bz2 (seems hard-coded version in nginx v1.2; otherwise, such as me, ln -s xxx.so.xxx &#8230;); tar xvjf &#8230;; cd &#8230;; ./configure; make; make install;</p>
+<p>cd nginx; ./configure &#8211;without-http_gzip_module (do not need and do not want in experiments); make; make install;</p>
+<p>/usr/local/nginx/conf# vim nginx.conf; keepalive_timeout  0. #server_name non-local???</p>
+<p>the second time when i started it, it could start work, not the first time. do not know why. try nginx; nginx -s stop; nginx.</p>
+<p>ref:</p>
+<p><a href="http://www.asep.us/2011/05/30/nginx-instalation-pcre-library-not-found/">http://www.asep.us/2011/05/30/nginx-instalation-pcre-library-not-found/</a></p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2012/04/24/13645/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>mod_apache_snmp, net-SNMP (给apache2添加SNMP支持)</title>
+		<link>http://Blog.SunnyBoy.Me/2012/04/18/13618/</link>
+		<comments>http://Blog.SunnyBoy.Me/2012/04/18/13618/#comments</comments>
+		<pubDate>Wed, 18 Apr 2012 14:58:35 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Leading]]></category>
+		<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=13618</guid>
+		<description><![CDATA[Tested on platform: vmware Linux ubuntu 2.6.32-38-generic #83-Ubuntu SMP Wed Jan 4 11:13:04 UTC 2012 i686 GNU/Linux DISTRIB_ID=Ubuntu; DISTRIB_RELEASE=10.04; DISTRIB_DESCRIPTION=&#8221;Ubuntu 10.04.4 LTS&#8221; httpd-2.0.64.tar.bz2; net-snmp-5.4.4; mod_ap2_snmp_1.04. sudo -s; apt-get remove lamp-server^ snmpd # if you have already installed apache or snmp-server. Just do it: http://mod-apache-snmp.sourceforge.net/english/docs.htm (below is a summary) 1) Install Apache Web Server with DSO support enabled. ./configure [&#8230;]]]></description>
+				<content:encoded><![CDATA[<h2>Tested on platform:</h2>
+<ul>
+<li>vmware</li>
+<li>Linux ubuntu 2.6.32-38-generic #83-Ubuntu SMP Wed Jan 4 11:13:04 UTC 2012 i686 GNU/Linux</li>
+<li>DISTRIB_ID=Ubuntu; DISTRIB_RELEASE=10.04; DISTRIB_DESCRIPTION=&#8221;Ubuntu 10.04.4 LTS&#8221;</li>
+<li>httpd-2.0.64.tar.bz2; net-snmp-5.4.4; mod_ap2_snmp_1.04.</li>
+</ul>
+<ul>
+<li>sudo -s;</li>
+<li>apt-get remove lamp-server^ snmpd # if you have already installed apache or snmp-server.</li>
+</ul>
+<h2>Just do it:</h2>
+<p style="padding-left: 30px;"><a href="http://mod-apache-snmp.sourceforge.net/english/docs.htm">http://mod-apache-snmp.sourceforge.net/english/docs.htm</a></p>
+<p style="padding-left: 30px;">(below is a summary)</p>
+<p style="padding-left: 60px;"><span style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: x-small; color: #888888;"><strong>1) Install Apache Web Server with DSO support enabled.</strong></span></p>
+<pre style="padding-left: 60px;"><span style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: x-small; color: #888888;">./configure --enable-so; make; make install</span></pre>
+<p style="padding-left: 60px;"><span style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: x-small; color: #888888;"><strong>2) Unzip NET-SNMP sources.</strong></span></p>
+<p style="padding-left: 60px;"><span style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: x-small; color: #888888;"><strong>3) Unzip Mod-APACHE-SNMP sources.</strong></span></p>
+<p style="padding-left: 60px;"><span style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: x-small; color: #888888;"><strong>4) Copy files into Net-SNMP directory to support Apache&#8217;s MIB:</strong></span></p>
+<p style="padding-left: 60px;"><span style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: x-small; color: #888888;">&#8211; Copy net-snmp-module\ &#8211;&gt;PATH-SOURCES-NET-SNMP\agent\mibgroup\apache2\ (create apache2\)<br />
+&#8211; Copy extra\ap2_snmp.h &#8211;&gt; PATH-SOURCES-NET-SNMP\agent\mibgroup\<br />
+&#8211; Copy mib\APACHE2-MIB.txt &#8211;&gt; PATH-SOURCES-NET-SNMP\mibs\<br />
+</span></p>
+<p style="padding-left: 60px;"><span style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: x-small; color: #888888;"><strong>5) Install Net-SNMP</strong></span></p>
+<pre style="padding-left: 60px;"><span style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: x-small; color: #888888;">./configure --with-mib-modules=ap2_snmp make make install</span></pre>
+<p style="padding-left: 60px;"><span style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: x-small; color: #888888;"><strong>6) Compile and install SNMP module for Apache.</strong></span></p>
+<p style="padding-left: 60px;"><span style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: x-small; color: #888888;">&#8211; Edit install.sh and modify the variables with the correct path of Apache and Net-SNMP libraries.<br />
+&#8211; \PATH-SOURCES-MOD-APACHE-SNMP\install.sh</span></p>
+<h2>Notice:</h2>
+<ul>
+<li>Step-1, Have to compile apache2 from source code, otherwise step-6 could not find the DSO-related file (the apache2-dev has conflict with other package(s) while using apt-get).</li>
+<li>Step-4, when copying net-snmp-module, rename this folder to apache2 (or copying the content), instead of putting it as a sub-folder in apache2.</li>
+<li>Step-5, delete the spaces before and after the &#8216;=&#8217; equal sign. (just like bash).</li>
+<ul>
+<li>When asking default SNMP version, type in 1, as 2c is wrong and 2 does not work. // do not know the reason yet; got the same errors when start apache2 but only &#8216;1&#8217; works when <em>snmpget</em>. //TODO ???</li>
+<li>I &#8216;make clean&#8217;-ed after ./configure, as there are some .o files existing.</li>
+</ul>
+</ul>
+<h2>Hints:</h2>
+<ul>
+<li>1)<em> ld</em> Cannot find <em>crypto</em> dynamic libriary<em>.</em></li>
+<ul>
+<li><em>locate libcrypto ; then usually: ln -s libcrypto.so.1.0.0  libcrypto.so //??? why not libcrypto.so.3.x.x which exists on some guys&#8217; machines.</em></li>
+</ul>
+<li>2) <em>cp</em> APACHE2-MIB.TXT to /usr/local/share/snmp/mibs/ and <em>chmod +r </em>//seems the author forgets to cp.</li>
+<li>3) The config part is confusing, just do these:</li>
+<ul>
+<li><em>snmpconf -g basic_setup.</em> OBS: must give apache the permission to write into snmp agent. // ignored snmpv3 config;</li>
+<li>cd /usr/local/apache2/conf/; vim httpd.conf</li>
+</ul>
+</ul>
+<p style="padding-left: 60px;"><span style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: x-small; color: #888888;">#httpd.conf example (using the module&#8217;s directiv<span style="color: #808080;">es)</span></span></p>
+<p style="padding-left: 60px;"><span style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: x-small; color: #ff00ff;">LoadModule <strong>ap2_snmp_module</strong> modules/mod_ap2_snmp.so</span></p>
+<p style="padding-left: 60px;"><span style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: x-small; color: #ff00ff;">#seems &#8220;ExtendedStatus&#8221; does not matter // TODO???</span></p>
+<p style="padding-left: 60px;"><span style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: x-small; color: #ff00ff;"># though also write in the &lt;Location server-status&gt; &lt;/&gt; <a href="http://httpd.apache.org/docs/2.2/mod/mod_status.html"><span style="color: #ff00ff;">http://httpd.apache.org/docs/2.2/mod/mod_status.html</span></a> .</span></p>
+<p style="padding-left: 60px;"><span style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: x-small; color: #ff00ff;">#test result: these &#8216;status&#8217; things do not matter.</span></p>
+<p style="padding-left: 60px;"><span style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: x-small; color: #ff00ff;">#ExtendedStatus On #default: Off</span></p>
+<p style="padding-left: 60px;"><span style="color: #ff00ff; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: x-small;">&lt;Location /</span><strong style="color: #ff00ff; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: x-small;">ap2_snmp</strong><span style="color: #ff00ff; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: x-small;">&gt;</span></p>
+<p style="padding-left: 90px;"><span style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: x-small; color: #ff00ff;">Sethandler ap2_snmp # handler managed by snmp module.</span></p>
+<p style="padding-left: 90px;"><span style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: x-small; color: #ff00ff;">Order Deny,Allow</span></p>
+<p style="padding-left: 90px;"><span style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: x-small; color: #ff00ff;">Deny from all</span></p>
+<p style="padding-left: 90px;"><span style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: x-small; color: #ff00ff;">Allow from 127.0.0.1</span></p>
+<p style="padding-left: 60px;"><span style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: x-small; color: #ff00ff;">&lt;/Location&gt;</span></p>
+<p style="padding-left: 60px;"><span style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: x-small; color: #ff00ff;"> <strong>snmp_community</strong> public<br />
+<strong>snmp_agent_address</strong> localhost<br />
+<strong>snmp_tmp_dir</strong> /tmp/</span></p>
+<p style="padding-left: 60px;"><span style="font-family: Verdana, Arial, Helvetica, sans-serif; font-size: x-small; color: #ff00ff;">#version 1 or 2, does not matter. (though choose 1 when ./configure the net-snmp)<br />
+<strong>snmp_version</strong> 1<br />
+#i do not use v3<br />
+<strong>#snmpv3_user</strong> user1 pass1<br />
+<strong>snmp_http_address</strong> 127.0.0.1 8080</span></p>
+<ul>
+<li>4) To run:</li>
+<ul>
+<li>cd /usr/local/sbin; ./snmpd #run snmpd before apache2</li>
+<li>cd /usr/local/apache2/bin; ./httpd</li>
+<ul>
+<li>[error] AP2_SNMP: agentHttpAddress set to:</li>
+<li>[error] 127.0.0.1:8080</li>
+<li>#looks like &#8216;messages&#8217; instead of &#8216;errors&#8217;</li>
+</ul>
+</ul>
+<li>5) Finally, Test the system using &#8216;snmpget&#8217; command:</li>
+<ul>
+<li>snmpget -v1 -c public localhost APACHE2-MIB::serverUptime.0</li>
+<li>snmpget -v2c -c public localhost APACHE2-MIB::httpError404.0</li>
+<li>#seems both versions work.</li>
+</ul>
+<li>6) To stop:</li>
+<ul>
+<li>./httpd -k stop &amp;&amp; ps aux|grep snmpd |grep -v grep|cut -c 9-15 |xargs kill;</li>
+</ul>
+</ul>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2012/04/18/13618/feed/</wfw:commentRss>
+		<slash:comments>3</slash:comments>
+		</item>
+		<item>
+		<title>ubuntu 7 install vmware tools</title>
+		<link>http://Blog.SunnyBoy.Me/2012/04/16/13610/</link>
+		<comments>http://Blog.SunnyBoy.Me/2012/04/16/13610/#respond</comments>
+		<pubDate>Mon, 16 Apr 2012 15:07:54 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Leading]]></category>
+		<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=13610</guid>
+		<description><![CDATA[The path "" is not valid path to the gcc binary. Would you like to change it? [yes]  when typed in &#8220;/usr/bin/gcc&#8221; manually, The path "/usr/bin/gcc" is not valid path to the gcc binary. Would you like to change it? [yes] I found solution: http://superuser.com/questions/192047/gcc-path-not-valid-when-installing-vmware-tools-from-vmware-workstation-7-1-1-bu ie: sudo apt-get install linux-source linux-headers-`uname -r` libglib2.0-0 // Got [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><code>The path "" is not valid path to the gcc binary. Would you like to change it? [yes] </code></p>
+<p><span style="font-family: monospace;">when typed in </span>&#8220;/usr/bin/gcc&#8221; manually,</p>
+<p><code>The path "/usr/bin/gcc" is not valid path to the gcc binary. Would you like to change it? [yes] </code></p>
+<p>I found solution:</p>
+<p><a href="http://superuser.com/questions/192047/gcc-path-not-valid-when-installing-vmware-tools-from-vmware-workstation-7-1-1-bu">http://superuser.com/questions/192047/gcc-path-not-valid-when-installing-vmware-tools-from-vmware-workstation-7-1-1-bu</a></p>
+<p><code>ie: sudo apt-get install linux-source linux-headers-`uname -r` </code>libglib2.0-0</p>
+<p>// Got &#8220;If you wish to have the shared folders feature, you can install the driver by running vmware-config-tools.pl again after making sure that gcc, binutils, make and the kernel sources for your running kernel are installed&#8221; before install &#8220;linux-source&#8221;.</p>
+<p>Here it is: <a href="https://help.ubuntu.com/community/Kernel/Compile">https://help.ubuntu.com/community/Kernel/Compile</a></p>
+<p>ie: sudo apt-get install linux-kernel-devel fakeroot kernel-wedge build-essential <span style="color: #999999;">makedumpfile (apt cannot find it)</span></p>
+<p>This community post needs original system iso/cd.</p>
+<p>&nbsp;</p>
+<p>notice: the /etc/apt/sources.list should be modified to: http://old-releases.ubuntu.org/&#8230;. (inc. the http://security&#8230;.. items)</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2012/04/16/13610/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>I HATE kdewallet (kwallet)</title>
+		<link>http://Blog.SunnyBoy.Me/2012/03/31/13580/</link>
+		<comments>http://Blog.SunnyBoy.Me/2012/03/31/13580/#respond</comments>
+		<pubDate>Sat, 31 Mar 2012 17:00:43 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Life]]></category>
+		<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=13580</guid>
+		<description><![CDATA[XX的kde, 你以为你是微软啊, 乱给用户装东西!!! 卸载了半天, 一直找不到该卸载什么,最后只好这么办: apt-get install kwalletmanager 运行 kwalletmanager, 设置里面 uncheck &#8220;enable kwallet subsys&#8221;. &#160;]]></description>
+				<content:encoded><![CDATA[<p>XX的kde, 你以为你是微软啊, 乱给用户装东西!!!</p>
+<p>卸载了半天, 一直找不到该卸载什么,最后只好这么办:</p>
+<p>apt-get install kwalletmanager</p>
+<p>运行 kwalletmanager, 设置里面 uncheck &#8220;enable kwallet subsys&#8221;.</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2012/03/31/13580/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>乱码putty支持中文utf8输入和显示</title>
+		<link>http://Blog.SunnyBoy.Me/2012/03/22/13553/</link>
+		<comments>http://Blog.SunnyBoy.Me/2012/03/22/13553/#respond</comments>
+		<pubDate>Thu, 22 Mar 2012 00:38:41 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Leading]]></category>
+		<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=13553</guid>
+		<description><![CDATA[from: http://www.networkquestions.org/archives/583    终端默认是使用windows的编码方式（GBK），我们需要手动改为UTF-8 再次重启的时候就不会是乱码了： [root@mail ~]# service httpd restart 停止 httpd：                                               [确定] 启动 httpd：                                               [确定] [root@mail ~]# 这是终端的乱码问题，再说一下打开中文文件乱码问题。 在很多的配置文件中，含有中文，用vi打开时也是会乱码。首先我们系统中要有中文语言显示包（fonts-chinese），否则改为UTF-8也是会乱码。 [root@mail ~]# cat /etc/sysconfig/i18n LANG=”zh_CN.UTF-8″ [root@mail ~]# 上面的设置，系统语言为中文，如果想改为英文的话，替换为： LANG=”en_US.UTF-8″  保存即可。 临时性改变语言：export LANG=en_US.UTF-8 echo $LANG   //查看语言 &#160; 另一个: from: http://www.ylmf.net/linux/tips/2011011221014.html 字符乱码: 在window-〉Appearance-〉Translation中，Received data assumed to be in which character set 中,把Use font encoding改为UTF-8. 如果经常使用,把这些设置保存在session里面. /* 下面的有待研究 &#8230;. 登录成功后,在shell中输入:export [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p id="">from: <a href="http://www.networkquestions.org/archives/583">http://www.networkquestions.org/archives/583</a></p>
+<p id="">   终端默认是使用windows的编码方式（GBK），我们需要手动改为UTF-8</p>
+<p><a href="http://www.networkquestions.org/wp-content/uploads/2011/06/utf.jpg"><img title="utf" src="http://www.networkquestions.org/wp-content/uploads/2011/06/utf.jpg" alt="" width="457" height="447" /></a></p>
+<p>再次重启的时候就不会是乱码了：</p>
+<p id="">[root@mail ~]# service httpd restart<br />
+停止 httpd：                                               [确定]<br />
+启动 httpd：                                               [确定]<br />
+[root@mail ~]#</p>
+<p id="">这是终端的乱码问题，再说一下打开中文文件乱码问题。</p>
+<p id="">在很多的配置文件中，含有中文，用vi打开时也是会乱码。首先我们系统中要有中文语言显示包（fonts-chinese），否则改为UTF-8也是会乱码。<br />
+[root@mail ~]# cat /etc/sysconfig/i18n<br />
+LANG=”zh_CN.UTF-8″<br />
+[root@mail ~]#<br />
+上面的设置，系统语言为中文，如果想改为英文的话，替换为：</p>
+<p>LANG=”en_US.UTF-8″  保存即可。</p>
+<p>临时性改变语言：export LANG=en_US.UTF-8</p>
+<p id="aeaoofnhgocdbnbeljkmbjdmhbcokfdb-mousedown">echo $LANG   //查看语言</p>
+<p>&nbsp;</p>
+<p>另一个:</p>
+<p>from: <a href="http://www.ylmf.net/linux/tips/2011011221014.html">http://www.ylmf.net/linux/tips/2011011221014.html</a></p>
+<p>字符乱码:</p>
+<p>在window-〉Appearance-〉Translation中，Received data assumed to be in which character set 中,把Use font encoding改为UTF-8.</p>
+<p>如果经常使用,把这些设置保存在session里面.</p>
+<p>/* 下面的有待研究 &#8230;.</p>
+<p>登录成功后,在shell中输入:export LC_ALL=&#8217;zh_CN.utf8&#8242;,现在已经可以完美的支持中文了.</p>
+<p>打开putty主程序，选择window-〉Appearance-〉Font settings-〉Change&#8230;,选择Fixedsys字体,字符集选择CHINESE_GB2312。</p>
+<p>默认情况下，putty对中文的支持却让人不敢恭维，如果远程linux的locale设置为zh_CN.*(bg2312,gbk,utf8等等)，显示就是乱码。经研究发现，其实putty的中文支持还是很好的，呵呵</p>
+<p>*/</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2012/03/22/13553/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>OpenSwan IPSec setup configuration</title>
+		<link>http://Blog.SunnyBoy.Me/2012/03/10/13523/</link>
+		<comments>http://Blog.SunnyBoy.Me/2012/03/10/13523/#comments</comments>
+		<pubDate>Sat, 10 Mar 2012 17:40:31 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Leading]]></category>
+		<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=13523</guid>
+		<description><![CDATA[]]></description>
+				<content:encoded><![CDATA[<p style="text-align: center;"><img class="aligncenter" src="http://i.minus.com/i6dqhL3PGNbWT.png" alt="" width="555" height="718" /></p>
+<p><img class="aligncenter" src="http://i.minus.com/i6OBp1ZSr6V9s.png" alt="" width="555" /></p>
+<p style="text-align: center;"><img class="aligncenter" src="http://i.minus.com/ibpFz82F8Xk4pj.png" alt="" width="555" /></p>
+<p style="text-align: center;">
+<p style="text-align: center;">
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2012/03/10/13523/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>[bak] Sar 监控命令小览</title>
+		<link>http://Blog.SunnyBoy.Me/2012/03/07/13516/</link>
+		<comments>http://Blog.SunnyBoy.Me/2012/03/07/13516/#respond</comments>
+		<pubDate>Wed, 07 Mar 2012 16:22:46 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Leading]]></category>
+		<category><![CDATA[Soft&Skills]]></category>
+		<category><![CDATA[bak]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=13516</guid>
+		<description><![CDATA[from: http://qa.taobao.com/?p=14749 最近接触了下淘宝的性能框架PAP，觉得系统中的监控真的做的很不错，但是非pap运行的程序，则无法监控，同时也查了下淘宝性能百科对监控命令Sar介绍，觉得讲的比较粗，这里把自己以前用过的Sar监控分享下；有问题，大家共勉哈！ &#160;]]></description>
+				<content:encoded><![CDATA[<p id="aeaoofnhgocdbnbeljkmbjdmhbcokfdb-mousedown">from: <a href="http://qa.taobao.com/?p=14749">http://qa.taobao.com/?p=14749</a></p>
+<p>最近接触了下淘宝的性能框架PAP，觉得系统中的监控真的做的很不错，但是非pap运行的程序，则无法监控，同时也查了下淘宝性能百科对监控命令Sar介绍，觉得讲的比较粗，这里把自己以前用过的Sar监控分享下；有问题，大家共勉哈！</p>
+<p><a href="http://qa.taobao.com/wp-content/uploads/2012/02/sar%E7%9B%91%E6%8E%A73.jpg"><img id="" class="aligncenter" src="http://qa.taobao.com/wp-content/uploads/2012/02/sar%E7%9B%91%E6%8E%A73.jpg" alt="" width="599" height="720" /></a></p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2012/03/07/13516/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>System/Network Monitoring Tools 系统／网络监控软件</title>
+		<link>http://Blog.SunnyBoy.Me/2012/03/07/13513/</link>
+		<comments>http://Blog.SunnyBoy.Me/2012/03/07/13513/#respond</comments>
+		<pubDate>Wed, 07 Mar 2012 16:20:14 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Leading]]></category>
+		<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=13513</guid>
+		<description><![CDATA[trace route mtr (my traceroute / traceroute 2.0) &#160; real-time speed: #: needs root permission, $: does not need. bmon (graph); multi-interface nload (graph) unit : (k)bit min, max, avg, total (avg is the same as nethogs) slurm (graph); $ slurm -i wlan0 nethogs # sudo nethogs wlan0 pid, user, program CPU-consuming (stable, the same [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p><strong>trace route</strong></p>
+<ul>
+<li>mtr (my traceroute / traceroute 2.0)</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>real-time speed</strong>: #: needs root permission, $: does not need.</p>
+<ul>
+<li>bmon (graph);</li>
+<ul>
+<li>multi-interface</li>
+</ul>
+</ul>
+<ul>
+<li>nload (graph)</li>
+<ul>
+<li>unit : (k)bit</li>
+<li>min, max, avg, total</li>
+<li>(avg is the same as nethogs)</li>
+</ul>
+</ul>
+<ul>
+<li>slurm (graph);</li>
+<ul>
+<li>$ slurm <strong>-i</strong> wlan0</li>
+</ul>
+<li>nethogs</li>
+<ul>
+<li># sudo nethogs wlan0</li>
+<li>pid, user, program</li>
+<li>CPU-consuming</li>
+<li>(stable, the same as avg of nload)</li>
+</ul>
+<li>ifstat</li>
+<ul>
+<li>scrolling text</li>
+</ul>
+<li><span style="color: #000000;">iftop (current graph)</span></li>
+<ul>
+<li><span style="color: #000000;"># sudo iftop -i wlan0</span></li>
+<li><span style="color: #000000;">unit : (k)bit</span></li>
+<li><span style="color: #000000;">Reverse-DNS (don&#8217;t like it , use &#8216;n&#8217; to toggl)</span></li>
+</ul>
+<li>dstat</li>
+</ul>
+<ul>
+<ul>
+<li>scrolling text</li>
+<li>// all stat of system</li>
+</ul>
+</ul>
+<ul>
+<li><span style="color: #888888;">ntop</span></li>
+<ul>
+<li><span style="color: #888888;">// TODO, how-to</span></li>
+</ul>
+<li><span style="color: #888888;">sar</span></li>
+<ul>
+<li><span style="color: #888888;">// all stat of system (cpu/net/ram/io)</span></li>
+<li><span style="color: #888888;"><a href="http://blog.sunnyboy.me/2012/03/07/13516/"><span style="color: #888888;">http://blog.sunnyboy.me/2012/03/07/13516/</span></a></span></li>
+</ul>
+</ul>
+<p><strong><strong>capture:</strong></strong></p>
+<ul>
+<li>tcpDump + tcpTrace</li>
+<ul>
+<li><a href="http://fasterdata.es.net/fasterdata/network-troubleshooting-tools/tcpdump-tcptrace/">http://fasterdata.es.net/fasterdata/network-troubleshooting-tools/tcpdump-tcptrace/</a></li>
+<li><a href="http://www.tcptrace.org/">http://www.tcptrace.org/</a></li>
+</ul>
+<li>ipTraf (looks better than tcpdump)</li>
+<li>nGrep //netGrep</li>
+<li><a href="http://netsniff-ng.org/">http://netsniff-</a><a href="http://ng.org/">ng.org/</a> (zero-copy, pacp)</li>
+</ul>
+<p><strong><strong><br />
+other:</strong></strong></p>
+<ul>
+<li>mrtg</li>
+<li>trafshow (trace traffic flow in hex mode)</li>
+<li>htop (top ++)</li>
+</ul>
+<p><strong>ref: </strong></p>
+<div><a href="http://blog.chinaunix.net/uid-14007815-id-107856.html" target="_blank">http://blog.chinaunix.net/uid-<wbr>14007815-id-107856.html</wbr></a> <span style="font-family: Arial;"><br />
+</span></div>
+<div><a id="" href="https://groups.google.com/forum/?fromgroups#!topic/shlug/HXwy5KxDbUs" target="_blank">https://groups.google.com/<wbr>forum/?fromgroups#!topic/<wbr>shlug/HXwy5KxDbUs</wbr></wbr></a></div>
+<div></div>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2012/03/07/13513/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Swedish-English 瑞英 真人发音双解字/词典: Sunny Folkets Lexikon</title>
+		<link>http://Blog.SunnyBoy.Me/2012/03/01/13452/</link>
+		<comments>http://Blog.SunnyBoy.Me/2012/03/01/13452/#comments</comments>
+		<pubDate>Thu, 01 Mar 2012 03:05:59 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Life]]></category>
+		<category><![CDATA[Soft&Skills]]></category>
+		<category><![CDATA[Stefanie]]></category>
+		<category><![CDATA[Svenska]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=13452</guid>
+		<description><![CDATA[URL of this page: http://Blog.SunnyBoy.Me/2012/03/01/13452/sunny-folkets-lexikon.html ‎ Sunny Folkets Lexikon: Swedish-English Bilingual Dictionary with Real Voice. Svenska-Engelska Tvåspråkig Lexikon med Riktig Röst. 瑞典语-英语真人发音双解字/词典. &#160; Platforms: Windows: Goldendict &#38; Mdict; Linux: Goldendict; HPC, Windows Mobile (WM 2003+): Mdict; iPhone (App Store): https://itunes.apple.com/en/app/ou-lu-ying-yu-ci-dian-zhi/id367278030?mt=8; (Thanks &#8220;SVENSKA 瑞典漂流&#8221; 群) (Not verified, please comment/email me if any problem.) Android (Play / App Store): GoldenDict (ad-sponsored) [&#8230;]]]></description>
+				<content:encoded><![CDATA[<p>URL of this page: <a href="http://Blog.SunnyBoy.Me/2012/03/01/13452/sunny-folkets-lexikon.html ‎">http://Blog.SunnyBoy.Me/2012/03/01/13452/sunny-folkets-lexikon.html ‎</a><em></em></p>
+<p>Sunny Folkets Lexikon:</p>
+<p>Swedish-English Bilingual Dictionary with Real Voice.</p>
+<p>Svenska-Engelska Tvåspråkig Lexikon med Riktig Röst.</p>
+<p>瑞典语-英语真人发音双解字/词典.</p>
+<p>&nbsp;</p>
+<h2>Platforms:</h2>
+<ul>
+<li>Windows: Goldendict &amp; Mdict;</li>
+<li>Linux: Goldendict;</li>
+<li>HPC, Windows Mobile (WM 2003+): Mdict;</li>
+<li>iPhone (App Store): <a href="https://itunes.apple.com/en/app/ou-lu-ying-yu-ci-dian-zhi/id367278030?mt=8">https://itunes.apple.com/en/app/ou-lu-ying-yu-ci-dian-zhi/id367278030?mt=8</a>; (Thanks &#8220;SVENSKA 瑞典漂流&#8221; 群) (Not verified, please comment/email me if any problem.)</li>
+<li>Android (Play / App Store): GoldenDict (ad-sponsored) &amp; Mdict (ad-free).</li>
+</ul>
+<p>&nbsp;</p>
+<h2>Part 1. PC &#8211; Windows/Linux:</h2>
+<p>Sunny Folkets Lexikon SV-EN/SV is based on Folkets Lexikon sv_en [1].</p>
+<p><span style="color: #ff00ff;">Current Version: v3.0. </span></p>
+<p><span style="color: #ff00ff;"><em>( the newest version will be publishe</em></span><span style="color: #ff00ff;"><em>d here</em><em> http://Blog.SunnyBoy.Me/2012/03/01/13452/sunny-folkets-lexikon.html ‎</em><em> </em><em>, my</em><em> blog. you could also build yours if you know github. )</em></span></p>
+<p>I have searched the Internet but could not find any Swedish-to-English dictionary I like especially with sounds/voice. Fortunately, the People&#8217;s Dict [1] is great and open content (it is on-online only). So I built an off-line version.</p>
+<p style="text-align: center;"><img class="aligncenter" style="border: 1px solid black;" alt="" src="http://Blog.SunnyBoy.Me/wp-content/uploads/2012/10/lexikon_exaple.png" width="566" height="150" /></p>
+<p style="text-align: left;">Installation and configuration:</p>
+<p style="text-align: left;"><strong>1.</strong> Download and install Golden Dict from sourceforge:</p>
+<p style="text-align: left;">Windows:</p>
+<ul>
+<li><a href="http://sourceforge.net/projects/goldendict/files/goldendict/1.0/GoldenDict-1.0.1-1-Install.exe/download" target="_blank">http://sourceforge.net/projects/goldendict/files/goldendict/1.0/GoldenDict-1.0.1-1-Install.exe/download</a></li>
+</ul>
+<p style="text-align: left;">Linux-Debian/Ubuntu/Kubuntu:</p>
+<ul>
+<li>sudo apt-get install goldendict</li>
+</ul>
+<p style="text-align: left;">Linux-CentOS/Fedora:</p>
+<ul>
+<li>sudo yum install goldendict</li>
+</ul>
+<p style="text-align: left;"><strong>2.</strong> Download Sunny Folkets Lexikon SV-EN from github: (usually, you need <strong>5 files</strong> (see step 3 and 4) )</p>
+<p style="text-align: left;"><span style="text-decoration: underline;"><strong><span style="color: #0000ff;"><a href="https://github.com/SunnyBingoMe/Sunny-Folkets-Lexikon/downloads"><span style="color: #0000ff; text-decoration: underline;">https://github.com/SunnyBingoMe/Sunny-Folkets-Lexikon/downloads</span></a></span></strong></span></p>
+<p style="text-align: left;"><span style="color: #ff0000;">/* For Linux-KDE users, please uncheck the &#8220;auto select file extension&#8221; on the bottom of the download window, and type-in the right extension. */</span></p>
+<p style="text-align: left;"><span style="color: #c0c0c0;">(For the ones living in China: 墙内或者国际网速慢, 请到华为网盘(迅雷可以满速): <a href="http://dl.dbank.com/c0irry22qc" target="_blank"><span style="color: #c0c0c0;">http://dl.dbank.com/c0irry22qc</span></a> ,下载所有文件并解压, 同样得到5个文件. 注意, 只解压缩.rar文件, 不要解压从.rar中得到的.zip文件.)</span></p>
+<p style="text-align: center;"><img class="aligncenter" style="border: 1px solid black;" alt="" src="http://Blog.SunnyBoy.Me/wp-content/uploads/2012/10/github_download.png" width="566" height="728" /></p>
+<p style="text-align: left;"><strong>3.</strong> Put these three files (OBS: <strong>mp3</strong> format dict needs <strong>200MB</strong> hard disk space ):</p>
+<p style="text-align: left;"><span style="color: #888888;">/* .dsl is the Lingvo format [2] */</span></p>
+<p style="text-align: left;"><span style="color: #0000ff;"><em>Sunny-Folkets<em>-Lexikon</em>-sv_en-<strong>mp3</strong>-BinSun.dsl<strong>.v3</strong> ; <span style="color: #ff0000;">(plz delete &#8216;.v3&#8217; suffix after downloading)</span></em></span></p>
+<p style="text-align: left;"><span style="color: #0000ff;"><em>Sunny-Folkets-Lexikon-sv_en-<em><strong>mp3</strong></em>-BinSun.ann<strong><em>.v3 </em></strong>; <span style="color: #ff0000;">(plz delete &#8216;.v3&#8217; suffix <em>after downloading</em>) </span></em></span></p>
+<p style="text-align: left;"><span style="color: #0000ff;"><em>Sunny-Folkets<em>-Lexikon</em>-sv_en-<em><strong>mp3</strong></em>-BinSun.dsl.files.zip . <span style="color: #ff0000;">(do NOT unzip it !!!)</span></em></span></p>
+<p style="text-align: left;"><span style="color: #666699;">(</span></p>
+<p style="text-align: left;"><span style="color: #808080;">/* It may cause compatibility problems while using <strong style="color: #666699;">mp3</strong> format dict along with other <strong style="color: #666699;">wav</strong> format dictionaries.</span></p>
+<p style="text-align: left;"><span style="color: #808080;">If you have any problem, download the <strong>wav</strong> dict format instead (<strong>1.7GB</strong>). */</span></p>
+<p><span style="color: #3366ff;"><em><span style="color: #0000ff;">Sunny-Folkets<em>-Lexikon</em>-sv_en-<strong>wav</strong>-BinSun.dsl<strong><em>.v3</em></strong> ;</span> <span style="color: #ff0000;">(plz delete &#8216;.v3&#8217; suffix <em>after downloading</em>)</span></em></span></p>
+<p><span style="color: #3366ff;"><em><span style="color: #0000ff;">Sunny-Folkets-Lexikon-sv_en-<strong>wav</strong>-BinSun.ann<strong><em>.v3</em></strong> ;</span> <span style="color: #ff0000;">(plz delete &#8216;.v3&#8217; suffix <em>after downloading</em>)</span></em></span></p>
+<p><span style="color: #3366ff;"><em><span style="color: #0000ff;">Sunny-Folkets<em>-Lexikon</em>-sv_en-<strong>wav</strong>-BinSun.dsl.files.zip</span><span style="color: #ff6600;"> (do NOT unzip it !!!)</span></em></span></p>
+<p style="text-align: left;"><span style="color: #808080;">)</span></p>
+<p style="text-align: left;"><span style="color: #000000;">into any new folder, for example, <span style="color: #0000ff;">&#8220;C:\New Folder for Sunny Folkets Lexikon&#8221;</span> <em>.</em></span></p>
+<p style="text-align: left;"><span style="color: #c0c0c0;">OBS: The old version 2 (xxx.dsl.v2) has problems in Windows.</span></p>
+<p style="text-align: left;"><strong>4.</strong> Put these two files:</p>
+<p style="text-align: left;"><span style="color: #c0c0c0;">/* OBS: just use these for looking up Swedish, not English, otherwise you may get application crashes. */</span></p>
+<p style="text-align: left;"><span style="color: #0000ff;"><em>sv_SE.aff ; </em></span></p>
+<p style="text-align: left;"><span style="color: #0000ff;"><em>sv_SE.dic </em></span></p>
+<p style="text-align: left;">into the morphology folder of GoldenDict (normally, it is: <span style="color: #0000ff;">C:\Program Files (x86)\GoldenDict\content\morphology</span> ).</p>
+<p style="text-align: left;">/* For Linux users, put them two into any new folder and config &#8220;Edit-&gt;Dictionaries-&gt;Sources-&gt;Morphology&#8221; pointing to the folder. */</p>
+<p style="text-align: left;"><strong>5.</strong> Run GoldenDict from your desktop, or <span style="color: #0000ff;">C:\Program Files (x86)\GoldenDict\GoldenDict.exe</span><em> .</em></p>
+<p style="text-align: left;"><strong>5.1</strong> Choose menu &gt; &#8220;Edit&#8221; &gt; &#8220;Dictionaries&#8230;&#8221; , in the pop-up window, choose &#8220;Sources&#8221; &gt; &#8220;Morphology&#8221;, check/enable &#8220;Swedish (SE) Morphology&#8221; &gt; &#8220;OK&#8221;.</p>
+<p style="text-align: left;"><strong>5.2</strong> Choose menu &gt; &#8220;Edit&#8221; &gt; &#8220;Dictionaries&#8230;&#8221; , in the pop-up window, choose &#8220;Sources&#8221; &gt; &#8220;Files&#8221; &gt; &#8220;Add&#8230;&#8221;. Here, add the previous folder (<span style="color: #0000ff;">&#8220;C:\New Folder for Sunny Folkets Lexikon&#8221;</span>), and wait for seconds. After GoldenDict refreshed its database, you are ready to go!</p>
+<p style="text-align: left;">For Linux users, the procedure is similar. Please use the packets/software manager to download/install GolenDict instead.</p>
+<p style="text-align: left;">Notice: The content is the contribution of people (inc. me), using it at your own risk. Bug reports are welcome (you will find it after installation).</p>
+<p>&nbsp;</p>
+<h2>Part 2.</h2>
+<h2>Windows Mobile / PC:</h2>
+<p><strong>1.</strong> Download and install Mdict:</p>
+<p><a href="http://www.mdict.cn/download.en.htm">http://www.mdict.cn/download.en.htm</a></p>
+<p><strong>2.</strong> Download<span style="color: #c0c0c0;"> ( from <a href="https://github.com/SunnyBingoMe/Sunny-Folkets-Lexikon/downloads"><span style="color: #c0c0c0;">https://github.com/SunnyBingoMe/Sunny-Folkets-Lexikon/downloads</span></a> )</span> and put these <strong>2 files</strong>:</p>
+<p><em><span style="color: #00ccff;">Sunny-Folkets-Lexikon-sv_en-BinSun.<strong>mdx.v3</strong> </span></em><span style="color: #00ccff;"><span style="color: #ff0000;">(plz delete &#8216;.v3&#8217; suffix after downloading)</span></span><br />
+<em> <span style="color: #00ccff;"> Sunny-Folkets-Lexikon-sv_en-BinSun.<strong>mdd</strong></span></em></p>
+<p>into the &#8220;library&#8221; subfolder of Mdict installation folder. (Please create a folder if there is not.)</p>
+<p>2.1. For my WM 6.5, it is</p>
+<p><span style="text-decoration: underline;"><span style="color: #0000ff; text-decoration: underline;"><span style="color: #888888; text-decoration: underline;">Computer\Sunny&#8217;s HD2 T8585</span>\Storage Card\Program Files\MDict\Library\</span></span><span style="color: #0000ff;">   </span>in &#8220;My Computer&#8221; when u connected your phone to your Windows PC.</p>
+<p>2.2. For windows PC, it is &#8220;<span style="text-decoration: underline;"><span style="color: #888888; text-decoration: underline;">X:</span>\<span style="color: #0000ff; text-decoration: underline;">Program Files<span style="text-decoration: underline; color: #c0c0c0;"> (x86)</span>\mdict\Library</span>\</span>&#8221; in &#8220;My Computer&#8221;.</p>
+<p><strong>3.</strong> Import &#8220;Sunny Folkets Lexikon&#8221;:</p>
+<p>Run mdict.exe and go to the Menu -&gt; <em>Library(词库)</em> -&gt; <em>Library Manager(词库管理)</em> -&gt;<em>Import Library(导入词库)</em> -&gt; <em>Browse</em> -&gt; <em>OK</em>.</p>
+<p><strong>4.</strong> Use it:</p>
+<p>Go to the Menu -&gt; <em>Library(词库) -&gt; Check  &#8220;0 </em>Sunny Folkets Lexikon sv_en Bin Sun&#8221;.</p>
+<p>You could enjoy it now <img src="https://s.w.org/images/core/emoji/72x72/1f642.png" alt="🙂" class="wp-smiley" style="height: 1em; max-height: 1em;" /></p>
+<p>Hint: You could use mouse to select a word to search a new word. Specially, this feature is very useful when you are seeing one derivation of another word.</p>
+<p>&nbsp;</p>
+<h2>Part 3. Appendices:</h2>
+<p>1. Errors:</p>
+<p>If your Goldendict fails to load dictionaries sometime, try delete folder:</p>
+<p><span style="color: #0000ff;">C:\Users\yourName\AppData\Roaming\GoldenDict</span></p>
+<p>and then re-run your Goldendict to let it re-index the dictionaries.</p>
+<p>2. Grammar:</p>
+<p>关于语法部分（本字典中使用红色字体，用方括号扩起来的部分），以“pratar”为例，“ <span style="color: #ff4500;">[A ～ (med B) (om x/att+SATS)]</span>”<span style="color: #888888;">（v1和v2中“～”是“&amp;”）</span>中，“<span style="color: #ff6600;">～</span>”指代 <span style="text-decoration: underline;">the current word (当前词条)</span>，“<span style="color: #ff6600;">A<span style="color: #000000;">,</span> B</span>”这些独立的大写字母指代不同的 <span style="text-decoration: underline;">someone (人)</span>；“<span style="color: #ff6600;">x</span>”指代<span style="text-decoration: underline;">somegthing (物)</span>，“<span style="color: #ff6600;">med</span>”，“<span style="color: #ff6600;">om</span>”，“<span style="color: #ff6600;">att</span>”等是<span style="text-decoration: underline;">常见搭配</span><span style="color: #888888;">（这一点是显然的）</span>；<span style="color: #ff6600;">SATS</span>表示 <span style="text-decoration: underline;">one sentence (一句完整的话)</span><span style="color: #888888;">（一般包括主谓宾）</span>。<span style="color: #888888;">//这些都是我的推测，仅供参考。</span></p>
+<p>3. License:</p>
+<p><a href="http://creativecommons.org/licenses/by-sa/2.5/" target="_blank">CC BY-SA 2.5: Attribution-ShareAlike 2.5 Generic</a> (<a href="http://creativecommons.org/licenses/by-sa/2.5/deed.zh" target="_blank">署名-相同方式共享 2.5</a>)</p>
+<p>&nbsp;</p>
+<p>References:</p>
+<p>1. <a href="http://folkets-lexikon.csc.kth.se/folkets/folkets.en.html">http://folkets-lexikon.csc.kth.se/folkets/folkets.en.html</a></p>
+<p>2. <a href="http://informationworker.ru/lingvo.en/index.html?page=dsl_main_dlg.htm">http://informationworker.ru/lingvo.en/index.html?page=dsl_main_dlg.htm</a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2012/03/01/13452/feed/</wfw:commentRss>
+		<slash:comments>8</slash:comments>
+		</item>
+		<item>
+		<title>linux, ubuntu emergency safe reboot</title>
+		<link>http://Blog.SunnyBoy.Me/2012/02/16/13436/</link>
+		<comments>http://Blog.SunnyBoy.Me/2012/02/16/13436/#respond</comments>
+		<pubDate>Wed, 15 Feb 2012 23:47:43 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Soft&Skills]]></category>
+		<category><![CDATA[linux]]></category>
+		<category><![CDATA[skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=13436</guid>
+		<description><![CDATA[http://en.wikipedia.org/wiki/Magic_SysRq_key#.E2.80.9CREISUB.E2.80.9D_.E2.80.93_safe_reboot “REISUB” – safe reboot unRaw (take control of keyboard back from X), tErminate (send SIGTERM to all processes, allowing them to terminate gracefully), kIll (send SIGKILL to all processes, forcing them to terminate immediately), Sync (flush hd write-cache data to disk), Unmount (remount all filesystems read-only), reBoot. &#160;]]></description>
+				<content:encoded><![CDATA[<p><a href="http://en.wikipedia.org/wiki/Magic_SysRq_key#.E2.80.9CREISUB.E2.80.9D_.E2.80.93_safe_reboot" target="_blank">http://en.wikipedia.org/wiki/Magic_SysRq_key#.E2.80.9CREISUB.E2.80.9D_.E2.80.93_safe_reboot</a><br />
+“REISUB” – safe reboot</p>
+<p>un<strong>R</strong>aw (take control of keyboard back from X),<br />
+t<strong>E</strong>rminate (send SIGTERM to all processes, allowing them to terminate gracefully),<br />
+k<strong>I</strong>ll (send SIGKILL to all processes, forcing them to terminate immediately),<br />
+<strong>S</strong>ync (flush hd write-cache data to disk),<br />
+<strong>U</strong>nmount (remount all filesystems read-only),<br />
+re<strong>B</strong>oot.</p>
+<p>&nbsp;</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2012/02/16/13436/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>vim 只删除,不剪切</title>
+		<link>http://Blog.SunnyBoy.Me/2012/02/16/13434/</link>
+		<comments>http://Blog.SunnyBoy.Me/2012/02/16/13434/#respond</comments>
+		<pubDate>Wed, 15 Feb 2012 23:46:16 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Soft&Skills]]></category>
+		<category><![CDATA[skills]]></category>
+		<category><![CDATA[vim]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=13434</guid>
+		<description><![CDATA[nmap DD &#8220;_dd 将删除的内容放入 black hole register: &#8220;_  中 &#8220;_dd 就可以将当前行内容删除并且不会放在任何寄存器中。 http://forum.ubuntu.org.cn/viewtopic.php?f=68&#38;t=84593]]></description>
+				<content:encoded><![CDATA[<p>nmap DD &#8220;_dd</p>
+<p>将删除的内容放入 black hole register: <span style="color: #ff0000;"><strong>&#8220;_</strong></span>  中</p>
+<p><em><span style="color: #ff0000;">&#8220;_dd</span></em> 就可以将当前行内容删除并且不会放在任何寄存器中。</p>
+<p><a href="http://forum.ubuntu.org.cn/viewtopic.php?f=68&amp;t=84593">http://forum.ubuntu.org.cn/viewtopic.php?f=68&amp;t=84593</a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2012/02/16/13434/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Thunderbird iCalendar (iCal) invitation 会议邀请处理回复 (to be cont.)</title>
+		<link>http://Blog.SunnyBoy.Me/2012/01/28/13404/</link>
+		<comments>http://Blog.SunnyBoy.Me/2012/01/28/13404/#respond</comments>
+		<pubDate>Sat, 28 Jan 2012 03:42:54 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Life]]></category>
+		<category><![CDATA[Soft&Skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=13404</guid>
+		<description><![CDATA[1. lightning: http://www.mozilla.org/projects/calendar/lightning/download.html (take care of the version). // &#8220;install ad-on from file&#8221;; do not use &#8220;cache&#8221; or bird will crash. // 2. provider for google calendar. // 3. calendar tweaks. &#160; // other: google contacts.]]></description>
+				<content:encoded><![CDATA[<p>1. lightning: <a href="http://www.mozilla.org/projects/calendar/lightning/download.html">http://www.mozilla.org/projects/calendar/lightning/download.html</a> (take care of the version).</p>
+<p>// &#8220;install ad-on from file&#8221;; do not use &#8220;cache&#8221; or bird will crash.</p>
+<p>// 2. provider for google calendar.</p>
+<p>// 3. calendar tweaks.</p>
+<p>&nbsp;</p>
+<p>// other: google contacts.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2012/01/28/13404/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>[shlug]额&#8230;. 终于知道那个wtf是什么了 ~~~</title>
+		<link>http://Blog.SunnyBoy.Me/2012/01/13/13313/</link>
+		<comments>http://Blog.SunnyBoy.Me/2012/01/13/13313/#respond</comments>
+		<pubDate>Fri, 13 Jan 2012 18:27:40 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Life]]></category>
+		<category><![CDATA[Soft&Skills]]></category>
+		<category><![CDATA[soft&skills]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=13313</guid>
+		<description><![CDATA[$ sudo apt-get install bsdgames $ man wtf 另外, 找到一个字符界面的音量/声音调整: alsamixer (竟然是默认安装了 &#8230;. ) // 刚看完了 , 国语听起来有个别困难的地方. 啊, 第十五中学 ~]]></description>
+				<content:encoded><![CDATA[<p>$ sudo apt-get install bsdgames<br />
+$ man wtf</p>
+<p>另外, 找到一个字符界面的音量/声音调整: alsamixer (竟然是默认安装了 &#8230;. )</p>
+<p>// 刚看完了 <那些年我們一起追的女孩>, 国语听起来有个别困难的地方. 啊, 第十五中学 ~ </p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2012/01/13/13313/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

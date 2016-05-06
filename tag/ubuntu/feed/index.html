@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>ubuntu &#8211; Sunny Blog</title>
+	<atom:link href="http://Blog.SunnyBoy.Me/tag/ubuntu/feed/" rel="self" type="application/rss+xml" />
+	<link>http://Blog.SunnyBoy.Me</link>
+	<description>Mind And Hand Let There Be Light.</description>
+	<lastBuildDate>Wed, 04 May 2016 11:47:54 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=4.5.1</generator>
+
+<image>
+	<url>http://Blog.SunnyBoy.Me/wp-content/uploads/2010/10/e7919ee585b8ae9809ae98193efbc9f.jpg</url>
+	<title>ubuntu &#8211; Sunny Blog</title>
+	<link>http://Blog.SunnyBoy.Me</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>linux,ubuntu添加开机自动运行程序方法autorun</title>
+		<link>http://Blog.SunnyBoy.Me/2011/12/19/13189/</link>
+		<comments>http://Blog.SunnyBoy.Me/2011/12/19/13189/#respond</comments>
+		<pubDate>Mon, 19 Dec 2011 20:33:41 +0000</pubDate>
+		<dc:creator><![CDATA[Sunny]]></dc:creator>
+				<category><![CDATA[Leading]]></category>
+		<category><![CDATA[autorun]]></category>
+		<category><![CDATA[linux]]></category>
+		<category><![CDATA[ubuntu]]></category>
+
+		<guid isPermaLink="false">http://Blog.SunnyBoy.Me/?p=13189</guid>
+		<description><![CDATA[1. 开机自动运行 Linux加载后, 它将初始化硬件和设备驱动, 然后运行第一个进程init。init根据配置 文件继续引导过程，启动其它进程。通常情况下，修改放置在 /etc/rc或 /etc/rc.d 或 /etc/rc?.d 目录下的脚本文件，可以使init自动启动其它程序。例如：编辑 /etc/rc.d/rc.local 文件(该文件通常是系统最后启动的脚本)， 在文件最末加上一行“xinit”或“startx”，可以在开机启动后直接进入X－Window。 2. 登录自动运行 用户登录时，bash先自动执行系统管理员建立的全局登录script ： /ect/profile 然后bash在用户起始目录下按顺序查找三个特殊文件中的一个： /.bash_profile、 /.bash_login、 /.profile， 但只执行最先找到的一个。因此，只需根据实际需要在上述文件中加入命令就可以实 现用户登录时自动运行某些程序（类似于DOS下的Autoexec.bat）。 3. 退出自动运行 退出登录时，bash自动执行个人的退出登录脚本 /.bash_logout。 例如，在/.bash_logout中加入命令“tar －cvzf c.source.tgz ＊.c”，则在每次退出 登录时自动执行 “tar” 命令备份 ＊.c 文件。 4. 定时自动运行 Linux有一个称为crond的守护程序，主要功能是周期性地检查 /var/spool/cron目录 下的一组命令文件的内容，并在设定的时间执行这些文件中的命令。用户可以通过 crontab 命令来建立、修改、删除这些命令文件。 例如，建立文件crondFile，内容为“00 9 23 Jan ＊ HappyBirthday”，运行“crontab cronFile”命令后，每当元月23日上午9:00系统自动执行“HappyBirthday”的程序（“＊ ”表示不管当天是星期几）。 5. 定时自动运行一次 定时执行命令at [&#8230;]]]></description>
+				<content:encoded><![CDATA[<h2><span style="color: #000080;">1. 开机自动运行</span></h2>
+<p>Linux加载后, 它将初始化硬件和设备驱动, 然后运行第一个进程init。init根据配置<br />
+文件继续引导过程，启动其它进程。通常情况下，修改放置在<br />
+/etc/rc或<br />
+/etc/rc.d 或<br />
+/etc/rc?.d<br />
+目录下的脚本文件，可以使init自动启动其它程序。例如：编辑<br />
+/etc/rc.d/rc.local 文件(该文件通常是系统最后启动的脚本)，<br />
+在文件最末加上一行“xinit”或“startx”，可以在开机启动后直接进入X－Window。</p>
+<h2><span style="color: #000080;">2. 登录自动运行</span></h2>
+<p>用户登录时，bash先自动执行系统管理员建立的全局登录script ：<br />
+/ect/profile<br />
+然后bash在用户起始目录下按顺序查找三个特殊文件中的一个：<br />
+/.bash_profile、<br />
+/.bash_login、<br />
+/.profile，<br />
+但只执行最先找到的一个。因此，只需根据实际需要在上述文件中加入命令就可以实<br />
+现用户登录时自动运行某些程序（类似于DOS下的Autoexec.bat）。</p>
+<h2><span style="color: #000080;">3. 退出自动运行</span></h2>
+<p>退出登录时，bash自动执行个人的退出登录脚本<br />
+/.bash_logout。<br />
+例如，在/.bash_logout中加入命令“tar －cvzf c.source.tgz ＊.c”，则在每次退出<br />
+登录时自动执行 “tar” 命令备份 ＊.c 文件。</p>
+<h2><span style="color: #000080;">4. 定时自动运行</span></h2>
+<p>Linux有一个称为crond的守护程序，主要功能是周期性地检查 /var/spool/cron目录<br />
+下的一组命令文件的内容，并在设定的时间执行这些文件中的命令。用户可以通过<br />
+crontab 命令来建立、修改、删除这些命令文件。</p>
+<p>例如，建立文件crondFile，内容为“00 9 23 Jan ＊ HappyBirthday”，运行“crontab<br />
+cronFile”命令后，每当元月23日上午9:00系统自动执行“HappyBirthday”的程序（“＊<br />
+”表示不管当天是星期几）。</p>
+<h2><span style="color: #000080;">5. 定时自动运行一次</span></h2>
+<p>定时执行命令at 与crond 类似（但它只执行一次）：命令在给定的时间执行，但不自<br />
+动重复。at命令的一般格式为：at [ －f file ] time ，在指定的时间执行file文件<br />
+中所给出的所有命令。也可直接从键盘输入命令：<br />
+＄ at 12:00<br />
+at&gt;mailto Roger －s ″Have a lunch″ &lt; plan.txt at&gt;Ctr－D<br />
+Job 1 at 2000－11－09 12:00<br />
+2000－11－09 12:00时候自动发一标题为“Have a lunch”，内容为plan.txt文件内容<br />
+的邮件给Roger.</p>
+<h2><span style="color: #000080;">6. 开机自动运行 桌面应用程序</span></h2>
+<p>有些应用程序如一些桌面日历，ToDoList程序等等，是需要在桌面完全载入之后再运行才有效的！所以1，2的方法就行不通了。大家用过windows应该有印象，在“开始”－“程序”－“启动” 这个位置如果放置有其他快捷方式，则在载入桌面后会自动运行。<br />
+Ubuntu下也有这样的文件夹，它的位置是 ~/.config/autostart/ ，其中保存的文件即为linux下的快捷方式文件，文件名如 RainLendar2.desktop（也就是类似于在“桌面”上点击右键－“创建启动器”所生成的文件）。用vi打开，发现其文件格式如下：<br />
+[Desktop Entry]<br />
+Encoding=UTF-8<br />
+Version=1.0<br />
+Name=Rainlendar2 ＃应用程序名字<br />
+Type=Application ＃程序类型<br />
+Exec=/usr/bin/rainlendar2 ＃可运行应用程序的路径<br />
+X-GNOME-Autostart-enabled=true ＃是否在载入桌面后自动运行</p>
+<p>所以接下来就很简单了。<br />
+方法一、直接新建一个如上格式的.desktop文件，修改程序名和运行路径，保存即可。（本人Ubuntu 10.10版本测试通过）<br />
+方法二、直接把桌面上已经建好的“启动器”（即快捷方式）复制进去即可。但要注意这个“启动器”的类型一定要为“应用程序 ”或者“位置 ”！实测如果是“终端应用程序”则无效。如果复制进去的是链接文件也无效。</p>
+<p>from: <a href="http://azrael8.blogbus.com/logs/97001720.html">http://azrael8.blogbus.com/logs/97001720.html </a></p>
+]]></content:encoded>
+			<wfw:commentRss>http://Blog.SunnyBoy.Me/2011/12/19/13189/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>
